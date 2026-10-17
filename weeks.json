@@ -1,0 +1,1313 @@
+{
+ "schema_version": "1.0",
+ "app_version": "1.0",
+ "updated": "2026-10-16T20:55:00-05:00",
+ "disclaimer": "A score is an evidence-based judgment, not a verdict. It is an estimate from the evidence found, never proof of intent.",
+ "scale": {
+  "min": 1,
+  "max": 10,
+  "low_label": "1 = fully truthful",
+  "high_label": "10 = full-blown psychological operation"
+ },
+ "factor_scale": {
+  "0": "clean",
+  "1": "some concern",
+  "2": "serious concern"
+ },
+ "total_to_score": {
+  "0-1": 1,
+  "2": 2,
+  "3-4": 3,
+  "5": 4,
+  "6-7": 5,
+  "8": 6,
+  "9-10": 7,
+  "11": 8,
+  "12-13": 9,
+  "14": 10
+ },
+ "factors": [
+  {
+   "key": "sourcing",
+   "label": "Sourcing",
+   "description": "Anonymous or circular sources, no primary document, single-source claim."
+  },
+  {
+   "key": "verifiability",
+   "label": "Verifiability",
+   "description": "Can the core fact be independently confirmed? Does a second independent source confirm it?"
+  },
+  {
+   "key": "framing",
+   "label": "Framing and language",
+   "description": "Loaded words, headline that contradicts the body, emotional trigger words."
+  },
+  {
+   "key": "omission",
+   "label": "Omission and context",
+   "description": "Key facts, dates, denominators or counter-claims left out; old material presented as new."
+  },
+  {
+   "key": "emotional",
+   "label": "Emotional manipulation",
+   "description": "Fear, outrage or tribal-identity hooks doing more work than facts."
+  },
+  {
+   "key": "amplification",
+   "label": "Amplification pattern",
+   "description": "Identical wording across outlets or accounts, sudden coordinated push, timing that serves an obvious beneficiary."
+  },
+  {
+   "key": "incentive",
+   "label": "Source incentive",
+   "description": "Who gains if you believe this, and is that party the source?"
+  }
+ ],
+ "method_note": "One event per week: the top story with the highest psyop score. In this first build each seeded week was chosen by headline-level screening of that week's top stories, then scored on the seven factors against sources I opened. The score applies to the claim named in 'scored claim', not to the outlets' accurate reporting of it. Unsourced stories are not scored. Weeks marked 'not yet scanned' have no data.",
+ "weeks": [
+  {
+   "year": 2025,
+   "week": 41,
+   "week_start": "2025-10-06",
+   "week_end": "2025-10-12",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 42,
+   "week_start": "2025-10-13",
+   "week_end": "2025-10-19",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 43,
+   "week_start": "2025-10-20",
+   "week_end": "2025-10-26",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 44,
+   "week_start": "2025-10-27",
+   "week_end": "2025-11-02",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 45,
+   "week_start": "2025-11-03",
+   "week_end": "2025-11-09",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 46,
+   "week_start": "2025-11-10",
+   "week_end": "2025-11-16",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 47,
+   "week_start": "2025-11-17",
+   "week_end": "2025-11-23",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 48,
+   "week_start": "2025-11-24",
+   "week_end": "2025-11-30",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 49,
+   "week_start": "2025-12-01",
+   "week_end": "2025-12-07",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 50,
+   "week_start": "2025-12-08",
+   "week_end": "2025-12-14",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 51,
+   "week_start": "2025-12-15",
+   "week_end": "2025-12-21",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2025,
+   "week": 52,
+   "week_start": "2025-12-22",
+   "week_end": "2025-12-28",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 1,
+   "week_start": "2025-12-29",
+   "week_end": "2026-01-04",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 2,
+   "week_start": "2026-01-05",
+   "week_end": "2026-01-11",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 3,
+   "week_start": "2026-01-12",
+   "week_end": "2026-01-18",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 4,
+   "week_start": "2026-01-19",
+   "week_end": "2026-01-25",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 5,
+   "week_start": "2026-01-26",
+   "week_end": "2026-02-01",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 6,
+   "week_start": "2026-02-02",
+   "week_end": "2026-02-08",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 7,
+   "week_start": "2026-02-09",
+   "week_end": "2026-02-15",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 8,
+   "week_start": "2026-02-16",
+   "week_end": "2026-02-22",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 9,
+   "week_start": "2026-02-23",
+   "week_end": "2026-03-01",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 10,
+   "week_start": "2026-03-02",
+   "week_end": "2026-03-08",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 11,
+   "week_start": "2026-03-09",
+   "week_end": "2026-03-15",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 12,
+   "week_start": "2026-03-16",
+   "week_end": "2026-03-22",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 13,
+   "week_start": "2026-03-23",
+   "week_end": "2026-03-29",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 14,
+   "week_start": "2026-03-30",
+   "week_end": "2026-04-05",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 15,
+   "week_start": "2026-04-06",
+   "week_end": "2026-04-12",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 16,
+   "week_start": "2026-04-13",
+   "week_end": "2026-04-19",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 17,
+   "week_start": "2026-04-20",
+   "week_end": "2026-04-26",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 18,
+   "week_start": "2026-04-27",
+   "week_end": "2026-05-03",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 19,
+   "week_start": "2026-05-04",
+   "week_end": "2026-05-10",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 20,
+   "week_start": "2026-05-11",
+   "week_end": "2026-05-17",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 21,
+   "week_start": "2026-05-18",
+   "week_end": "2026-05-24",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 22,
+   "week_start": "2026-05-25",
+   "week_end": "2026-05-31",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 23,
+   "week_start": "2026-06-01",
+   "week_end": "2026-06-07",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 24,
+   "week_start": "2026-06-08",
+   "week_end": "2026-06-14",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 25,
+   "week_start": "2026-06-15",
+   "week_end": "2026-06-21",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 26,
+   "week_start": "2026-06-22",
+   "week_end": "2026-06-28",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 27,
+   "week_start": "2026-06-29",
+   "week_end": "2026-07-05",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 28,
+   "week_start": "2026-07-06",
+   "week_end": "2026-07-12",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 29,
+   "week_start": "2026-07-13",
+   "week_end": "2026-07-19",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 30,
+   "week_start": "2026-07-20",
+   "week_end": "2026-07-26",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 31,
+   "week_start": "2026-07-27",
+   "week_end": "2026-08-02",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 32,
+   "week_start": "2026-08-03",
+   "week_end": "2026-08-09",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 33,
+   "week_start": "2026-08-10",
+   "week_end": "2026-08-16",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 34,
+   "week_start": "2026-08-17",
+   "week_end": "2026-08-23",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 35,
+   "week_start": "2026-08-24",
+   "week_end": "2026-08-30",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 36,
+   "week_start": "2026-08-31",
+   "week_end": "2026-09-06",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 37,
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 38,
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "status": "not_yet_scanned",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Not yet scanned. This week of the seed scan is pending; no story, score or source is recorded for it."
+   ],
+   "sources": []
+  },
+  {
+   "year": 2026,
+   "week": 39,
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "status": "scored",
+   "headline": "Judge blocks Trump's White House media ban, orders access to be restored",
+   "outlet": "Reuters (via Yahoo News)",
+   "url": "https://www.yahoo.com/news/politics/articles/judge-lifts-trumps-white-house-050655666.html",
+   "published": "2026-09-24T06:59:00-04:00",
+   "scored_claim": "The administration's stated rationale that banning CNN, MS NOW and Politico from the White House protects national security.",
+   "selection_reason": "A court record documents the gap between the stated rationale and the evidence. Chosen at headline level; the other stories screened were not fully scored.",
+   "factors": {
+    "sourcing": {
+     "score": 2,
+     "label": "documented",
+     "note": "The security claim rested on Justice Department letters sent on Tuesday 9/22, after the ban and after the lawsuit (Reuters), and on Defense Department declarations. The judge said those officials had 'no direct knowledge of how reporters operate in the White House' (BBC)."
+    },
+    "verifiability": {
+     "score": 2,
+     "label": "documented",
+     "note": "Judge Kelly: 'The record lacks factual support for defendants' contention that the revocation of plaintiffs' hard passes will in fact protect national security' (TRO, quoted by Reuters and BBC)."
+    },
+    "framing": {
+     "score": 2,
+     "label": "documented",
+     "note": "The letters cited reporting that 'threatened national security and/or spread falsehoods', blending a security claim with a content complaint (TRO). Trump's post said the outlets 'shouldn't be able to constantly write or report FICTION and LIES' (Reuters). The judge said the stories cited 'are routine' (NBC)."
+    },
+    "omission": {
+     "score": 1,
+     "label": "documented",
+     "note": "The administration named the specific articles it objected to, so they were not hidden. It left out context that NBC supplies: AP and CNBC ran the same background-briefing story under the same attribution and were not banned. Trump's 9/18 announcement did not mention security (TRO)."
+    },
+    "emotional": {
+     "score": 1,
+     "label": "documented",
+     "note": "Tribal and fear hooks: 'FAKE NEWS' and 'FICTION and LIES' in Trump's posts (NBC, Reuters), and a security label that implies danger without evidence."
+    },
+    "amplification": {
+     "score": 1,
+     "label": "documented",
+     "note": "The security rationale first appeared in the post-suit letters and court filings of 9/22 (Reuters, BBC). It was repeated in later social media posts (court opinion of 10/13, hindsight)."
+    },
+    "incentive": {
+     "score": 2,
+     "label": "documented incentive; motive is speculation",
+     "note": "The source is the government, which gains in court from a security label: the TRO notes that review of the executive's national-security determinations is 'highly deferential'. Motive is an inference."
+    }
+   },
+   "target_audience": {
+    "text": "Federal courts, which defer more to national-security claims, and a public and base receptive to the 'fake news' framing.",
+    "basis": "inference"
+   },
+   "confidence": {
+    "level": "High",
+    "reason": "I read the 9/24 TRO and the 10/13 preliminary-injunction opinion directly, and Reuters, BBC and NBC agree. The judge's findings are preliminary ('likely to succeed') and the government disputes them."
+   },
+   "mechanism": "Documented: the security rationale appears only after the ban and the lawsuit. The 9/18 announcement cited 'fake news', and the TRO found the record lacked factual support that the ban protects national security. The court later called it 'merely a post-hoc justification'.",
+   "summary": "Trump announced on 9/18 that he was banning CNN, MS NOW and Politico from the White House, citing 'fake news'. After the outlets sued, the government defended the ban as protecting national security. On 9/24 Judge Kelly ordered access restored for 14 days and found no factual support for the security claim. Reuters, BBC and NBC reported this accurately; the score applies to the claim, not to their reporting.",
+   "counter_argument": "The judge called national security a 'weighty' interest and wrote that his ruling should not be read to suggest Trump's concerns about accuracy and fairness in the media's reporting are 'unfounded'. NBC notes some cited articles concerned munitions stockpiles. The findings are preliminary and the government disputes them.",
+   "hindsight_note": "After the window (documented, not knowable on 9/24): on 10/13 Judge Kelly granted a preliminary injunction (Doc. 50), finding the outlets likely to succeed on due process and two First Amendment claims. He wrote that 'national security' appears to have been 'merely a post-hoc justification for the decision'.",
+   "gaps": [
+    "Trump's 9/18 Truth Social post and the Justice Department's 9/22 letters were not opened directly. They are quoted from the TRO, Reuters and NBC.",
+    "The TRO text was read from a third-party mirror (brynodc.com) of court document 24 in case 1:26-cv-03287-TJK, not from the court's own system. The caption, docket number and 09/24/26 filing date match the 10/13 opinion's description.",
+    "The AP original was blocked and the Reuters original is paywalled. Reuters text was read through Yahoo News.",
+    "Other top stories of the week were screened at headline level only, not fully scored."
+   ],
+   "sources": [
+    {
+     "outlet": "Reuters (via Yahoo News)",
+     "type": "Wire (Reuters)",
+     "role": "in_window",
+     "title": "Judge blocks Trump's White House media ban, orders access to be restored",
+     "url": "https://www.yahoo.com/news/politics/articles/judge-lifts-trumps-white-house-050655666.html",
+     "published": "2026-09-24T06:59:00-04:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "BBC News",
+     "type": "Non-US broadcaster",
+     "role": "in_window",
+     "title": "Judge temporarily overturns Trump's White House media ban",
+     "url": "https://www.bbc.com/news/articles/cqm2mg34x2v7o",
+     "published": "2026-09-24",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "NBC News",
+     "type": "Mainstream (US)",
+     "role": "in_window",
+     "title": "CNN, MS NOW and Politico allowed back at the White House after judge blocked Trump's ban",
+     "url": "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391",
+     "published": "2026-09-24T01:31:00-04:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened; story updated 09/25"
+     }
+    },
+    {
+     "outlet": "U.S. District Court for D.C. (mirror at brynodc.com)",
+     "type": "Primary document",
+     "role": "primary",
+     "title": "Temporary Restraining Order, CNN et al. v. Trump, No. 1:26-cv-03287-TJK, Doc. 24 (filed 09/24/26)",
+     "url": "https://brynodc.com/opinions/2026-09-24_1-26-cv-03287_CNN_v_Trump_Doc24_TRO.pdf",
+     "published": "2026-09-24",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened and read"
+     }
+    },
+    {
+     "outlet": "U.S. District Court for D.C. (CourtListener)",
+     "type": "Primary document",
+     "role": "hindsight",
+     "title": "Memorandum Opinion granting preliminary injunction, Doc. 50 (filed 10/13/26)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.296754/gov.uscourts.dcd.296754.50.0.pdf",
+     "published": "2026-10-13",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened and read"
+     }
+    }
+   ],
+   "candidates_reviewed": [
+    {
+     "headline": "Iran says Hormuz could reopen in seven days if US meets conditions; Trump rejects offer",
+     "via": "Analyst Newspaper, week of 09/21 to 09/27",
+     "url": "https://analystnewspaper.com/week/2026-09-27",
+     "note": "Headline-level screen only; not scored."
+    },
+    {
+     "headline": "Russia's 2027 budget sets record defence spending, cuts health and education funds",
+     "via": "Analyst Newspaper, week of 09/21 to 09/27",
+     "url": "https://analystnewspaper.com/week/2026-09-27",
+     "note": "Headline-level screen only; not scored."
+    },
+    {
+     "headline": "Brazil heads to runoff as Flávio Bolsonaro leads Lula in first round",
+     "via": "Analyst Newspaper, week of 09/21 to 09/27",
+     "url": "https://analystnewspaper.com/week/2026-09-27",
+     "note": "Headline-level screen only; not scored."
+    }
+   ],
+   "factor_total": 11,
+   "score": 8
+  },
+  {
+   "year": 2026,
+   "week": 40,
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "status": "scored",
+   "headline": "Trump administration lowers fuel economy standards, critics say at a significant environmental cost",
+   "outlet": "PBS News (Associated Press)",
+   "url": "https://www.pbs.org/newshour/politics/trump-administration-lowers-fuel-economy-standards-critics-say-at-a-significant-environmental-cost",
+   "published": "2026-09-28T10:53:00-04:00",
+   "scored_claim": "DOT's and the White House's framing of the 9/28 fuel-economy rollback as ending an 'illegal mandate' and making cars $1,300 cheaper.",
+   "selection_reason": "The administration's affordability claim is contested by the agency's own cost analysis, and the 'mandate' wording is called false by AP. Chosen at headline level; the other stories screened were not fully scored.",
+   "factors": {
+    "sourcing": {
+     "score": 1,
+     "label": "documented",
+     "note": "The headline savings ($1,300 lower average new-vehicle price; $138 billion in consumer savings over five years) come from DOT itself (AP, Roll Call, USA Today). The 892-page final rule is the primary document, but I could not open it."
+    },
+    "verifiability": {
+     "score": 1,
+     "label": "disputed",
+     "note": "NHTSA's own regulatory analysis shows drivers spending about $1,624 more on fuel over a vehicle's life (USA Today). The Environmental Defense Fund cites about $1,600 more (Roll Call). The sticker-price estimate is not independently confirmed."
+    },
+    "framing": {
+     "score": 2,
+     "label": "documented",
+     "note": "DOT titled the rule 'Freedom Means Affordable Cars' and Secretary Duffy called it ending an 'illegal mandate'. AP notes that Trump 'falsely calls' it an EV 'mandate' and that no federal policy has mandated EV sales. Trump's preview post called past cars 'Environmental Monsters' (Roll Call)."
+    },
+    "omission": {
+     "score": 2,
+     "label": "documented",
+     "note": "DOT's headline figures leave out the roughly $1,624 lifetime fuel-cost increase in NHTSA's own analysis (USA Today). DOT's oil-use comparison is against 2024, while AP notes the prior standards were estimated to save 14 billion gallons of gasoline by 2050."
+    },
+    "emotional": {
+     "score": 1,
+     "label": "documented",
+     "note": "Appeals to family affordability ('American dream') alongside the 'Environmental Monsters' jab: a mild identity hook. Facts still do most of the work."
+    },
+    "amplification": {
+     "score": 0,
+     "label": "documented",
+     "note": "Trump previewed the rule on Truth Social on Saturday 9/26 and DOT released it on Monday 9/28, an ordinary rollout. Automaker statements echo 'market realities' (AP, USA Today), but I found no coordinated push."
+    },
+    "incentive": {
+     "score": 1,
+     "label": "documented incentive; motive is speculation",
+     "note": "The agency announcing the savings wrote the rule. Automakers that gain flexibility (the Alliance for Automotive Innovation, Ford, GM, Stellantis) praised it (AP). AP puts it against gas at $4.47 a gallon and the midterms. Motive is an inference."
+    }
+   },
+   "target_audience": {
+    "text": "Car buyers and households worried about vehicle prices and the cost of living, plus the administration's base and automakers.",
+    "basis": "inference"
+   },
+   "confidence": {
+    "level": "Medium",
+    "reason": "AP, Roll Call, USA Today and Carbon Brief agree on the figures. I could not open the DOT press release or the NHTSA analysis (blocked), so the numbers are read through outlets that quote them."
+   },
+   "mechanism": null,
+   "summary": "On Monday 9/28 DOT released a final rule resetting CAFE standards to about 34.9 mpg for model year 2031, down from the 50.4 mpg projected under the Biden-era rule. It said the change would cut the average new-vehicle price by $1,300. NHTSA's own analysis shows drivers paying about $1,624 more for fuel. The outlets reported both. The score applies to the administration's framing, not to the outlets' reporting.",
+   "counter_argument": "DOT did publish the fuel-cost increase in its regulatory analysis, so the figure was disclosed rather than hidden. Whether regulation or the market should set fuel-economy targets is a legitimate policy dispute, and automakers publicly backed the change.",
+   "hindsight_note": "This window is under three weeks old. I verified no later outcome yet (AP reports the Sierra Club 'vowed to fight the rule').",
+   "gaps": [
+    "The DOT press release and the NHTSA regulatory analysis were not opened (HTTP 403 to automated access). Figures come from AP, Roll Call and USA Today, which quote them.",
+    "The AP original was blocked and the Reuters article is paywalled. AP text was read through PBS News.",
+    "The Washington Post's view that analysts 'doubt' the price cut is known only secondhand through Carbon Brief.",
+    "Other top stories of the week were screened at headline level only, not fully scored."
+   ],
+   "sources": [
+    {
+     "outlet": "PBS News (Associated Press)",
+     "type": "Wire copy (AP)",
+     "role": "in_window",
+     "title": "Trump administration lowers fuel economy standards, critics say at a significant environmental cost",
+     "url": "https://www.pbs.org/newshour/politics/trump-administration-lowers-fuel-economy-standards-critics-say-at-a-significant-environmental-cost",
+     "published": "2026-09-28T10:53:00-04:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "Roll Call",
+     "type": "Mainstream (US, Capitol Hill trade press)",
+     "role": "in_window",
+     "title": "Trump administration cuts mileage rules for cars, light trucks",
+     "url": "https://rollcall.com/2026/09/28/trump-administration-cuts-mileage-rules-for-cars-light-trucks/",
+     "published": "2026-09-28T11:46:00-04:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "USA Today",
+     "type": "Mainstream (US)",
+     "role": "in_window",
+     "title": "Trump's MPG rules may cost drivers more on gas than they save on cars",
+     "url": "https://www.usatoday.com/story/cars/shopping/2026/10/01/trump-fuel-economy-rollback-costs/92027702007/",
+     "published": "2026-10-01T04:05:00-04:00",
+     "link_check": {
+      "http": 402,
+      "checked": "2026-10-16",
+      "note": "automated request gets HTTP 402 (paywall); opened with the fetch tool"
+     }
+    },
+    {
+     "outlet": "Carbon Brief",
+     "type": "Independent, non-US (UK)",
+     "role": "in_window",
+     "title": "Daily Briefing: UK grid plan | Trump fuel rollback | Diesel 'record'",
+     "url": "https://www.carbonbrief.org/daily-briefing-uk-grid-plan-trump-fuel-rollback-diesel-record",
+     "published": "2026-09-29T08:39:09+00:00",
+     "link_check": {
+      "http": 403,
+      "checked": "2026-10-16",
+      "note": "automated request gets HTTP 403; opened with the fetch tool"
+     }
+    }
+   ],
+   "candidates_reviewed": [
+    {
+     "headline": "Major earthquake strikes Panama, triggers tsunami alerts",
+     "via": "Analyst Newspaper, week of 09/28 to 10/04",
+     "url": "https://analystnewspaper.com/week/2026-10-04",
+     "note": "Headline-level screen only; not scored."
+    },
+    {
+     "headline": "Hormuz tanker attacks hit wartime high even as oil exports near pre-war levels",
+     "via": "Analyst Newspaper, week of 09/28 to 10/04",
+     "url": "https://analystnewspaper.com/week/2026-10-04",
+     "note": "Headline-level screen only; not scored."
+    },
+    {
+     "headline": "Indian Flydubai pilot hailed as hero after cockpit attack by co-pilot",
+     "via": "Analyst Newspaper, week of 09/28 to 10/04",
+     "url": "https://analystnewspaper.com/week/2026-10-04",
+     "note": "Headline-level screen only; not scored."
+    }
+   ],
+   "factor_total": 8,
+   "score": 6
+  },
+  {
+   "year": 2026,
+   "week": 41,
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "status": "scored",
+   "headline": "Trump says Russia, Ukraine agree to 'energy ceasefire'",
+   "outlet": "DW (Deutsche Welle)",
+   "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509",
+   "published": "2026-10-11",
+   "scored_claim": "Trump's claim, posted on Truth Social on 10/11, that Russia and Ukraine 'both agreed' to an immediate energy ceasefire.",
+   "selection_reason": "Single-source claim of fact that the named parties did not confirm, with an identifiable source incentive. Chosen at headline level; the other stories screened were not fully scored.",
+   "factors": {
+    "sourcing": {
+     "score": 2,
+     "label": "documented",
+     "note": "The only source for 'Both parties have agreed' is Trump's own Truth Social post. No document, terms, scope or start time were published. DW and NBC both report no immediate confirmation from Moscow."
+    },
+    "verifiability": {
+     "score": 2,
+     "label": "documented",
+     "note": "Zelenskyy told Axios within minutes it was 'news for me' (DW). The Kremlin said only that 'contacts are ongoing' (NBC). No second independent source confirmed that an agreement existed."
+    },
+    "framing": {
+     "score": 1,
+     "label": "documented",
+     "note": "'Effective immediately... Do not break it!' reads as settled fact plus an enforcement order, while the outlets mostly attributed it ('Trump says', 'Trump claims')."
+    },
+    "omission": {
+     "score": 2,
+     "label": "documented",
+     "note": "The post gives no definition of 'energy infrastructure' and no terms for either side. It also leaves out context that NBC and DW report: it followed the 10/09 diesel deal, it came weeks before the 11/03 midterms, and NBC notes a similar announcement a month earlier that neither side confirmed."
+    },
+    "emotional": {
+     "score": 0,
+     "label": "documented",
+     "note": "The post is terse. Apart from the imperative 'Do not break it!' it carries no fear or outrage hook."
+    },
+    "amplification": {
+     "score": 1,
+     "label": "disputed",
+     "note": "The announcement came a day after Trump called for Ukraine to 'get a new leader' (NBC) and two days after the diesel deal. The quote was reproduced identically across outlets, which is normal for a presidential post. I found no evidence of a coordinated account push."
+    },
+    "incentive": {
+     "score": 2,
+     "label": "documented incentive; motive is speculation",
+     "note": "The source is also the party that benefits. DW and NBC report that Trump needs lower fuel prices before the midterms and has blamed Ukraine's refinery strikes, not the Iran war, for high diesel prices. A truce halting those strikes would serve that goal. Motive is an inference."
+    }
+   },
+   "target_audience": {
+    "text": "U.S. voters worried about fuel prices ahead of the 11/03 midterms, and Trump's domestic base. Moscow and Kyiv are secondary audiences, pressured to comply publicly.",
+    "basis": "inference"
+   },
+   "confidence": {
+    "level": "Medium",
+    "reason": "What Trump posted, Zelenskyy's reaction and the lack of confirmation from Moscow are documented by three in-window outlets. I did not open the Truth Social post or the AP and Reuters originals. Motive is inference."
+   },
+   "mechanism": null,
+   "summary": "On Sunday 10/11 Trump posted that an 'ENERGY CEASEFIRE' was in effect and that 'both parties have agreed'. Ukraine's president said it was news to him. Moscow did not confirm. No terms were published. Coverage in the window was accurate and attributed; the score applies to the claim, not to the outlets' reporting.",
+   "counter_argument": "Zelenskyy had himself offered on ABC's 'This Week' the same day to stop hitting Russian refineries if Russia stopped hitting Ukraine's grid (NBC). Trump's post may have been a public attempt to bring both sides to a deal they were each already signalling. An unconfirmed announcement is not proof of deception.",
+   "hindsight_note": "After the window closed (documented, not knowable on 10/11): Ukrainian officials said Russia kept striking energy sites in the hours after the post and on Monday morning, including near Kharkiv (NBC; Reuters text via The Business Standard). The Kremlin said 'contacts are ongoing' and rejected a 60-day truce (Reuters via The Business Standard; BBC). On 10/12 Trump said 'They agreed because I said they agreed' (RFE/RL). By 10/13 RFE/RL reported that neither side had confirmed the truce.",
+   "gaps": [
+    "The Truth Social post itself was not retrieved. The wording comes from DW, The Guardian and NBC, which quote it identically.",
+    "The AP and Reuters originals could not be opened (AP blocks automated access; Reuters is paywalled). Wire content was checked through DW (credits AFP and Reuters) and The Business Standard (Reuters text).",
+    "The Axios interview with Zelenskyy was not opened (blocked). The quote is taken from DW, NBC and The Guardian.",
+    "No Kremlin primary transcript was opened. Peskov's statements are known only through NBC, BBC and Reuters.",
+    "Other top stories of the week were screened at headline level only, not fully scored."
+   ],
+   "sources": [
+    {
+     "outlet": "U.S. Treasury, Office of Foreign Assets Control",
+     "type": "Primary document (context)",
+     "role": "primary",
+     "title": "Issuance of Russia-related General License 135 (diesel, 10/09)",
+     "url": "https://ofac.treasury.gov/recent-actions/20261009_33",
+     "published": "2026-10-09T19:47:13+00:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "The Guardian",
+     "type": "Mainstream (UK)",
+     "role": "in_window",
+     "title": "Zelenskyy signals surprise at Trump claim of Russia-Ukraine 'energy ceasefire' but would back it if Moscow does – as it happened",
+     "url": "https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates",
+     "published": "2026-10-11T18:36:54+00:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "DW (Deutsche Welle)",
+     "type": "Non-US broadcaster (credits AFP, Reuters)",
+     "role": "in_window",
+     "title": "Trump says Russia, Ukraine agree to 'energy ceasefire'",
+     "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509",
+     "published": "2026-10-11",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "NBC News",
+     "type": "Mainstream (US)",
+     "role": "in_window",
+     "title": "Trump claims 'energy ceasefire,' but Ukraine says Russia keeps striking its energy facilities",
+     "url": "https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766",
+     "published": "2026-10-11T11:02:00-04:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened; story updated 10/12"
+     }
+    },
+    {
+     "outlet": "The Business Standard (Reuters text)",
+     "type": "Wire copy (Reuters), non-US outlet",
+     "role": "hindsight",
+     "title": "Kyiv says Russia hits energy targets despite Trump ceasefire",
+     "url": "https://www.tbsnews.net/worldbiz/europe/kyiv-says-russia-hits-energy-targets-despite-trump-ceasefire-1570601",
+     "published": "2026-10-12",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "BBC News",
+     "type": "Non-US broadcaster",
+     "role": "hindsight",
+     "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+     "url": "https://www.bbc.com/news/articles/cjx2359qekrdo",
+     "published": "2026-10-12T20:17:37+00:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    },
+    {
+     "outlet": "Radio Free Europe/Radio Liberty",
+     "type": "International broadcaster",
+     "role": "hindsight",
+     "title": "Zelenskyy Accuses Russia Of Breaking Trump's Cease-Fire On Energy Strikes",
+     "url": "https://www.rferl.org/a/trump-russia-diesel-deal-ukraine-cease-fire/33875531.html",
+     "published": "2026-10-13T02:09:00+02:00",
+     "link_check": {
+      "http": 200,
+      "checked": "2026-10-16",
+      "note": "opened"
+     }
+    }
+   ],
+   "candidates_reviewed": [
+    {
+     "headline": "Riyadh airport attack kills 12, wounds over 300; Houthis blamed",
+     "via": "Analyst Newspaper, week of 10/05 to 10/11",
+     "url": "https://analystnewspaper.com/week/2026-10-11",
+     "note": "Headline-level screen only; not scored."
+    },
+    {
+     "headline": "ICE agent shoots and wounds man in Bronx car with child present",
+     "via": "Analyst Newspaper, week of 10/05 to 10/11",
+     "url": "https://analystnewspaper.com/week/2026-10-11",
+     "note": "Headline-level screen only; not scored."
+    }
+   ],
+   "factor_total": 10,
+   "score": 7
+  },
+  {
+   "year": 2026,
+   "week": 42,
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "status": "in_progress",
+   "headline": null,
+   "outlet": null,
+   "url": null,
+   "score": null,
+   "gaps": [
+    "Week in progress. It is scanned after it completes; no story or score is recorded yet."
+   ],
+   "sources": []
+  }
+ ]
+}
