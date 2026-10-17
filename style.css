@@ -61,6 +61,24 @@ main{width:100%;max-width:1240px;margin:0 auto;padding:12px 24px 40px;flex:1}
 .listbar{display:flex;justify-content:flex-end;padding:10px 14px;background:var(--bg2);border-radius:var(--radius) var(--radius) 0 0;border-bottom:1px solid var(--line)}
 .tog{font:inherit;font-size:13px;font-weight:600;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 16px;cursor:pointer}
 .tog:hover{border-color:var(--accent)}
+.filterbar{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 14px;padding:12px 14px;background:var(--bg2);border-bottom:1px solid var(--line)}
+.fld{display:flex;flex-direction:column;gap:5px;min-width:0}
+.fl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.step{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.step button{font:inherit;font-size:20px;font-weight:700;line-height:1;color:var(--text);background:transparent;border:0;min-width:40px;min-height:40px;cursor:pointer;border-radius:11px}
+.step button:hover:not(:disabled){background:var(--t-gap-line)}
+.step button:disabled{opacity:.35;cursor:default}
+.step button:focus-visible,.filterbar select:focus-visible,.filterbar input:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
+.step output{display:flex;align-items:center;justify-content:center;min-width:34px;padding:0 4px;font-size:16px;font-weight:800;font-variant-numeric:tabular-nums}
+.filterbar select,.filterbar input{font:inherit;font-size:14px;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:12px;min-height:40px;padding:8px 12px;max-width:100%;width:100%}
+.fld-outlet{flex:1 1 230px}
+.fld-search{flex:2 1 240px}
+.fld select{min-width:130px}
+.fld-clear .tog{min-height:40px;padding:8px 18px}
+.resultline{flex:1 1 100%;margin:0;font-size:13.5px;color:var(--muted)}
+.resultline b{color:var(--text)}
+.empty{margin:0;padding:34px 18px;text-align:center;font-size:15px;color:var(--muted)}
+.empty strong{display:block;font-size:17px;color:var(--text);margin-bottom:4px}
 .tog:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
 table{width:100%;border-collapse:collapse;table-layout:fixed}
 #heads{position:sticky;top:0;z-index:5}
@@ -175,6 +193,13 @@ ul.plain li{margin:0 0 8px}
   colgroup,caption{display:none}
   .pc{margin-left:0}.pm{text-align:left;min-width:0}
   .pt{gap:6px 12px;padding:12px 14px}
+  .filterbar{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .fld-outlet,.fld-search,.fld-clear,.resultline{grid-column:1 / -1}
+  .fld select{min-width:0}
+  .fld-clear .tog{width:100%}
+  .tog{min-height:40px}
+  .step{width:100%}
+  .step output{flex:1}
   .stat{flex:1 1 40%}
   .stat.wide{flex:1 1 100%}
   table,tbody,tr,td{display:block;width:100%}

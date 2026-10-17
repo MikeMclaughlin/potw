@@ -35,6 +35,40 @@
     <div class="listbar">
       <button type="button" id="toggle-all" class="tog" title="Expand or collapse every week panel at once">Expand all</button>
     </div>
+    <div class="filterbar" role="search" aria-label="Filter psyops">
+      <div class="fld">
+        <span class="fl" id="l-min">Min score</span>
+        <div class="step" role="group" aria-labelledby="l-min" title="Minimum score. Change it with the minus and plus buttons, one step at a time.">
+          <button type="button" id="min-dec" aria-label="Decrease minimum score" title="Lower the minimum score by 1">&minus;</button>
+          <output id="min-val" for="min-dec min-inc">1</output>
+          <button type="button" id="min-inc" aria-label="Increase minimum score" title="Raise the minimum score by 1 (never above the maximum)">+</button>
+        </div>
+      </div>
+      <div class="fld">
+        <span class="fl" id="l-max">Max score</span>
+        <div class="step" role="group" aria-labelledby="l-max" title="Maximum score. Change it with the minus and plus buttons, one step at a time.">
+          <button type="button" id="max-dec" aria-label="Decrease maximum score" title="Lower the maximum score by 1 (never below the minimum)">&minus;</button>
+          <output id="max-val" for="max-dec max-inc">10</output>
+          <button type="button" id="max-inc" aria-label="Increase maximum score" title="Raise the maximum score by 1">+</button>
+        </div>
+      </div>
+      <label class="fld fld-outlet"><span class="fl">Outlet</span>
+        <select id="f-outlet" title="Filter by outlet. Counts are over the whole data set."></select>
+      </label>
+      <label class="fld"><span class="fl">Confidence</span>
+        <select id="f-conf" title="Filter by confidence. Counts are over the whole data set."></select>
+      </label>
+      <label class="fld"><span class="fl">Year</span>
+        <select id="f-year" title="Filter by year. Counts are over the whole data set."></select>
+      </label>
+      <label class="fld fld-search"><span class="fl">Keyword search</span>
+        <input type="text" id="f-q" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type to search every term" title="Live keyword search. Every word you type must appear somewhere in the psyop (headline, outlet, claim, audience, notes, sources). Not case-sensitive.">
+      </label>
+      <div class="fld fld-clear">
+        <button type="button" id="f-clear" class="tog" title="Reset every filter and empty the keyword box">Clear filters</button>
+      </div>
+      <p class="resultline" id="resultline" aria-live="polite"></p>
+    </div>
     <table id="heads" class="cols">
       <caption class="sr">Sort columns. The Week column orders the week panels; the other columns sort the psyops inside each week.</caption>
       <colgroup><col class="c-week"><col class="c-headline"><col class="c-outlet"><col class="c-score"><col class="c-audience"><col class="c-conf"></colgroup>
@@ -63,7 +97,7 @@
 
 <footer class="foot">
   <div class="foot-inner">
-    <span>POTW v<span id="ver">1.2</span></span>
+    <span>POTW v<span id="ver">1.3</span></span>
     <span class="dot" aria-hidden="true">·</span>
     <span id="updated">Data updated</span>
     <span class="dot" aria-hidden="true">·</span>

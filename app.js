@@ -14,6 +14,15 @@
   var dBody = document.getElementById('d-body');
   var heads = document.querySelectorAll('#heads thead th');
   var toggleAll = document.getElementById('toggle-all');
+  var resultEl = document.getElementById('resultline');
+  var selOutlet = document.getElementById('f-outlet');
+  var selConf = document.getElementById('f-conf');
+  var selYear = document.getElementById('f-year');
+  var qEl = document.getElementById('f-q');
+
+  // Filter state: in memory only (never stored). All filters combine with AND.
+  var F = { min: 1, max: 10, outlet: '', conf: '', year: '', q: '' };
+  var hayCache = new WeakMap();
 
   /* ---------- helpers ---------- */
   function el(tag, cls, text) {
@@ -102,14 +111,59 @@
     return tr;
   }
 
-  function buildPanel(w) {
+  /* ---------- filtering ---------- */
+  function filterActive() {
+    return F.min !== 1 || F.max !== 10 || F.outlet !== '' || F.conf !== '' || F.year !== '' || F.q.trim() !== '';
+  }
+  function outletKey(p) { return String(p.outlet || '').trim().toLowerCase(); }
+  function haystack(p) {
+    var h = hayCache.get(p);
+    if (h === undefined) {
+      var parts = [];
+      (function walk(v) {
+        if (typeof v === 'string') parts.push(v);
+        else if (Array.isArray(v)) v.forEach(walk);
+        else if (v && typeof v === 'object') Object.keys(v).forEach(function (k) { walk(v[k]); });
+      })(p);
+      h = parts.join('\n').toLowerCase();
+      hayCache.set(p, h);
+    }
+    return h;
+  }
+  function matches(w, p) {
+    if (p.score < F.min || p.score > F.max) return false;
+    if (F.outlet !== '' && outletKey(p) !== F.outlet) return false;
+    if (F.conf !== '' && (p.confidence && p.confidence.level) !== F.conf) return false;
+    if (F.year !== '' && String(w.year) !== F.year) return false;
+    var terms = F.q.toLowerCase().split(/\s+/).filter(Boolean);
+    if (terms.length) {
+      var h = haystack(p);
+      for (var i = 0; i < terms.length; i++) if (h.indexOf(terms[i]) === -1) return false;
+    }
+    return true;
+  }
+  // Weeks (scanned, with psyops) that still have at least one matching psyop.
+  function matchWeeks() {
+    var out = [];
+    visibleWeeks().forEach(function (w) {
+      var ps = w.psyops.filter(function (p) { return matches(w, p); });
+      if (ps.length) out.push({ w: w, ps: ps });
+    });
+    return out;
+  }
+  function totalPsyops() {
+    return visibleWeeks().reduce(function (n, w) { return n + w.psyops.length; }, 0);
+  }
+
+  function buildPanel(w, ps) {
     var id = weekId(w);
     var open = expanded.has(id);
     var sec = el('section', 'panel');
     sec.setAttribute('data-week', id);
 
     var h = el('h2', 'ph');
-    var btn = el('button', 'pt ' + tintForScore(maxScore(w)));
+    var shownMax = ps.reduce(function (m, p) { return p.score > m ? p.score : m; }, 0);
+    var btn = el('button', 'pt ' + tintForScore(shownMax));
     btn.type = 'button';
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     btn.setAttribute('aria-controls', 'pb-' + id);
@@ -117,8 +171,10 @@
     btn.appendChild(el('span', 'chev'));
     btn.appendChild(el('span', 'pw', 'Week ' + w.week + ' \u00b7 ' + w.year));
     btn.appendChild(el('span', 'pd', fmtDateOnly(w.week_start) + ' to ' + fmtDateOnly(w.week_end)));
-    btn.appendChild(el('span', 'pc', w.psyops.length + (w.psyops.length === 1 ? ' psyop' : ' psyops')));
-    btn.appendChild(el('span', 'pm', 'Highest ' + maxScore(w)));
+    var countText = filterActive() ? ps.length + ' of ' + w.psyops.length + (w.psyops.length === 1 ? ' psyop' : ' psyops')
+                                   : w.psyops.length + (w.psyops.length === 1 ? ' psyop' : ' psyops');
+    btn.appendChild(el('span', 'pc', countText));
+    btn.appendChild(el('span', 'pm', 'Highest ' + shownMax));
     h.appendChild(btn);
     sec.appendChild(h);
 
@@ -130,7 +186,7 @@
     ['c-week', 'c-headline', 'c-outlet', 'c-score', 'c-audience', 'c-conf'].forEach(function (c) { cg.appendChild(el('col', c)); });
     tbl.appendChild(cg);
     var tb = el('tbody');
-    sortedPsyops(w.psyops).forEach(function (p) { tb.appendChild(buildRow(w, p)); });
+    sortedPsyops(ps).forEach(function (p) { tb.appendChild(buildRow(w, p)); });
     tbl.appendChild(tb);
     body.appendChild(tbl);
     sec.appendChild(body);
@@ -139,8 +195,8 @@
 
   function renderList() {
     if (!DATA) return;
-    var weeks = visibleWeeks().sort(function (a, b) {
-      return panelDir === 'asc' ? weekKey(a) - weekKey(b) : weekKey(b) - weekKey(a);
+    var weeks = matchWeeks().sort(function (a, b) {
+      return panelDir === 'asc' ? weekKey(a.w) - weekKey(b.w) : weekKey(b.w) - weekKey(a.w);
     });
     if (expanded === null) {
       // first render: only the newest week is open
@@ -148,8 +204,16 @@
       expanded = new Set(newest ? [weekId(newest)] : []);
     }
     var frag = document.createDocumentFragment();
-    weeks.forEach(function (w) { frag.appendChild(buildPanel(w)); });
+    weeks.forEach(function (m) { frag.appendChild(buildPanel(m.w, m.ps)); });
+    if (!weeks.length) {
+      var em = el('div', 'empty');
+      em.appendChild(el('strong', null, 'No psyops match these filters'));
+      em.appendChild(el('span', null, 'Change or clear the filters to see psyops again.'));
+      frag.appendChild(em);
+    }
     panelsEl.replaceChildren(frag);   // swap in one step; old panels stay until new ones are ready
+    var nMatch = weeks.reduce(function (n, m) { return n + m.ps.length; }, 0);
+    resultEl.textContent = 'Showing ' + nMatch + ' of ' + totalPsyops() + ' psyops in ' + weeks.length + (weeks.length === 1 ? ' week' : ' weeks');
     updateToggleLabel();
 
     Array.prototype.forEach.call(heads, function (th) {
@@ -199,7 +263,7 @@
       best ? 'most-appearing outlet' + (tied.length > 1 ? ' (tied)' : '') + ', ' + best + (best === 1 ? ' psyop' : ' psyops') : 'most-appearing outlet', 'wide'));
     summaryEl.replaceChildren(frag);
 
-    document.getElementById('ver').textContent = DATA.app_version || '1.2';
+    document.getElementById('ver').textContent = DATA.app_version || '1.3';
     document.getElementById('updated').textContent = 'Data updated ' + fmtEST(DATA.updated);
     document.getElementById('method').textContent = DATA.method_note || '';
   }
@@ -382,8 +446,8 @@
 
   /* ---------- expand all / collapse all ---------- */
   function allOpen() {
-    var ws = DATA ? visibleWeeks() : [];
-    return ws.length > 0 && ws.every(function (w) { return expanded.has(weekId(w)); });
+    var ws = DATA ? matchWeeks() : [];            // only the visible (filtered) panels count
+    return ws.length > 0 && ws.every(function (m) { return expanded.has(weekId(m.w)); });
   }
   function updateToggleLabel() {
     if (!DATA || !expanded) return;
@@ -391,9 +455,8 @@
   }
   toggleAll.addEventListener('click', function () {
     if (!DATA) return;
-    var open = !allOpen();                      // any collapsed -> expand every panel
-    expanded = new Set();
-    if (open) visibleWeeks().forEach(function (w) { expanded.add(weekId(w)); });
+    var open = !allOpen();                      // any visible panel collapsed -> expand every visible panel
+    matchWeeks().forEach(function (m) { if (open) expanded.add(weekId(m.w)); else expanded.delete(weekId(m.w)); });
     Array.prototype.forEach.call(panelsEl.querySelectorAll('.panel'), function (sec) {
       var btn = sec.querySelector('button.pt');
       var body = sec.querySelector('.pb');
@@ -438,12 +501,85 @@
       if (sec) sec.scrollIntoView();
     }
   }
+  /* ---------- filter controls ---------- */
+  var minVal = document.getElementById('min-val'), maxVal = document.getElementById('max-val');
+  var minDec = document.getElementById('min-dec'), minInc = document.getElementById('min-inc');
+  var maxDec = document.getElementById('max-dec'), maxInc = document.getElementById('max-inc');
+
+  function syncSteppers() {
+    minVal.textContent = String(F.min);
+    maxVal.textContent = String(F.max);
+    minDec.disabled = F.min <= 1;
+    minInc.disabled = F.min >= F.max;
+    maxDec.disabled = F.max <= F.min;
+    maxInc.disabled = F.max >= 10;
+  }
+  function describeSelect(sel, what) {
+    var o = sel.options[sel.selectedIndex];
+    sel.title = 'Filter by ' + what + '. Counts are over the whole data set.' + (o ? ' Selected: ' + o.textContent : '');
+  }
+  function fillSelect(sel, what, allLabel, items, current) {
+    // items: [{value,label}] ; keeps the current selection when it still exists, else falls back to All
+    sel.textContent = '';
+    var o0 = document.createElement('option'); o0.value = ''; o0.textContent = allLabel; sel.appendChild(o0);
+    var found = current === '';
+    items.forEach(function (it) {
+      var o = document.createElement('option'); o.value = it.value; o.textContent = it.label; sel.appendChild(o);
+      if (it.value === current) found = true;
+    });
+    sel.value = found ? current : '';
+    describeSelect(sel, what);
+    return sel.value;
+  }
+  function rebuildOptions() {
+    var oc = {}, oorder = [], cc = {}, yc = {};
+    visibleWeeks().forEach(function (w) {
+      yc[w.year] = (yc[w.year] || 0) + w.psyops.length;
+      w.psyops.forEach(function (p) {
+        var name = String(p.outlet || '').trim(), k = name.toLowerCase();
+        if (k) { if (!oc[k]) { oc[k] = { name: name, n: 0 }; oorder.push(k); } oc[k].n++; }
+        var lv = p.confidence && p.confidence.level;
+        if (lv) cc[lv] = (cc[lv] || 0) + 1;
+      });
+    });
+    oorder.sort(function (a, b) { return oc[a].name.toLowerCase() < oc[b].name.toLowerCase() ? -1 : oc[a].name.toLowerCase() > oc[b].name.toLowerCase() ? 1 : 0; });
+    F.outlet = fillSelect(selOutlet, 'outlet', 'All outlets', oorder.map(function (k) { return { value: k, label: oc[k].name + ' (' + oc[k].n + ')' }; }), F.outlet);
+    var levels = ['High', 'Medium-High', 'Medium', 'Low'].filter(function (l) { return cc[l]; });
+    Object.keys(cc).forEach(function (l) { if (levels.indexOf(l) === -1) levels.push(l); });
+    F.conf = fillSelect(selConf, 'confidence', 'All', levels.map(function (l) { return { value: l, label: l + ' (' + cc[l] + ')' }; }), F.conf);
+    var years = Object.keys(yc).sort();
+    F.year = fillSelect(selYear, 'year', 'All', years.map(function (y) { return { value: y, label: y + ' (' + yc[y] + ')' }; }), F.year);
+  }
+  // A user change to any filter: open every panel that has matches (documented behavior), then redraw.
+  function filtersChanged() {
+    syncSteppers();
+    if (!DATA) return;
+    matchWeeks().forEach(function (m) { expanded.add(weekId(m.w)); });
+    renderList();
+  }
+  minDec.addEventListener('click', function () { if (F.min > 1) { F.min--; filtersChanged(); } });
+  minInc.addEventListener('click', function () { if (F.min < F.max) { F.min++; filtersChanged(); } });
+  maxDec.addEventListener('click', function () { if (F.max > F.min) { F.max--; filtersChanged(); } });
+  maxInc.addEventListener('click', function () { if (F.max < 10) { F.max++; filtersChanged(); } });
+  selOutlet.addEventListener('change', function () { F.outlet = selOutlet.value; describeSelect(selOutlet, 'outlet'); filtersChanged(); });
+  selConf.addEventListener('change', function () { F.conf = selConf.value; describeSelect(selConf, 'confidence'); filtersChanged(); });
+  selYear.addEventListener('change', function () { F.year = selYear.value; describeSelect(selYear, 'year'); filtersChanged(); });
+  qEl.addEventListener('input', function () { F.q = qEl.value; filtersChanged(); });
+  document.getElementById('f-clear').addEventListener('click', function () {
+    F.min = 1; F.max = 10; F.outlet = ''; F.conf = ''; F.year = ''; F.q = '';
+    selOutlet.value = ''; selConf.value = ''; selYear.value = ''; qEl.value = '';
+    describeSelect(selOutlet, 'outlet'); describeSelect(selConf, 'confidence'); describeSelect(selYear, 'year');
+    filtersChanged();
+  });
+  syncSteppers();
+
   function load(first) {
     return fetch('weeks.json', { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (json) {
         if (!json || !Array.isArray(json.weeks)) throw new Error('bad data');
         DATA = json;
+        rebuildOptions();
         renderSummary();
         renderList();
         if (first) openFromHash();
@@ -456,6 +592,7 @@
       });
   }
   load(true);
+  window.addEventListener('hashchange', function () { if (DATA) openFromHash(); });   // a deep link works even while filters hide that psyop
   document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === 'visible' && DATA) load(false);
   });
