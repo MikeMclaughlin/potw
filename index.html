@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
 <title>POTW · Psyop of the Week</title>
-<meta name="description" content="One story per week, scored 1 to 10 for how truthful versus manipulative it is. An evidence-based judgment, not a verdict.">
+<meta name="description" content="Every psyop found each week, scored 1 to 10 for how truthful versus manipulative it is. An evidence-based judgment, not a verdict.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231b2236'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23ff7a45' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23ff7a45'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -25,27 +25,29 @@
 
 <main>
   <section class="notice" aria-label="How to read scores">
-    <p><strong>A score is an evidence-based judgment, not a verdict.</strong> It is an estimate from the evidence found and never proof of intent. Each week lists one story, the top story with the highest psyop score. Target audiences are inferences.</p>
+    <p><strong>A score is an evidence-based judgment, not a verdict.</strong> It is an estimate from the evidence found and never proof of intent. Every sourced psyop found in a week is scored and listed under that week. Target audiences are inferences.</p>
+    <p class="method" id="method"></p>
   </section>
 
   <section class="summary" id="summary" aria-live="polite"></section>
 
-  <section class="listwrap" aria-label="Year-to-date events">
-    <table id="list">
-      <caption class="sr">Year-to-date events, one per week</caption>
+  <section class="listwrap" aria-label="Year-to-date events, grouped by week">
+    <table id="heads" class="cols">
+      <caption class="sr">Sort columns. The Week column orders the week panels; the other columns sort the psyops inside each week.</caption>
+      <colgroup><col class="c-week"><col class="c-headline"><col class="c-outlet"><col class="c-score"><col class="c-audience"><col class="c-conf"></colgroup>
       <thead>
         <tr>
-          <th scope="col" data-key="week" class="c-week" tabindex="0" title="Week number of the year. Sorts by year, then week number.">Week</th>
-          <th scope="col" data-key="headline" class="c-headline" tabindex="0" title="Headline of the week's top story, as published by the outlet.">Headline</th>
-          <th scope="col" data-key="outlet" class="c-outlet" tabindex="0" title="Outlet that published the headline.">Outlet</th>
-          <th scope="col" data-key="score" class="c-score" tabindex="0" title="Psyop score from 1 (fully truthful) to 10 (full-blown psychological operation), mapped from seven factors scored 0 to 2.">Score (1-10)</th>
-          <th scope="col" data-key="audience" class="c-audience" tabindex="0" title="Likely target audience of the framing. This is an inference, not a fact.">Target audience (inference)</th>
-          <th scope="col" data-key="confidence" class="c-conf" tabindex="0" title="How well the evidence supports the score: High, Medium or Low.">Confidence</th>
+          <th scope="col" data-key="week" class="c-week" tabindex="0" title="Week number of the year. Orders the week panels, newest or oldest first.">Week</th>
+          <th scope="col" data-key="headline" class="c-headline" tabindex="0" title="Headline of the psyop's source story. Sorts the psyops inside each week.">Headline</th>
+          <th scope="col" data-key="outlet" class="c-outlet" tabindex="0" title="Outlet that published the headline. Sorts the psyops inside each week.">Outlet</th>
+          <th scope="col" data-key="score" class="c-score" tabindex="0" title="Psyop score from 1 (fully truthful) to 10 (full-blown psychological operation), mapped from seven factors scored 0 to 2. Sorts the psyops inside each week.">Score (1-10)</th>
+          <th scope="col" data-key="audience" class="c-audience" tabindex="0" title="Likely target audience of the framing. This is an inference, not a fact. Sorts the psyops inside each week.">Target audience (inference)</th>
+          <th scope="col" data-key="confidence" class="c-conf" tabindex="0" title="How well the evidence supports the score: High, Medium or Low. Sorts the psyops inside each week.">Confidence</th>
         </tr>
       </thead>
-      <tbody id="rows"></tbody>
     </table>
-    <p class="legend">Row color follows the score: green 1 to 3, amber 4 to 5, orange 6 to 7, red 8 to 10. Gray rows have no data yet. Select a row for the seven factor scores, sources and gaps.</p>
+    <div id="panels"></div>
+    <p class="legend">Row color follows the score: green 1 to 3, amber 4 to 5, orange 6 to 7, red 8 to 10. A week's header takes the color of its highest score. Select a row for the seven factor scores, sources and gaps.</p>
   </section>
 </main>
 
@@ -58,7 +60,7 @@
 
 <footer class="foot">
   <div class="foot-inner">
-    <span>POTW v<span id="ver">1.0</span></span>
+    <span>POTW v<span id="ver">1.1</span></span>
     <span class="dot" aria-hidden="true">·</span>
     <span id="updated">Data updated</span>
     <span class="dot" aria-hidden="true">·</span>
