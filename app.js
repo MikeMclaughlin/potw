@@ -13,6 +13,7 @@
   var dialog = document.getElementById('detail');
   var dBody = document.getElementById('d-body');
   var heads = document.querySelectorAll('#heads thead th');
+  var toggleAll = document.getElementById('toggle-all');
 
   /* ---------- helpers ---------- */
   function el(tag, cls, text) {
@@ -149,6 +150,7 @@
     var frag = document.createDocumentFragment();
     weeks.forEach(function (w) { frag.appendChild(buildPanel(w)); });
     panelsEl.replaceChildren(frag);   // swap in one step; old panels stay until new ones are ready
+    updateToggleLabel();
 
     Array.prototype.forEach.call(heads, function (th) {
       var k = th.getAttribute('data-key');
@@ -168,8 +170,8 @@
         if (!top || p.score >= top.score) { top = p; topWeek = w; }
       });
     });
-    function stat(big, small) {
-      var d = el('div', 'stat');
+    function stat(big, small, cls) {
+      var d = el('div', cls ? 'stat ' + cls : 'stat');
       d.appendChild(el('b', null, big));
       d.appendChild(el('span', null, small));
       return d;
@@ -179,9 +181,25 @@
     frag.appendChild(stat(String(shown.length), 'weeks scanned'));
     frag.appendChild(stat(String(count), 'psyops scored'));
     frag.appendChild(stat(top ? top.score + ' / 10' : '\u2014', top ? 'highest score (Week ' + topWeek.week + ', ' + topWeek.year + ')' : 'highest score'));
+    // Most-appearing outlet: exact outlet string, grouped only by trim + case-fold.
+    var tally = {}, order = [];
+    shown.forEach(function (w) {
+      w.psyops.forEach(function (p) {
+        var name = String(p.outlet || '').trim();
+        var k = name.toLowerCase();
+        if (!k) return;
+        if (!tally[k]) { tally[k] = { name: name, n: 0 }; order.push(k); }
+        tally[k].n++;
+      });
+    });
+    var best = 0;
+    order.forEach(function (k) { if (tally[k].n > best) best = tally[k].n; });
+    var tied = order.filter(function (k) { return tally[k].n === best; }).map(function (k) { return tally[k].name; });
+    frag.appendChild(stat(best ? tied.join(', ') : '\u2014',
+      best ? 'most-appearing outlet' + (tied.length > 1 ? ' (tied)' : '') + ', ' + best + (best === 1 ? ' psyop' : ' psyops') : 'most-appearing outlet', 'wide'));
     summaryEl.replaceChildren(frag);
 
-    document.getElementById('ver').textContent = DATA.app_version || '1.1';
+    document.getElementById('ver').textContent = DATA.app_version || '1.2';
     document.getElementById('updated').textContent = 'Data updated ' + fmtEST(DATA.updated);
     document.getElementById('method').textContent = DATA.method_note || '';
   }
@@ -359,7 +377,31 @@
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     body.hidden = !open;
     if (open) expanded.add(id); else expanded.delete(id);
+    updateToggleLabel();
   }
+
+  /* ---------- expand all / collapse all ---------- */
+  function allOpen() {
+    var ws = DATA ? visibleWeeks() : [];
+    return ws.length > 0 && ws.every(function (w) { return expanded.has(weekId(w)); });
+  }
+  function updateToggleLabel() {
+    if (!DATA || !expanded) return;
+    toggleAll.textContent = allOpen() ? 'Collapse all' : 'Expand all';
+  }
+  toggleAll.addEventListener('click', function () {
+    if (!DATA) return;
+    var open = !allOpen();                      // any collapsed -> expand every panel
+    expanded = new Set();
+    if (open) visibleWeeks().forEach(function (w) { expanded.add(weekId(w)); });
+    Array.prototype.forEach.call(panelsEl.querySelectorAll('.panel'), function (sec) {
+      var btn = sec.querySelector('button.pt');
+      var body = sec.querySelector('.pb');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      body.hidden = !open;
+    });
+    updateToggleLabel();
+  });
 
   /* ---------- sorting ---------- */
   function setSort(key) {

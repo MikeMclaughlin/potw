@@ -32,6 +32,9 @@
   <section class="summary" id="summary" aria-live="polite"></section>
 
   <section class="listwrap" aria-label="Year-to-date events, grouped by week">
+    <div class="listbar">
+      <button type="button" id="toggle-all" class="tog" title="Expand or collapse every week panel at once">Expand all</button>
+    </div>
     <table id="heads" class="cols">
       <caption class="sr">Sort columns. The Week column orders the week panels; the other columns sort the psyops inside each week.</caption>
       <colgroup><col class="c-week"><col class="c-headline"><col class="c-outlet"><col class="c-score"><col class="c-audience"><col class="c-conf"></colgroup>
@@ -60,7 +63,7 @@
 
 <footer class="foot">
   <div class="foot-inner">
-    <span>POTW v<span id="ver">1.1</span></span>
+    <span>POTW v<span id="ver">1.2</span></span>
     <span class="dot" aria-hidden="true">·</span>
     <span id="updated">Data updated</span>
     <span class="dot" aria-hidden="true">·</span>
