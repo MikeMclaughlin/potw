@@ -1,7 +1,7 @@
 {
  "schema_version": "1.3",
  "app_version": "1.3",
- "updated": "2026-10-16T23:20:00-05:00",
+ "updated": "2026-10-21T00:12:39-04:00",
  "disclaimer": "A score is an evidence-based judgment, not a verdict. It is an estimate from the evidence found, never proof of intent.",
  "scale": {
   "min": 1,
@@ -63,7 +63,7 @@
    "description": "Who gains if you believe this, and is that party the source?"
   }
  ],
- "method_note": "Every sourced psyop found in a week is scored and listed under that week; a story with no sourced, openable evidence is not scored. The score applies to the claim named in 'scored claim', not to the outlet's reporting of it: where the Outlet column shows a fact-checker or news outlet, the claim being scored is often the viral post, video or official statement it examined. Honest note on skew: the scores in this data run high. 167 of 212 psyops (79%) score 5 to 9, the mean is 6.1, and 7 is the most common score (62). Many of the high scores belong to viral fakes and AI-generated items that fact-checkers had already debunked, and the scan favored stories with a checkable claim, so this is a selected sample, not a base rate for the news. The skew was noted and no score was altered. Eight psyops carry a confidence label of 'Medium-High' as recorded by the scan. Weeks that are in progress or not yet scanned stay in this file and are not shown.",
+ "method_note": "Every sourced psyop found in a week is scored and listed under that week; a story with no sourced, openable evidence is not scored. The score applies to the claim named in 'scored claim', not to the outlet's reporting of it: where the Outlet column shows a fact-checker or news outlet, the claim being scored is often the viral post, video or official statement it examined. Honest note on skew: the scores in this data run high. 176 of 222 psyops (79%) score 5 to 9, the mean is 6.1, and 7 is the most common score (65). Many of the high scores belong to viral fakes and AI-generated items that fact-checkers had already debunked, and the scan favored stories with a checkable claim, so this is a selected sample, not a base rate for the news. The skew was noted and no score was altered. Eight psyops carry a confidence label of 'Medium-High' as recorded by the scan. Weeks that are in progress or not yet scanned stay in this file and are not shown.",
  "weeks": [
   {
    "year": 2025,
@@ -23161,6 +23161,1042 @@
    "week": 42,
    "week_start": "2026-10-12",
    "week_end": "2026-10-18",
+   "status": "scanned",
+   "psyops": [
+    {
+     "id": "2026-42-1",
+     "status": "scored",
+     "headline": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+     "published": "2026-10-14",
+     "scored_claim": "The IRGC's statement, quoted by Iranian state television, that a cargo ship (apparently the GFS Pride) sank on 10/14 after hitting a naval mine while on an 'illegal and dangerous route' through the Strait of Hormuz.",
+     "selection_reason": "Official claim of fact contradicted by the maritime security reporting body, with an identifiable source incentive.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The only source for the mine account is the IRGC, through Iranian state television (The Guardian). No ship name, position or evidence of a mine was given in the statement as reported."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Joint Maritime Information Center's 10/15 advisory lists the GFS Pride as 'struck by an unknown projectile' on 10/13 and says of the IRGC's 10/14 mine claim: 'there is no substantiation to this claim.' UKMTO also reported both sinking ships as hit by unidentified projectiles (The Guardian)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "'Illegal and dangerous route' puts the blame on the ship for using a lane Iran has not approved, while the U.S. military has been guiding ships along a route nearer Oman (The Guardian)."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The statement leaves out the projectile strike UKMTO reported the day before, and the five attacks on shipping in the previous 48 hours that UKMTO logged."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The message works as a warning to other ships; it is a threat more than an emotional appeal."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Two Iranian officials told Reuters (quoted by The Guardian) that the new tactics aim to 'frustrate' efforts to lower oil prices before the U.S. midterms. A run of earlier IRGC mine claims since July was rejected by CENTCOM, which in August called one 'disinformation' (gCaptain, published after the window)."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented incentive; motive is speculation",
+       "note": "The source is the party accused of the attacks. A mine on an 'unauthorized' route shifts responsibility away from Iran and deters ships from the U.S.-guided lane. Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Shipping companies, insurers and crews deciding whether to use the U.S.-guided route; secondarily U.S. voters facing fuel prices before the 11/03 midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "The JMIC advisory (primary) and The Guardian were opened and agree. The IRGC statement itself was read only as quoted by The Guardian; motive is inference."
+     },
+     "mechanism": "Deflection: a ship that the JMIC and UKMTO record as hit by an unknown projectile is recast as the victim of a mine on an 'illegal' route, putting the blame on the ship and warning others off the U.S.-guided lane. The JMIC states the claim has no substantiation (documented).",
+     "summary": "On 10/14 the IRGC said a container ship sank after hitting a mine on an 'illegal' route. The multinational JMIC advisory records the GFS Pride as hit by an unknown projectile on 10/13 and says the mine claim has no substantiation. The score applies to the IRGC's claim, not to The Guardian's reporting of it.",
+     "counter_argument": "Iran has said it mined the unauthorized lanes, and the JMIC itself warns mariners to watch for mining activity in the area. A mine strike is possible in principle; the advisory says only that the claim is unsubstantiated, not that it is disproved.",
+     "hindsight_note": "After the window (documented, not knowable on 10/14): on 10/18 the IRGC said another tanker hit a mine (Middle East Eye), and on 10/20 gCaptain reported the JMIC's 10/18 advisory saying the IRGC's 10/17 claim of two supertankers hitting mines had 'no substantiation'.",
+     "gaps": [
+      "The IRGC statement and the Iranian state television broadcast were not opened; the wording comes from The Guardian.",
+      "The Reuters report quoting two Iranian officials was read only as quoted by The Guardian.",
+      "The JMIC advisory and The Guardian disagree on the Cape Dao: The Guardian says it sank, while the advisory says 'her status remains disputed, but she is not sunk'. The score does not rest on the Cape Dao."
+     ],
+     "sources": [
+      {
+       "outlet": "Joint Maritime Information Center (UKMTO)",
+       "type": "Primary document (multinational maritime security)",
+       "role": "primary",
+       "title": "Update 105 to JMIC Advisory Note, 01 March - 15 October 2026",
+       "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+       "published": "2026-10-15",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "The Guardian",
+       "type": "Mainstream (UK)",
+       "role": "in_window",
+       "title": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+       "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+       "published": "2026-10-14T17:05:42Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "Middle East Eye",
+       "type": "Independent (UK)",
+       "role": "in_window",
+       "title": "Iran's IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz (live blog update, 10/18)",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-navy-says-oil-tanker-hits-mine-catches-fire-strait-hormuz",
+       "published": "2026-10-18",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "gCaptain",
+       "type": "Independent / maritime trade",
+       "role": "hindsight",
+       "title": "Iran Claims More Tankers Hit Mines in Hormuz, But Evidence Remains Elusive",
+       "url": "https://gcaptain.com/iran-claims-more-tankers-hit-mines-in-hormuz-but-evidence-remains-elusive/",
+       "published": "2026-10-20T10:46:36-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-42-2",
+     "status": "scored",
+     "headline": "Out of context: How a video of Maricopa County election workers fueled a false election fraud narrative",
+     "outlet": "Center for an Informed Public (University of Washington)",
+     "url": "https://www.cip.uw.edu/2026/10/15/video-maricopa-county-election-workers-false-narrative/",
+     "published": "2026-10-15",
+     "scored_claim": "Viral X posts claiming a video shows two Maricopa County election workers doing something nefarious by inserting flash drives into computers at the ballot tabulation center late at night.",
+     "selection_reason": "Viral election-fraud claim built on a real video, with a documented amplification pattern ahead of the midterms.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The video was released by the 'election watchdog' group We The People Alliance USA as an 'exclusive video' 'obtained by our source', with no named source (CIP)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Maricopa County officials confirmed the two people were county election employees finishing a routine software update before a long weekend (CIP)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts frame normal work as suspicious, add a 'toddler in tow' detail, and name one employee who was at the center of earlier 2020 'rigged election' claims (CIP)."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts leave out what the workers were doing and the county's explanation; the CIP notes the named employee has never been found guilty of the earlier claims."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The appeal is mistrust more than fear or outrage, with a named individual as the target."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "Kari Lake (3.1M followers) reposted it, drawing 440.3K views, and The SCIF's quote post helped drive it to 35,000 posts within three days (CIP)."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented incentive; motive is speculation",
+       "note": "The accounts pushing it have promoted 'rigged election' claims before, and the claim serves that narrative weeks before the 11/03 midterms. Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Voters already inclined to distrust election results, especially in Arizona, ahead of the 11/03 midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "The CIP analysis was opened and quotes the county's explanation; the original X posts and the county statement were not opened directly."
+     },
+     "mechanism": "Decontextualized video: routine election work recast as tampering, with a named employee targeted, then amplified by large accounts (Kari Lake, The SCIF) to 35,000 posts in three days. The county's explanation and the spread are documented by the CIP.",
+     "summary": "A late-night video of two Maricopa County election workers was spread on X as evidence of tampering. The county says they were doing a routine software update. The CIP documents how a small group's post reached 35,000 posts through large accounts. The score applies to the viral claim, not to the CIP's analysis.",
+     "counter_argument": "The posters did not invent the video, and election workers handling computers late at night can look odd without context. Asking questions about it is not itself manipulation.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The video was first posted on 10/09 (week 41); it is scored in week 42 because its spread and the CIP analysis (10/15) fall in this week.",
+      "The original X posts and Maricopa County's own statement were not opened; their content comes from the CIP."
+     ],
+     "sources": [
+      {
+       "outlet": "Center for an Informed Public, University of Washington",
+       "type": "Independent research (academic)",
+       "role": "in_window",
+       "title": "Out of context: How a video of Maricopa County election workers fueled a false election fraud narrative",
+       "url": "https://www.cip.uw.edu/2026/10/15/video-maricopa-county-election-workers-false-narrative/",
+       "published": "2026-10-15T02:35:56+00:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 13,
+     "score": 9
+    },
+    {
+     "id": "2026-42-3",
+     "status": "scored",
+     "headline": "In North Carolina and other states, a ballot isn't disqualified if a poll worker marks it",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/16/social-media/in-north-carolina-and-other-states-a-ballot-isnt-disqualified-if-a-poll-worker-marks-it/",
+     "published": "2026-10-16",
+     "scored_claim": "Viral posts (X, TikTok, Facebook, texts) claiming that if a poll worker writes anything on your ballot 'your ballot could be disqualified' and you should request a new one.",
+     "selection_reason": "Recycled viral election rumor debunked by officials in several states during early voting.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The text rests on 'a very reliable good friend of a family member' who 'just finished POLL worker training' (KVIA). No named source."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Election officials in North Carolina, New Mexico, Florida, Illinois and Tennessee said it is false (PolitiFact, KVIA, NBC News). Some states, including North Carolina and Texas, require poll workers to mark ballots."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'VOTERS BEWARE!!' and 'please, please pass this on' are urgency cues; the rest is phrased as helpful advice."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Leaves out that marks do not disqualify a ballot and that some marking is required by law. North Carolina's board says the posts 'have been circulating for several years'; PolitiFact debunked an identical claim before 2024."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Fear of losing your vote is the hook, and it asks readers to act at the polling place."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "The same wording appears across states and platforms: the New Mexico post (KVIA) and the 10/12 Facebook post quoted by PolitiFact are near-identical copy-paste chain text."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No identified originator or beneficiary. The likely effect is distrust of poll workers and disputes at polling places."
+      }
+     },
+     "target_audience": {
+      "text": "Early voters, especially those already wary of poll workers, in North Carolina, New Mexico, Florida and other states. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact and KVIA were opened and quote the posts and officials; the NBC News page was opened but only its opening paragraph was read."
+     },
+     "mechanism": "Copy-paste chain message with a fake insider source ('a very reliable good friend' who 'just finished poll worker training'), recycled since at least 2020 and spread with near-identical wording across states and platforms (documented by PolitiFact, KVIA and state officials).",
+     "summary": "A chain message warning that poll worker marks will disqualify ballots spread across several states during early voting. Officials in at least five states said it is false; some states require such marks. The score applies to the viral claim, not to the fact-checkers.",
+     "counter_argument": "Stray marks in the timing bars or ovals can stop a tabulator reading a ballot (PolitiFact), so the advice to ask about a marked ballot is not entirely baseless, and many sharers likely meant well.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The original posts were not opened; their wording comes from KVIA and PolitiFact.",
+      "The NBC News article was opened, but only its standfirst and first paragraph could be read."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "In North Carolina and other states, a ballot isn't disqualified if a poll worker marks it",
+       "url": "https://politifact.com/factchecks/2026/oct/16/social-media/in-north-carolina-and-other-states-a-ballot-isnt-disqualified-if-a-poll-worker-marks-it/",
+       "published": "2026-10-16T16:32:02-04:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "KVIA (ABC, El Paso / Las Cruces)",
+       "type": "Local TV news (US)",
+       "role": "in_window",
+       "title": "Dona Ana County Clerk's Office warns about election misinformation circulating online",
+       "url": "https://kvia.com/your-voice-your-vote/2026/10/14/dona-ana-county-clerks-office-warns-about-election-misinformation-circulating-online/",
+       "published": "2026-10-14T21:35:51+00:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "NBC News",
+       "type": "Mainstream (US)",
+       "role": "in_window",
+       "title": "Election officials debunk a persistent false claim about poll workers and ballots",
+       "url": "https://www.nbcnews.com/politics/2026-election/election-officials-debunk-persistent-false-claim-poll-workers-ballots-rcna603676",
+       "published": "2026-10-15T20:20:47Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-42-4",
+     "status": "scored",
+     "headline": "AI-generated video falsely linked to Houthi attacks on Saudi airports",
+     "outlet": "AFP Fact Check",
+     "url": "https://factcheck.afp.com/doc.afp.com.D33V8T3",
+     "published": "2026-10-15",
+     "scored_claim": "Posts on Weibo and X claiming a 14-second video of chaos at an airport shows a Houthi strike on a Saudi airport after the 10/10 Riyadh attack, with the warning that 'the Houthis may now target all Saudi airports'.",
+     "selection_reason": "Viral video tied to a real attack, shown to be AI-generated and recycled.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Anonymous social posts; the Weibo post shared on 10/12 is the cited example (AFP)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "AFP found AI hallmarks (a suitcase that moves by itself, a woman who disappears into a glass wall, a scene that changes), and Meta's detection tool flagged it as synthetic."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The caption frames the clip as proof of an escalating campaign against 'all Saudi airports'."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Old material presented as new: AFP debunked the same video in March 2026, when it was shared as an attack on Dubai airport."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Panic scenes of people fleeing with luggage are the hook, attached to a real attack that killed at least 13."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Shared across X in Chinese, English and Arabic; the Weibo post had over 109,000 views (AFP). No evidence of coordination was reported."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No beneficiary identified; engagement is the likely motive. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Chinese-, Arabic- and English-language social media users following the Houthi-Saudi escalation. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "AFP's text was read through a search excerpt and agrees in detail; the AFP page returned 403 to the box's curl."
+     },
+     "mechanism": "Recycled AI-generated footage: a synthetic clip debunked in March as a Dubai airport attack was re-captioned as a Houthi strike on a Saudi airport (documented by AFP and Meta's AI detection tool).",
+     "summary": "An AI-generated airport-chaos clip, already debunked in March as Dubai, was re-captioned as a Houthi strike on a Saudi airport after the real 10/10 Riyadh attack. The score applies to the viral posts, not to AFP.",
+     "counter_argument": "The attacks it was attached to were real and deadly, so sharers may have believed it illustrated a true event; the clip did not invent the attack itself.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The AFP page returned HTTP 403 to automated access; its text was read through a search-tool excerpt.",
+      "The Weibo and X posts were not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "AFP Fact Check",
+       "type": "Fact-checker (wire service)",
+       "role": "in_window",
+       "title": "AI-generated video falsely linked to Houthi attacks on Saudi airports",
+       "url": "https://factcheck.afp.com/doc.afp.com.D33V8T3",
+       "published": "2026-10-15T07:05",
+       "link_check": {
+        "http": 403,
+        "checked": "2026-10-21",
+        "note": "Box curl blocked (HTTP 403); likely bot/paywall block, not proof the page is missing. Text read through a search-tool excerpt."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-42-5",
+     "status": "scored",
+     "headline": "Tropical cyclone trio stirs claims of weather manipulation online",
+     "outlet": "AFP Fact Check",
+     "url": "https://factcheck.afp.com/doc.afp.com.D3B83T4",
+     "published": "2026-10-16",
+     "scored_claim": "X posts claiming hurricanes Isaias, Rachel and Simon were artificially engineered, with Isaias deliberately steered into Florida's Gulf Coast ('It is so painfully clear that the three hurricanes arriving at the same time are engineered', 10/13).",
+     "selection_reason": "Viral conspiracy claim after three simultaneous storms, rebutted by meteorologists.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Anonymous X posts; no data or document is cited beyond research images (AFP)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Meteorologists told AFP no human technology can create or steer storms of this size; an intense El Nino and other conditions explain them."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "'Painfully clear' and 'artificially pumping chemical clouds' assert certainty without evidence; some posts read meaning into the storms' Biblical names."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Visuals of marine cloud brightening research were lifted from Scottish and Australian university portals; the posts leave out that this research works on shallow clouds and cannot steer storms."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Distrust and fear of a hidden hand after storms that killed people in Florida and Mexico."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "AFP reports 'similar posts'; no coordination was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No beneficiary identified; engagement and distrust of government are the likely drivers. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Social media users primed for weather-control and anti-government conspiracy theories, especially in storm-hit Florida. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "AFP's text was read through a search excerpt; the page returned 403 to the box's curl. The original posts were not opened."
+     },
+     "mechanism": "Real research material used out of context: cloud-brightening visuals from university portals presented as proof that the storms were engineered (documented by AFP; experts quoted say storms cannot be created or steered).",
+     "summary": "As three hurricanes hit North America in one weekend, X posts claimed they were engineered, using real cloud-brightening research images as 'proof'. Meteorologists told AFP that is impossible with current technology. The score applies to the viral posts, not to AFP.",
+     "counter_argument": "Cloud seeding and cloud brightening research does exist, so the posts point at something real, and three near-simultaneous storms are unusual enough to invite questions.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The AFP page returned HTTP 403 to automated access; its text was read through a search-tool excerpt.",
+      "The X posts were not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "AFP Fact Check",
+       "type": "Fact-checker (wire service)",
+       "role": "in_window",
+       "title": "Tropical cyclone trio stirs claims of weather manipulation online",
+       "url": "https://factcheck.afp.com/doc.afp.com.D3B83T4",
+       "published": "2026-10-16T20:13",
+       "link_check": {
+        "http": 403,
+        "checked": "2026-10-21",
+        "note": "Box curl blocked (HTTP 403); likely bot/paywall block, not proof the page is missing. Text read through a search-tool excerpt."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-42-6",
+     "status": "scored",
+     "headline": "Houthis deny targeting holy city of Medina after Saudi Arabia says it intercepted missile",
+     "outlet": "France 24",
+     "url": "https://www.france24.com/en/middle-east/20261015-houthis-deny-targeting-holy-city-medina-after-saudi-arabia-says-intercepted-missile",
+     "published": "2026-10-15",
+     "scored_claim": "The Saudi-led coalition's 10/15 announcement of the 'interception and destruction of a cruise missile in the Medina region', which the Houthis called 'a shameless and brazen lie'.",
+     "selection_reason": "Single-source military claim about a religiously charged location, flatly denied by the accused party.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The only source is coalition spokesman Turki Al-Malki's post on X, repeated by state media (France 24). No radar track, debris or launch site was released (Military Ledger)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "No independent confirmation; the Houthis denied any operation against Saudi territory that day (France 24, The Hindu)."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The statement itself is terse and names no launcher or target, but it lets 'Medina' imply an attack on a holy city; some headlines turned it into a 'missile attack on Medina'."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Launcher, intended target and evidence are all missing from the announcement (Military Ledger)."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Medina's religious significance gives the claim emotional weight without the statement saying so."
+      },
+      "amplification": {
+       "score": 0,
+       "label": "documented",
+       "note": "No identical-wording push beyond state media repeating the spokesman; the same day a Saudi deputy minister accused Iran of encouraging the Houthis (France 24), but that is ordinary messaging."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented incentive; motive is speculation",
+       "note": "The source is a party to the war. A Houthi threat to a holy city would hurt the Houthis' standing with Muslim audiences; the Houthis had said on 10/11 that Mecca and Medina would be spared. Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Muslim publics in Saudi Arabia and the wider region, and governments weighing support for Riyadh. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "France 24 (opened with the fetch tool), The Hindu and Military Ledger agree on both statements. No primary coalition post or evidence was opened; the true origin is unknown."
+     },
+     "mechanism": null,
+     "summary": "The coalition said it shot down a cruise missile in the Medina region; the Houthis said it was a lie. No evidence was released either way. The score applies to the coalition's claim, not to the outlets, which reported both sides.",
+     "counter_argument": "The coalition faces real, frequent Houthi missile fire (17 killed by its count, Al Jazeera), and an interception report need not be false because the attacker denies it. The Houthi denial is no more verified than the claim.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The coalition spokesman's X post and Saudi state media were not opened.",
+      "France 24 returned HTTP 403 to the box's curl; it was opened with the fetch tool.",
+      "The AP report on the same claim was not opened (blocked)."
+     ],
+     "sources": [
+      {
+       "outlet": "France 24",
+       "type": "Non-US broadcaster (AFP text)",
+       "role": "in_window",
+       "title": "Houthis deny targeting holy city of Medina after Saudi Arabia says it intercepted missile",
+       "url": "https://www.france24.com/en/middle-east/20261015-houthis-deny-targeting-holy-city-medina-after-saudi-arabia-says-intercepted-missile",
+       "published": "2026-10-15",
+       "link_check": {
+        "http": 403,
+        "checked": "2026-10-21",
+        "note": "Box curl blocked (HTTP 403); likely bot/paywall block, not proof the page is missing. Opened with the fetch tool."
+       }
+      },
+      {
+       "outlet": "The Hindu",
+       "type": "Non-US mainstream (AFP text)",
+       "role": "in_window",
+       "title": "Saudi coalition says missile intercepted in Medina region",
+       "url": "https://www.thehindu.com/news/international/saudi-coalition-says-missile-intercepted-in-medina-region/article71589634.ece",
+       "published": "2026-10-15T22:40:08+05:30",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "Military Ledger",
+       "type": "Independent / defense",
+       "role": "in_window",
+       "title": "Saudi Arabia reports cruise-missile interception over Medina as Houthis deny attack",
+       "url": "https://militaryledger.com/news/medina-cruise-missile-interception-houthi-denial/",
+       "published": "2026-10-15T23:27:08+00:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "Al Jazeera",
+       "type": "Non-US broadcaster",
+       "role": "in_window",
+       "title": "At least 5 killed in Houthi attack on Yemen's presidential palace in Aden",
+       "url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles",
+       "published": "2026-10-15T16:50:42Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-42-7",
+     "status": "scored",
+     "headline": "Turkish police raid opposition TV station, halting live broadcasts",
+     "outlet": "BBC News",
+     "url": "https://www.bbc.com/news/articles/crx23y3d970vo",
+     "published": "2026-10-14",
+     "scored_claim": "The Istanbul Chief Prosecutor's Office's account that the 10/14 raid on Halk TV and the appointment of a state trustee (TMSF) were a financial-crimes case against chairman Cafer Mahiroglu for 'bribery, tender-rigging, and laundering of assets derived from crime'.",
+     "selection_reason": "Official justification for a state takeover of a major opposition broadcaster.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The prosecutor's office is named and cites MASAK financial data, confidential witness testimony and suspect statements (Hurriyet Daily News), but none of the evidence is public."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "No court has ruled; the allegations cannot be checked independently."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The statement is legalistic; the loaded language comes from the opposition ('only dictators')."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The statement leaves out that a trustee halts the channel's live news: broadcasts were cut at 6:30 a.m. (Reuters via ThePrint). It also omits that this is the fifth major outlet put under a trustee, and that Tele1's news content was stripped after its takeover (BBC)."
+      },
+      "emotional": {
+       "score": 0,
+       "label": "documented",
+       "note": "No fear or outrage hook in the official account."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "disputed",
+       "note": "The Istanbul Bar Association noted the raid came hours before Ekrem Imamoglu was due to begin his defence in court (BBC). The timing may be coincidence."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented incentive; motive is speculation",
+       "note": "The government that benefits from silencing a critical channel controls the prosecutors who seized it; RSF says 90% of national media is under government control (BBC). Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Turkish domestic audiences, and foreign governments the government wants to see the move as a corruption case rather than censorship. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "BBC, Reuters text (via ThePrint) and Hurriyet Daily News were opened and agree on the facts. The prosecutor's statement was not opened directly, and the merits of the corruption case are unknown."
+     },
+     "mechanism": null,
+     "summary": "Police raided Halk TV, cut its live broadcasts and installed a state trustee, with prosecutors citing bribery and money laundering by its owner. The facts are well documented; the score applies to the official framing of the takeover as a purely financial case.",
+     "counter_argument": "Mahiroglu had been under scrutiny before over public procurement, and a businessman's statements led to a separate inquiry (Hurriyet Daily News). The corruption allegations could be true even if the takeover also silences a critic.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The Istanbul Chief Prosecutor's Office statement was not opened; its content comes from Reuters (via ThePrint) and Hurriyet Daily News.",
+      "The AP report was not opened (blocked)."
+     ],
+     "sources": [
+      {
+       "outlet": "BBC News",
+       "type": "Non-US broadcaster",
+       "role": "in_window",
+       "title": "Turkish police raid opposition TV station, halting live broadcasts",
+       "url": "https://www.bbc.com/news/articles/crx23y3d970vo",
+       "published": "2026-10-14T06:32:02Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "ThePrint (Reuters text)",
+       "type": "Wire copy (Reuters), non-US outlet",
+       "role": "in_window",
+       "title": "Turkish prosecutors appoint government trustee to run pro-opposition Halk TV",
+       "url": "https://theprint.in/world/turkish-prosecutors-appoint-government-trustee-to-run-pro-opposition-halk-tv/3071203/",
+       "published": "2026-10-14",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "Hurriyet Daily News",
+       "type": "Turkish mainstream",
+       "role": "in_window",
+       "title": "Trustee takes control of pro-opposition Halk TV",
+       "url": "https://www.hurriyetdailynews.com/trustee-takes-control-of-pro-opposition-halk-tv-228115",
+       "published": "2026-10-14T10:05:00+03:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 9,
+     "score": 7
+    },
+    {
+     "id": "2026-42-8",
+     "status": "scored",
+     "headline": "Fake image depicting real attack on protester at Trump rally spreads online",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/trump-rally-epstein-protester/",
+     "published": "2026-10-15",
+     "scored_claim": "Viral image on X and Facebook claimed to show attendees at a Trump rally punching a woman in a 'RELEASE THE EPSTEIN FILES' shirt in the face.",
+     "selection_reason": "AI-generated image attached to a real, documented assault.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Anonymous viral posts; Snopes could not find the image's creator."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "OpenAI's verification tool found a SynthID watermark, and the real protester's clothing and shirt lettering differ from the image (Snopes)."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'If there's one photo to sum up the Trump era, this is it' turns one image into a verdict on an era."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "The event was real: a protester was attacked at the 10/12 Youngstown rally, as NBC News and WKBN footage shows (Snopes). The image fabricates the picture, not the event."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "A woman being punched in the face is a strong outrage hook."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Spread on X and Facebook, with many users treating it as authentic (Snopes); no coordination shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "Partisan engagement against Trump is the likely driver; no originator found. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Trump critics and voters following the Epstein-files dispute. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Snopes was opened and cites the detection result and real footage; the original posts were not opened."
+     },
+     "mechanism": null,
+     "summary": "A real attack on a protester at Trump's 10/12 Youngstown rally was followed by an AI-generated image of a punch that did not look like the real scene. Snopes rated the image fake. Snopes also notes Trump called the protesters 'paid' without evidence; that claim is not the one scored here.",
+     "counter_argument": "The image exaggerates a real assault rather than inventing one, so its overall message about the event is closer to true than many fakes.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The original X and Facebook posts were not opened.",
+      "Snopes notes the SynthID check only detects images made with OpenAI's tools; it rests the verdict also on differences from real footage."
+     ],
+     "sources": [
+      {
+       "outlet": "Snopes",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fake image depicting real attack on protester at Trump rally spreads online",
+       "url": "https://www.snopes.com/fact-check/trump-rally-epstein-protester/",
+       "published": "2026-10-15T14:51:55Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-42-9",
+     "status": "scored",
+     "headline": "Yemen's Houthis claim missile hit Saudi fighter jet over northern Yemen",
+     "outlet": "Anadolu Agency",
+     "url": "https://aa.com.tr/en/middle-east/yemen-s-houthis-claim-missile-hit-saudi-fighter-jet-over-northern-yemen/4089142",
+     "published": "2026-10-15",
+     "scored_claim": "Houthi military spokesman Yahya Saree's claim that a surface-to-air missile scored a 'direct hit' on a Saudi Typhoon fighter over Saada, 'putting it at risk of crashing'.",
+     "selection_reason": "Battlefield claim from one side with no confirmation.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The only source is the Houthi spokesman (Anadolu, BBC Arabic)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Saudi authorities did not comment (Anadolu); no wreckage or crash was reported in the sources opened."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'Direct hit' and 'at risk of crashing' claim a result without showing it."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "No evidence, time or outcome was given beyond the claim itself."
+      },
+      "emotional": {
+       "score": 0,
+       "label": "documented",
+       "note": "A terse military claim with no emotional appeal."
+      },
+      "amplification": {
+       "score": 0,
+       "label": "documented",
+       "note": "Reported once by the outlets alongside other Houthi claims; no push."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented incentive; motive is speculation",
+       "note": "The Houthis gain a show of strength from the claim during their escalation against Saudi Arabia. Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Houthi supporters and Saudi publics during the escalation. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "Anadolu and BBC Arabic were opened and attribute the claim to Saree; Saudi silence leaves it unresolved."
+     },
+     "mechanism": null,
+     "summary": "The Houthis said they hit a Saudi Typhoon over Saada; Saudi Arabia did not comment and no crash was reported. The outlets reported it as a claim. The score applies to the Houthi claim.",
+     "counter_argument": "Saudi silence is not a denial, and the Houthis have hit Saudi targets repeatedly in this escalation. The claim may be true.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "BBC Arabic places Saree's announcement 'after midnight Thursday/Friday' while its page metadata says 10/14 and Anadolu says 'late Wednesday' (10/14). The date is inside the week either way.",
+      "Reported Houthi footage of the strike was not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Anadolu Agency",
+       "type": "Non-US wire (Turkey)",
+       "role": "in_window",
+       "title": "Yemen's Houthis claim missile hit Saudi fighter jet over northern Yemen",
+       "url": "https://aa.com.tr/en/middle-east/yemen-s-houthis-claim-missile-hit-saudi-fighter-jet-over-northern-yemen/4089142",
+       "published": "2026-10-15",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "BBC News Arabic",
+       "type": "Non-US broadcaster (Arabic)",
+       "role": "in_window",
+       "title": "Houthis announce a 'hit' on a Saudi fighter over Saada (Arabic)",
+       "url": "https://www.bbc.com/arabic/articles/cqm24e4kzj72o",
+       "published": "2026-10-14T06:44:31Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 8,
+     "score": 6
+    },
+    {
+     "id": "2026-42-10",
+     "status": "scored",
+     "headline": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+     "outlet": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cmn06w5x9g25o",
+     "published": "2026-10-13",
+     "scored_claim": "Bulgarian Prime Minister Rumen Radev's statement that, without 'clear and conclusive evidence', 'the logic suggests that the outcome benefits the Russian Federation', and his defence minister's 'We assume the drones are Russian', after drones sank the HS Dignity off Bulgaria on 10/13.",
+     "selection_reason": "Official attribution of an attack, stated with explicit caveats.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The attribution rests on officials' reasoning, not released evidence; the officials are named."
+      },
+      "verifiability": {
+       "score": 1,
+       "label": "documented",
+       "note": "Ukraine accused Russia; Russia's ambassador said she had no information and suggested a third-party provocation (BBC). No forensic finding was published."
+      },
+      "framing": {
+       "score": 0,
+       "label": "documented",
+       "note": "Hedged wording ('logic suggests', 'we assume'); headlines said Russia was 'suspected' or 'likely' (DW, AP)."
+      },
+      "omission": {
+       "score": 0,
+       "label": "documented",
+       "note": "The caveat that there is no conclusive evidence is in the statement itself and in the coverage (CNN, DW, BBC)."
+      },
+      "emotional": {
+       "score": 0,
+       "label": "documented",
+       "note": "No emotional appeal."
+      },
+      "amplification": {
+       "score": 0,
+       "label": "documented",
+       "note": "No coordinated push; Radev's government had avoided blaming Moscow until then (BBC)."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "documented",
+       "note": "NATO-member Bulgaria gains support for investigation and defence by pointing at Russia, but Radev had resisted doing so."
+      }
+     },
+     "target_audience": {
+      "text": "n/a: plain official attribution with stated caveats. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "BBC, CNN and DW were opened and agree on Radev's words and caveats."
+     },
+     "mechanism": null,
+     "summary": "Bulgaria's prime minister said Russia was the likely culprit behind drone strikes that sank a ship off its coast, while saying plainly that there was no conclusive evidence. The low score reflects that the claim was presented as inference.",
+     "counter_argument": "Even a hedged attribution without evidence can steer opinion, and Ukraine has also attacked ships in the Black Sea (CNN).",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "Early reports differ on casualties: DW quotes Radev confirming no one was killed, while BBC and CNN report 10 or 11 crew missing from the HS Dignity.",
+      "The AP reports on the attribution were not opened (blocked)."
+     ],
+     "sources": [
+      {
+       "outlet": "BBC News",
+       "type": "Non-US broadcaster",
+       "role": "in_window",
+       "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack",
+       "url": "https://www.bbc.com/news/articles/cmn06w5x9g25o",
+       "published": "2026-10-13T08:52:48Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "CNN",
+       "type": "Mainstream (US)",
+       "role": "in_window",
+       "title": "11 sailors missing after drone strike sinks merchant vessel near Bulgarian waters",
+       "url": "https://www.cnn.com/2026/10/13/world/several-sailors-missing-after-drone-strike-sinks-merchant-vessel-near-bulgarian-waters",
+       "published": "2026-10-13T11:12:02Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      },
+      {
+       "outlet": "DW (Deutsche Welle)",
+       "type": "Non-US broadcaster",
+       "role": "in_window",
+       "title": "Bulgaria condemns Black Sea drone attacks, Russia suspected",
+       "url": "https://www.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russias-war-in-ukraine-spills-over-into-eastern-europe/a-79648001",
+       "published": "2026-10-13T10:15:41Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-21",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-21."
+       }
+      }
+     ],
+     "factor_total": 3,
+     "score": 3
+    }
+   ],
+   "gaps": [
+    "Screening used the Wikipedia 'Portal:Current events' archive for this week plus the outlets' own pages and fact-checkers (AFP, PolitiFact, Snopes, CIP); stories without an openable, in-window source were not scored (see screened_not_scored).",
+    "AP and Reuters pages returned 401/403 to automated access, so wire content was read through outlets that carry AP, Reuters or AFP text where noted; the wire originals were not opened.",
+    "AFP Fact Check and France 24 returned 403 to the box's curl; their text was read with the fetch tool or a search-tool excerpt, as noted on each source.",
+    "Hindsight notes cover only what I found by 10/21/2026; later outcomes not stated were not researched."
+   ],
+   "screened_not_scored": [
+    {
+     "headline": "Houthis strike Aramco hours after Saudi-led coalition hits Sanaa oil site",
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports",
+     "reason": "Opened; the gap between the Energy Ministry's 'limited fire' and reported severe damage to Aramco's headquarters rests on a Reuters report that was not opened, so not scored."
+    },
+    {
+     "headline": "Trump scraps plan to livestream Fort Hood shooter's execution (descriptive label)",
+     "outlet": "AFP via France 24",
+     "url": "https://www.france24.com/en/live-news/20261015-trump-scraps-plan-to-livestream-execution-after-broad-backlash",
+     "reason": "Not opened (France 24 returned 403 to curl); a policy reversal with no disputed claim; not scored. (link check 2026-10-21: HTTP 403)"
+    },
+    {
+     "headline": "Shooter kills three children and one teacher at Oregon elementary school",
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
+     "reason": "Headline-level screen only; breaking news event with no manipulation claim found; not scored."
+    },
+    {
+     "headline": "Masked settlers attack European diplomats in Taybeh, West Bank (descriptive label)",
+     "outlet": "AP",
+     "url": "https://apnews.com/article/west-bank-israel-european-diplomats-settlers-89ebd068167669db357ad1fa4f3a8758",
+     "reason": "AP blocks automated access; not opened, not scored."
+    },
+    {
+     "headline": "Protests spread across France as 'yellow vests' set to join",
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/17/france-braces-for-nationwide-protests-with-yellow-vest-members-set-to-join",
+     "reason": "Headline-level screen only; competing crowd figures (union says over 500,000) not checked against official counts; not scored."
+    },
+    {
+     "headline": "Nationwide No Kings protests shift focus to early voting push (descriptive label)",
+     "outlet": "USA Today",
+     "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/17/nationwide-no-kings-protests-shift-focus-to-early-voting-push/92249146007/",
+     "reason": "Not opened (USA Today returned 402, paywall); not scored. (link check 2026-10-21: HTTP 402)"
+    },
+    {
+     "headline": "More than 30 killed in Pakistan school roof collapse as police warn building still 'extremely dangerous'",
+     "outlet": "BBC News (live page)",
+     "url": "https://www.bbc.com/news/live/crvgynp501y3t",
+     "reason": "Headline-level screen only; disaster report with no disputed claim; not scored."
+    },
+    {
+     "headline": "Meteorologist retracts AI-hallucinated map of Hurricane Isaias",
+     "outlet": "Yahoo News",
+     "url": "https://www.yahoo.com/news/weather-news/articles/meteorologist-retracts-ai-hallucinated-map-162412812.html",
+     "reason": "Opened; dated 10/09, outside this week, so not scored here."
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "week": 43,
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
    "status": "in_progress",
    "psyops": [],
    "gaps": [
