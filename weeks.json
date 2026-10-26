@@ -1,7 +1,7 @@
 {
  "schema_version": "1.3",
  "app_version": "1.3",
- "updated": "2026-10-21T00:12:39-04:00",
+ "updated": "2026-10-26T06:07:45-04:00",
  "disclaimer": "A score is an evidence-based judgment, not a verdict. It is an estimate from the evidence found, never proof of intent.",
  "scale": {
   "min": 1,
@@ -24197,6 +24197,1055 @@
    "week": 43,
    "week_start": "2026-10-19",
    "week_end": "2026-10-25",
+   "status": "scanned",
+   "psyops": [
+    {
+     "id": "2026-43-1",
+     "status": "scored",
+     "headline": "Russian group targets Talarico with fake AI-generated video",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/22/tweets/russian-disinformation-group-targets-james-talarico-with-baseless-claim-in-ai-generated-video/",
+     "published": "2026-10-22",
+     "scored_claim": "Two videos posted on X on 10/20 by a new account named @Zyon_Lewis_5, showing a man who says he is a former student of Texas Democratic U.S. Senate nominee James Talarico and that Talarico sexually assaulted him at Rhodes Middle School in San Antonio in 2012.",
+     "selection_reason": "Fabricated accusation against a Senate candidate two weeks before the 11/03 midterms, with a documented influence-operation pattern.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The only source is a new X account, created in September with Romania as the signup country (NewsGuard via PolitiFact), posing as a real Facebook user of the same name (Graphika)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The real Zyon Lewis told Lead Stories 'it's not me. The video is very much AI' and said Talarico 'was a great teacher'. Hive rated the two videos 99.1% and 99.8% likely AI-generated (Lead Stories); NewsGuard's tool gave 98%."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "A sexual-assault accusation against a named candidate, presented as a first-person testimony."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Impersonation: the video uses the identity and photos of a real former student who had publicly praised Talarico on Facebook, as recently as February (Graphika)."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Child sexual abuse is among the strongest outrage hooks there is."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "Graphika says known Storm-1516 amplifiers ('Liberal Tear Creator', 'Garbage Human') and U.S. conservative accounts shared it; SGAnon (125.4k followers) shared it, then deleted it. X suspended the original account, but other accounts kept sharing it (PolitiFact)."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented assessment; motive is speculation",
+       "note": "Graphika assesses 'with high confidence' that the Russia-aligned operation Storm-1516 made it, and Clemson's Darren Linvill says the same; he says Storm-1516 made a similar attack on Tim Walz in 2024. Linvill's view that the aim is to deepen partisanship and help Ken Paxton is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Texas Republican and undecided voters ahead of the 11/03 Senate race between Talarico and Ken Paxton; more broadly, U.S. partisan audiences. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact, Lead Stories (which interviewed the real Zyon Lewis) and Graphika's report were opened and agree. The attribution to Storm-1516 is a research assessment, not an official finding."
+     },
+     "mechanism": "Deepfake impersonation: AI-generated videos used the identity of a real former student to make a sexual-assault accusation, seeded by a new foreign-registered account and pushed by accounts known to amplify Storm-1516 (documented by Graphika, Lead Stories and PolitiFact; attribution is a research assessment).",
+     "summary": "An X account posing as a former student posted AI-generated videos accusing James Talarico of sexual assault. The real student says it is not him and that the claim is false; Graphika and Clemson researchers attribute the videos to the Russia-aligned Storm-1516 operation. The score applies to the videos, not to the fact-checkers.",
+     "counter_argument": "The attribution to Russia rests on researchers' assessment of tactics and amplifier accounts, not on public proof of who made the video; X's Romania signup country is consistent with this but does not prove it. One prominent amplifier, SGAnon, deleted its posts after its own analysis found the videos were AI-generated.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "NewsGuard's report returned HTTP 403 to the box's curl; its findings (Romania signup country, 98% deepfake score) are taken from PolitiFact.",
+      "The original X posts were not opened; their wording comes from Lead Stories and an archived copy cited by PolitiFact."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Russian group targets Talarico with fake AI-generated video",
+       "url": "https://politifact.com/factchecks/2026/oct/22/tweets/russian-disinformation-group-targets-james-talarico-with-baseless-claim-in-ai-generated-video/",
+       "published": "2026-10-22T17:45:30-04:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: FAKE Video Shows Man Claiming to Be Ex-Student of Democratic Senate Nominee James Talarico -- Real Zyon Lewis Says It Is Not Him",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-man-claiming-to-be-ex-student-of-democratic-senate-nominee-james-talarico-real-zyon-lewis-says-it-is-not-him.html",
+       "published": "2026-10-21T13:56:22-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Graphika",
+       "type": "Independent research (network analysis)",
+       "role": "in_window",
+       "title": "Storm-1516 Produces Very Likely Deepfake Videos of Student Accusing Democratic Senate Candidate of Sexual Assault",
+       "url": "https://www.graphika.com/insights/storm-1516-produces-very-likely-deepfake-videos-of-student-accusing-democratic-senate-candidate",
+       "published": "2026-10-21",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "NewsGuard Reality Check",
+       "type": "Independent misinformation tracker",
+       "role": "in_window",
+       "title": "Russian Deepfake Accuses Talarico of Sexually Abusing Student",
+       "url": "https://www.newsguardrealitycheck.com/p/russian-deepfake-accuses-talarico",
+       "published": "2026-10-21",
+       "link_check": {
+        "http": 403,
+        "checked": "2026-10-26",
+        "note": "Box curl blocked (HTTP 403); likely bot/paywall block, not proof the page is missing. Not independently opened; its findings are taken from PolitiFact."
+       }
+      }
+     ],
+     "factor_total": 14,
+     "score": 10
+    },
+    {
+     "id": "2026-43-2",
+     "status": "scored",
+     "headline": "Voting machines aren't deliberately switching votes. Here's what's likely happening",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/voting-machines-switching-votes-midterms/",
+     "published": "2026-10-22",
+     "scored_claim": "Copy-paste posts from 10/19-10/21 claiming voting machines in Texas, Florida, Tennessee, Ohio, South Carolina and other states were switching Democratic votes to Republicans during early voting ('The machines change them back to Republican unless the voter persists').",
+     "selection_reason": "Recurring election rumor that spread during early voting, with identical wording across platforms.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The widest-spread version is an unattributed copy-paste text; the rest are anecdotes on X and Facebook, including from Stella Parton (Snopes, Lead Stories). Snopes found only 'a very small number' of first-hand claims."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Officials in Texas, South Carolina and Ohio told Lead Stories they had no such reports or no unusual increase; Ohio called it 'a social media rumor'. Duval County's elections supervisor told Snopes no one reported casting a ballot with wrong selections, and pointed to fingernails touching the line above."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'A very disturbing trend' and 'Don't let them rig this election' turn touch-screen errors into a scheme."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts leave out that voters review their choices on screen and, in many states, on a paper record before casting, and that machines are tested in public (Snopes). Texas says it no longer uses the type of machine described. Snopes has debunked the same claim since 2014."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Fear that your vote is being stolen, paired with a call to 'check your machine'."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "Identical text was posted on Facebook, Threads and X on 10/21 (Snopes; Lead Stories quotes the same wording from @DaizyZeeX)."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No originator identified. The narrative undermines trust in the count, whichever party it is aimed at. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Democratic-leaning early voters in Texas, Tennessee, Florida, Ohio and South Carolina, and anyone primed to distrust voting machines. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Snopes and Lead Stories were opened and quote state officials directly; the original posts were not opened."
+     },
+     "mechanism": "Copy-paste chain text: one unattributed message, posted with identical wording across Facebook, Threads and X, turns scattered touch-screen errors into a multi-state vote-flipping trend (documented by Snopes and Lead Stories; state officials report no such pattern).",
+     "summary": "As early voting began, a copy-paste message claimed machines in several states were flipping Democratic votes to Republicans. State officials said they had no such reports and pointed to touch-screen calibration and human error; voters can check and correct their ballot before casting it. The score applies to the viral posts, not to the fact-checkers.",
+     "counter_argument": "Some voters did have real touch-screen problems: South Carolina says it 'commonly' gets such reports in high-turnout elections, and the advice to check your ballot is sound. Many sharers likely meant to protect votes, not to spread distrust.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The original posts and Stella Parton's Facebook post were not opened; their wording comes from Snopes and Lead Stories.",
+      "Florida and Tennessee state offices had not replied to Lead Stories at publication."
+     ],
+     "sources": [
+      {
+       "outlet": "Snopes",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Voting machines aren't deliberately switching votes. Here's what's likely happening",
+       "url": "https://www.snopes.com/fact-check/voting-machines-switching-votes-midterms/",
+       "published": "2026-10-22T17:15:23Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "What We Know About Claims That Early Voters' Ballots Were Switched in States Including Florida, Ohio, South Carolina, Tennessee, Texas",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-what-we-know-about-claims-that-early-voters-ballots-were-switched-in-states-including-florida-ohio-south-carolina-florida-ohio-tennessee-texas.html",
+       "published": "2026-10-22T16:25:49-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-43-3",
+     "status": "scored",
+     "headline": "Video of voting machine 'switching' vote to Republican is misleading and outdated",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/video-voting-machine-changing-vote/",
+     "published": "2026-10-23",
+     "scored_claim": "Posts from 10/21 presenting old touch-screen voting videos as 2026 midterm evidence: a clip of a vote for Democrat Tobi Beck showing as Republican Jim Baird ('Voting machines across the country are changing votes'), and a two-clip video captioned 'Can you say national emergency!!!?' claiming a machine would not let a voter pick the Republican.",
+     "selection_reason": "Old footage presented as new during early voting, from both partisan directions.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Anonymous posts on Facebook, Threads, TikTok and X (Snopes, Lead Stories)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Beck/Baird clip is from Tippecanoe County, Indiana, in 2018 (Snopes, citing the Lafayette Journal & Courier). The other video joins a 2019 Mississippi Republican runoff (both candidates Republican) and a 2014 Virginia race (Lead Stories)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "'Warning! Seriously!' and 'national emergency!!!' frame years-old calibration faults as a current nationwide crisis."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Old material as new. The posts also omit that in 2018 Democratic and Republican officials in Tippecanoe found a calibration problem, not deliberate switching, and that Indiana has since added a paper trail (Snopes)."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Alarm about a stolen election, timed to early voting."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Reposted across four platforms; Tippecanoe's elections specialist called it part of 'a coordinated attack of misinformation and disinformation', but no coordination evidence is published."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No originator identified; the two videos push opposite partisan versions of the same distrust. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Voters of both parties primed to distrust voting machines during early voting for the 11/03 midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Snopes and Lead Stories were opened and trace both videos to dated earlier elections; the posts themselves were not opened."
+     },
+     "mechanism": "Recycled footage: genuine 2014, 2018 and 2019 videos of miscalibrated touch screens re-captioned as 2026 vote-switching (dates documented by Snopes and Lead Stories).",
+     "summary": "Videos from 2014, 2018 and 2019 of touch-screen machines marking the wrong candidate were shared as proof of vote-switching in 2026. Officials at the time blamed calibration. The score applies to the posts, not to the fact-checkers.",
+     "counter_argument": "The footage is genuine and shows real machine faults, so the posts point at a real, if old and fixed, problem; Indiana's Democratic chair said in 2018 that people 'have to feel confident in the equipment, and they didn't'.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The original posts were not opened; their wording comes from Snopes and Lead Stories.",
+      "The 2018 Journal & Courier report was not opened; its content comes from Snopes."
+     ],
+     "sources": [
+      {
+       "outlet": "Snopes",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Video of voting machine 'switching' vote to Republican is misleading and outdated",
+       "url": "https://www.snopes.com/fact-check/video-voting-machine-changing-vote/",
+       "published": "2026-10-23T15:35:39Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Video Does NOT Show Touchscreen Voting Machine Selecting Wrong Candidate From The 2026 Election -- Clips Are From 2014 And 2019",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-touchscreen-voting-machine-selecting-wrong-candidate-from-2026-election-clips-in-video-are-from-2014-and-2019.html",
+       "published": "2026-10-22T10:34:16-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-43-4",
+     "status": "scored",
+     "headline": "Illinois voting machines aren't flagging Republican picks as unpopular, despite video claiming otherwise",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/illinois-voting-machines-republicans/",
+     "published": "2026-10-23",
+     "scored_claim": "A TikTok video, reshared on Facebook, X and YouTube, in which a Cook County, Illinois, voter says a Dominion-made machine told her 'People are not typically choosing this person' when she picked a Republican judicial candidate, with posts presenting it as a widespread problem.",
+     "selection_reason": "Single first-hand claim spread as evidence of systematic interference.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "One identifiable TikTok user describing her own experience; no screenshot of the message is reported."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "There are no Republican judicial candidates on the 2026 Cook County ballot. The clerk's office said it had no other reports among 54,000 early votes, and officials of both parties said the claim was inaccurate (Snopes)."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "Reshares framed one account as a 'widespread issue' and tied it to Dominion, a company Trump has falsely accused before."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "The resharers omit the likely explanation, an undervote notice (Cook County Clerk), and the woman's own follow-up video, which Snopes says was far less popular."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Suggests voters are being steered away from their party."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Spread across Facebook, X and YouTube; no coordination shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The woman said she was not trying to mislead; resharers gain from the 'rigged machines' narrative. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Republican voters in Illinois and nationally who distrust Dominion machines. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Snopes was opened and quotes the Cook County Clerk's statement; the TikTok videos were not opened."
+     },
+     "mechanism": null,
+     "summary": "A Cook County voter said her machine called her Republican pick unpopular; there was no Republican judicial candidate, no other voter reported it, and the clerk says the machine only flags undervotes. She later took the video down. The score applies to the reshared claim of a widespread problem.",
+     "counter_argument": "What she saw is still unclear (Snopes), and she may have honestly misread a real on-screen notice. One voter describing her own experience is not a manipulation campaign.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The TikTok videos and the Cook County Clerk's Facebook statement were not opened; their content comes from Snopes.",
+      "Snopes had not heard back from the woman at publication."
+     ],
+     "sources": [
+      {
+       "outlet": "Snopes",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Illinois voting machines aren't flagging Republican picks as unpopular, despite video claiming otherwise",
+       "url": "https://www.snopes.com/fact-check/illinois-voting-machines-republicans/",
+       "published": "2026-10-23T16:07:06Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 8,
+     "score": 6
+    },
+    {
+     "id": "2026-43-5",
+     "status": "scored",
+     "headline": "Fact Check: Toronto Sun Did NOT Report That Zelenskyy Bought '$42M Underground Nuclear Bunker' In Canada -- Story Is From Impostor Site",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-toronto-sun-did-not-report-that-zelenskyy-bought-42m-underground-nuclear-bunker-in-canada.html",
+     "published": "2026-10-23",
+     "scored_claim": "An article on toronto-sun.ca dated 10/22, headlined 'Zelenskyy buys $42M underground nuclear bunker in Nova Scotia', claiming Nova Scotia registry records show the purchase was completed during his Canada visit in early September, and videos on X carrying the Toronto Sun logo.",
+     "selection_reason": "Fabricated news story on an impostor domain, matching a long-running pattern of claims about Zelenskyy's spending.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The source is a look-alike domain (toronto-sun.ca) registered eight days before the claim spread; the real Toronto Sun is torontosun.com (Lead Stories)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Toronto Sun's deputy editor told Lead Stories: 'That's fake content.' No established outlet reported a sale, and the bunker project's website was live with no mention of one."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The article borrows the Toronto Sun's name and a 'Postmedia News' byline to look like mainstream reporting."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "It cites a registry that is paywalled and says the project website was 'shut down due to a change of ownership', which Lead Stories found false. The photo is a December 2025 stock image of the Debert Diefenbunker."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "A leader buying a luxury bunker abroad invites resentment, though the article itself is written flatly."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "Several X accounts posted videos with the Toronto Sun logo on the same day, 10/22 (Lead Stories)."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "Lead Stories documents many similar fake claims of extravagant Zelenskyy purchases since 2022 but does not attribute this one. Who made it is unknown. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Western audiences, especially in Canada and the U.S., weighing support for Ukraine. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened and quotes the Toronto Sun's denial and WHOIS data. The impostor article itself was not opened from the box."
+     },
+     "mechanism": "Media impersonation: a fabricated story on a look-alike domain registered eight days earlier, using a real outlet's name and byline, then spread as videos with the outlet's logo (documented by Lead Stories and the Toronto Sun's denial).",
+     "summary": "A fake 'Toronto Sun' article on a newly registered look-alike domain said Zelenskyy bought a $42 million nuclear bunker in Nova Scotia. The real Toronto Sun called it fake content, and nothing supports the sale. The score applies to the fake article and the posts spreading it.",
+     "counter_argument": "The bunker and its luxury conversion are real (Forbes, Global News), so the story is built on true details. Nova Scotia's registry is not publicly searchable, so the sale itself cannot be ruled out by the registry alone.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The impostor page (toronto-sun.ca) did not respond to the box's curl and was not opened; its text comes from Lead Stories and a search-tool excerpt.",
+      "The X videos were not opened.",
+      "No researcher or official has attributed this item to a named actor in the sources found."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Toronto Sun Did NOT Report That Zelenskyy Bought '$42M Underground Nuclear Bunker' In Canada -- Story Is From Impostor Site",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-toronto-sun-did-not-report-that-zelenskyy-bought-42m-underground-nuclear-bunker-in-canada.html",
+       "published": "2026-10-23T13:37:35-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-43-6",
+     "status": "scored",
+     "headline": "Fact Check: FAKE AI-Generated Charlie Hebdo Cover On French Protests Does NOT Show Oct. 21, 2026, Issue -- Or Any Other Issue",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-charlie-hebdo-cover-does-not-show-real-october-2026-issue.html",
+     "published": "2026-10-22",
+     "scored_claim": "An image posted on X on 10/21 presented as a Charlie Hebdo cover on the French protests, showing protesters shouting 'FREE PALESTINE!' alongside 'FREE iPHONE! FREE SNEAKERS! ... FREE BALENCIAGA! FREE GUCCI!'.",
+     "selection_reason": "Fake attribution to a known satirical magazine during the French unrest.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "An X post with a partly cropped logo; no creator identified (Lead Stories)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Charlie Hebdo told Lead Stories: 'This image is not a Charlie Hebdo cover.' Sightengine (99%), Hive (99.9%) and SynthID (OpenAI) flagged it as AI-generated."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Ties a pro-Palestinian slogan to looting of luxury goods, casting protesters as thieves using a cause as cover."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "The real 10/21 cover also mocked looting ('An extra hour of shopping!'), so the fake overstates rather than invents the magazine's line; it adds the Palestine link."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Ridicule and tribal contempt more than fear."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Shared on X; no coordination shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No originator identified; the image serves critics of the protests and of pro-Palestinian activism. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Audiences hostile to the French protests and to pro-Palestinian activism, in France and abroad. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened and quotes Charlie Hebdo's denial and three detection tools; the X post was not opened."
+     },
+     "mechanism": null,
+     "summary": "An AI-made image passed off as a Charlie Hebdo cover linked 'Free Palestine' to looting designer goods. Charlie Hebdo says it never ran it; its real cover that week mocked looting differently. The score applies to the fake cover.",
+     "counter_argument": "Charlie Hebdo's real cover that week did satirize looting, so the fake's general point was close to the magazine's own; the forgery mainly adds the Palestine link and the brand list.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The X post was not opened; its content comes from Lead Stories."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: FAKE AI-Generated Charlie Hebdo Cover On French Protests Does NOT Show Oct. 21, 2026, Issue -- Or Any Other Issue",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-charlie-hebdo-cover-does-not-show-real-october-2026-issue.html",
+       "published": "2026-10-22T06:21:27-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-43-7",
+     "status": "scored",
+     "headline": "Fact Check: Image Of Woman With 'Refugees Welcome Here' Sign Does NOT Show October 2026 French Protests -- It Is AI-Altered Photo From London 2016",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-image-of-woman-with-refugee-welcome-sign-does-not-show-october-2026-french-protests.html",
+     "published": "2026-10-21",
+     "scored_claim": "A composite image posted on X on 10/19 implying that a woman filmed arguing outside a looted Franprix store during the 10/17 French protests had held a 'STAND UP TO RACISM. Refugees welcome here' sign.",
+     "selection_reason": "Altered image pairing a real protest scene with a fake activist sign.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "An X post (@Bobstroudsnr); no source given for the 'sign' half."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "SynthID found an AI watermark in the sign half; the original Alamy photo shows a different woman at a 17 June 2016 protest near the French embassy in London (Lead Stories)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Placing her beside a pro-refugee sign recasts a bystander as a hypocritical activist."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Old material altered and presented as new; the real video shows her arguing with the crowd, 'c'est pas la cause!!' ('That's not the cause!!'), and holding no sign."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Tribal hook against refugee supporters, though the post as reported does not use loaded words."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Shared on X; no coordination shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "No originator identified; the image serves anti-immigration narratives about the protests. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "English-speaking audiences hostile to immigration and to pro-refugee activists. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "Lead Stories was opened and documents the 2016 original and the SynthID result. The box's text extraction of the page was partial, and the X post was not opened, so the post's exact caption was not read."
+     },
+     "mechanism": "AI-altered composite: a 2016 London protest photo, edited with AI, paired with a real 2026 Paris looting scene to attach a pro-refugee sign to a bystander (documented by Lead Stories via SynthID and the Alamy original).",
+     "summary": "A composite paired a real woman from a 10/17 Paris looting video with an AI-altered 2016 London protest photo, implying she was a pro-refugee activist. The score applies to the composite.",
+     "counter_argument": "The woman and the looted store are real, and the post may be read as commentary rather than a factual claim; Lead Stories describes the activist link as an implication.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The X post was not opened; its caption was not read in full.",
+      "The box's extraction of the Lead Stories page was partial; the findings used here are those that were read."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Image Of Woman With 'Refugees Welcome Here' Sign Does NOT Show October 2026 French Protests -- It Is AI-Altered Photo From London 2016",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-image-of-woman-with-refugee-welcome-sign-does-not-show-october-2026-french-protests.html",
+       "published": "2026-10-21T08:03:35-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-43-8",
+     "status": "scored",
+     "headline": "Image allegedly shows Paris burning amid ongoing unrest. Is it real?",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/image-paris-burning-riots/",
+     "published": "2026-10-21",
+     "scored_claim": "An 'aerial photograph' shared on X, Instagram and Threads showing fires and smoke across Paris around the Eiffel Tower under a red sky, posted on 10/18 by an account crediting a pilot named Lionel Saal and claimed to be taken on 10/17.",
+     "selection_reason": "AI-made image presented as a photo of real unrest.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "Credited to a named Instagram/Threads account, but no camera or flight details were given (Snopes)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "OpenAI's verification tool found a SynthID watermark; Snopes also notes an unnaturally straight cloud line, smoke all drifting the same way and no visible streets."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "Presented as an aerial photo of Paris burning, implying a city-wide blaze."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "Real fires did burn in Paris streets, some near the Eiffel Tower (Getty, per Snopes), but nothing on this scale."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Apocalyptic imagery of a burning capital."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Spread on X and Instagram; no coordination shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "Engagement is the likely motive. Inference."
+      }
+     },
+     "target_audience": {
+      "text": "Social media users following the French unrest, including those keen to see France as collapsing. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Snopes was opened and cites the SynthID result; the original posts were not opened."
+     },
+     "mechanism": null,
+     "summary": "An AI-made image of Paris ablaze around the Eiffel Tower was shared as an aerial photo of the 10/17 unrest. The score applies to the image as shared.",
+     "counter_argument": "Real fires did burn in Paris, including near the Eiffel Tower, so the image exaggerates a real event rather than inventing one; the original poster may have meant it as illustration.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The image was posted on 10/18 (week 42); it is scored in week 43 because the Snopes debunk (10/21) falls in this week.",
+      "The Instagram and Threads posts were not opened; Snopes had not heard back from the poster."
+     ],
+     "sources": [
+      {
+       "outlet": "Snopes",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Image allegedly shows Paris burning amid ongoing unrest. Is it real?",
+       "url": "https://www.snopes.com/fact-check/image-paris-burning-riots/",
+       "published": "2026-10-21T05:36:08Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 9,
+     "score": 7
+    },
+    {
+     "id": "2026-43-9",
+     "status": "scored",
+     "headline": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response",
+     "published": "2026-10-22",
+     "scored_claim": "The IRGC Navy's 10/22 statement that seven tankers were hit overnight: four conducting ship-to-ship oil transfers 'for an American company' on routes Iran calls illegal, struck and set on fire, and three disabled after hitting mines west of the Strait of Hormuz.",
+     "selection_reason": "New single-source official claim of fact, issued as the U.S. and Iran trade competing accounts of attacks on shipping.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The only source is the IRGC statement on Sepah News and Iranian state TV. No ships, owners, flags or positions were named (gCaptain, Al Jazeera, AP via NBC News)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "None of the seven was independently confirmed. UKMTO issued no matching incident reports (gCaptain). JMIC Update 107 (cut-off 22 Oct 13:00 UTC) lists two confirmed attacks since 18 October, the AL DASMA and MT SOYIA, both by 'unknown projectile'; it records no mine strikes. A CENTCOM spokesperson told Al Jazeera the mine claims were incorrect."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'Illegal' routes and an unnamed 'American company' cast the ships as legitimate targets."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "No casualty, location or vessel details were given that would let anyone check it."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Paired with a threat to extend the conflict to U.S. bases ('This is a serious warning')."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Follows a run of IRGC mine claims the JMIC called unsubstantiated (17 Oct claim, JMIC Update 106)."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented incentive; motive is speculation",
+       "note": "The source is the party carrying out the attacks; reports of mass losses deter use of the U.S.-escorted lane. Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Shipping companies, insurers and crews deciding whether to use the U.S.-escorted lane; oil markets; U.S. voters facing fuel prices before the 11/03 midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "Al Jazeera, gCaptain, NBC News (AP text) and JMIC Update 107 were opened. The JMIC cut-off may predate full reporting of overnight incidents, and UKMTO says many attacked ships do not report to it, so absence of confirmation is not disproof."
+     },
+     "mechanism": null,
+     "summary": "On 10/22 the IRGC said seven tankers were hit in one night, four by its forces and three by mines. No ship was named, UKMTO had no matching reports, the JMIC's same-day advisory confirmed two different attacks, and CENTCOM called the mine claims incorrect. The score applies to the IRGC's claim, not to the outlets.",
+     "counter_argument": "gCaptain notes UKMTO's own admission that it struggles to count attacks because most targeted ships do not report, so some of the seven may be real. Trump's counter-claim that Iran is 'making up fake hits' is equally unverified and comes from the other party to the war.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "The IRGC statement on Sepah News and Iranian state TV were not opened; the wording comes from Al Jazeera, gCaptain and AP via NBC News.",
+      "AP's own page was not opened (AP blocks automated access); AP text was read via NBC News.",
+      "JMIC Update 107's cut-off (22 Oct 13:00 UTC) may be too early to cover all claimed overnight incidents; a later JMIC update was not found.",
+      "This continues the IRGC mine-claim thread scored in week 42 (2026-42-1), but the 10/22 seven-ship claim is a new in-week claim with new sourcing."
+     ],
+     "sources": [
+      {
+       "outlet": "Al Jazeera",
+       "type": "Non-US broadcaster (with AFP and AP)",
+       "role": "in_window",
+       "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+       "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response",
+       "published": "2026-10-22T17:58:04Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "gCaptain",
+       "type": "Independent / maritime trade",
+       "role": "in_window",
+       "title": "Iran Claims More Ships Struck Near Hormuz as Trump Accuses Tehran of 'Faking Hits'",
+       "url": "https://gcaptain.com/iran-claims-more-ships-struck-near-hormuz-as-trump-accuses-tehran-of-faking-hits/",
+       "published": "2026-10-22T09:46:26-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "NBC News (AP text)",
+       "type": "Wire copy (AP), US mainstream",
+       "role": "in_window",
+       "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears of a return to war grow",
+       "url": "https://www.nbcnews.com/world/iran/iran-says-7-oil-tankers-attacked-strait-hormuz-fears-grow-return-war-rcna605108",
+       "published": "2026-10-22T21:33:09Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Joint Maritime Information Center (UKMTO)",
+       "type": "Primary document (multinational maritime security)",
+       "role": "primary",
+       "title": "Update 107 to JMIC Advisory Note, 01 March - 22 October 2026",
+       "url": "https://www.ukmto.org/-/media/ukmto/products/update-107-jmic-advisory-note-22-oct.pdf?rev=bb718e4fe45f4e27bf91cc5ca9927e7b",
+       "published": "2026-10-22",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-43-10",
+     "status": "scored",
+     "headline": "Teen girl accused of helping Russia kill Ukrainian soldiers with poison",
+     "outlet": "CBS News (AFP)",
+     "url": "https://www.cbsnews.com/news/teen-girl-accused-helping-russia-kill-ukraine-soldiers-poison/",
+     "published": "2026-10-23",
+     "scored_claim": "Ukraine's National Police statement (acting chief Maksym Tsutskiridze, 10/23) that a 17-year-old girl, on instructions from a Russian handler, mailed capsules with a lethal dose of methadone to soldiers contacted on Telegram, killing two in Zhytomyr region, and that the scheme serves the FSB's aim 'to kill our people and destabilize the situation within the country'.",
+     "selection_reason": "Official wartime attribution of a crime to the enemy's security service.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "A named official and an official police statement, but the evidence for the FSB link (the handler's identity) is not public."
+      },
+      "verifiability": {
+       "score": 1,
+       "label": "documented",
+       "note": "Ukrainian outlets and AFP repeat the police statement; no court has ruled, and the deaths and the handler's link to the FSB have not been independently confirmed."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'For the FSB this difference does not matter' and 'the goal of Russia is to kill our people' go beyond the charge sheet."
+      },
+      "omission": {
+       "score": 0,
+       "label": "documented",
+       "note": "The statement itself discloses unflattering details: the two dead soldiers had left their units without permission, and the charges are suspicions."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Fear of poisoning is used to warn soldiers and families off strangers' gifts; this is also a legitimate safety message."
+      },
+      "amplification": {
+       "score": 0,
+       "label": "documented",
+       "note": "Ordinary coverage of a police statement; no unusual push."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "documented incentive; motive is speculation",
+       "note": "A party to the war attributes a crime to the enemy; it also has a public-safety reason to publicise it. Motive is inference."
+      }
+     },
+     "target_audience": {
+      "text": "Ukrainian soldiers and their families, and Ukrainian publics. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "CBS News (AFP), Interfax-Ukraine, Ukrinform and the National Police's own page were opened and agree; the FSB link rests on the police's account alone."
+     },
+     "mechanism": null,
+     "summary": "Ukrainian police say a teenager mailed methadone capsules to soldiers on a Russian handler's orders, killing two. The facts come only from the police, who name the official and disclose unflattering details. The score applies to the police's account and its attribution to the FSB.",
+     "counter_argument": "Both sides have documented cases of recruiting minors for sabotage (AFP via CBS), and the police statement is specific, names charges and discloses details that do not help its case, which is not typical of fabricated claims.",
+     "hindsight_note": "After the window: not assessed.",
+     "gaps": [
+      "RFI's AFP report returned HTTP 403 to the box's curl; the AFP text was read via CBS News.",
+      "No court filing or independent confirmation of the deaths or the FSB link was found."
+     ],
+     "sources": [
+      {
+       "outlet": "CBS News (AFP text)",
+       "type": "US mainstream (wire copy AFP)",
+       "role": "in_window",
+       "title": "Teen girl accused of helping Russia kill Ukrainian soldiers with poison",
+       "url": "https://www.cbsnews.com/news/teen-girl-accused-helping-russia-kill-ukraine-soldiers-poison/",
+       "published": "2026-10-23T06:58:51-04:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "National Police of Ukraine",
+       "type": "Primary (official statement, Ukrainian)",
+       "role": "primary",
+       "title": "Maksym Tsutskiridze: Zhytomyr police detained a 17-year-old girl who, according to the investigation, helped the FSB poison Ukrainian soldiers (Ukrainian)",
+       "url": "https://npu.gov.ua/news/maksym-tsutskiridze-politseiski-zhytomyrshchyny-zatrymaly-17-richnu-divchynu-iaka-za-danymy-slidstva-dopomahala-fsb-otruiuvaty-ukrainskykh-viiskovykh",
+       "published": "2026-10-23",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Interfax-Ukraine",
+       "type": "Non-US wire (Ukraine)",
+       "role": "in_window",
+       "title": "Teen girl who helped Russia poison military detained in Zhytomyr region - National Police",
+       "url": "https://en.interfax.com.ua/news/general/1225051.html",
+       "published": "2026-10-23T10:36:52+03:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      },
+      {
+       "outlet": "Ukrinform",
+       "type": "State news agency (Ukraine)",
+       "role": "in_window",
+       "title": "Drug parcels: Teen girl suspected of poisoning Ukrainian servicemen detained in Zhytomyr region",
+       "url": "https://www.ukrinform.net/rubric-ato/4177408-drug-parcels-teen-girl-suspected-of-poisoning-ukrainian-servicemen-detained-in-zhytomyr-region.html",
+       "published": "2026-10-24T03:40+03:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-10-26",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-10-26."
+       }
+      }
+     ],
+     "factor_total": 5,
+     "score": 4
+    }
+   ],
+   "gaps": [
+    "Screening used the Wikipedia 'Portal:Current events' archive for 10/19-10/25 plus the outlets' own pages and fact-checkers (PolitiFact, Snopes, Lead Stories, FactCheck.org); stories without an openable, in-window source were not scored (see screened_not_scored).",
+    "Seven of the ten scored items are viral claims debunked by U.S. fact-checkers (four about the 11/03 midterms, three about the French unrest), so the week's sample leans toward checkable social-media fakes, as noted in the method note.",
+    "AP and Reuters pages were not opened (AP blocks automated access); wire content was read through outlets that carry AP or AFP text (NBC News, CBS News, Al Jazeera), as noted on each source.",
+    "NewsGuard and RFI returned 403 to the box's curl, and the impostor 'Toronto Sun' page (toronto-sun.ca) did not respond; their content was read only through other sources or a search-tool excerpt, as noted on each item.",
+    "The JMIC Update 107 cut-off (22 Oct 13:00 UTC) may predate full reporting of the IRGC's 10/22 claims; no later JMIC update was found.",
+    "Sourced items beyond SKILL.md's cap of about 10 per run were listed in screened_not_scored rather than scored.",
+    "Hindsight notes cover only what I found by 10/26/2026; later outcomes were not researched."
+   ],
+   "screened_not_scored": [
+    {
+     "headline": "Fact Check: FAKE Video Shows People Fishing iPhones Out of Water After Missile Attack on Ship in Strait of Hormuz -- It Is AI",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-video-shows-people-fishing-iphones-out-of-water-after-missile-attack-on-ship-in-strait-of-hormuz-it-is-ai.html",
+     "reason": "Sourced and opened, but not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this item ranked lower in reach or relevance than the 10 scored. Video posted 10/17 (week 42); debunk 10/20."
+    },
+    {
+     "headline": "Fact Check: FAKE Images, Videos Show Pink Panther at Paris Protests",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-images-videos-show-pink-panther-at-paris-protests.html",
+     "reason": "Sourced and opened, but not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this item ranked lower in reach or relevance than the 10 scored. AI novelty imagery with little claim of fact."
+    },
+    {
+     "headline": "Fact Check: Video Shows Madrid Street Vendors NOT Paris Looters -- Footage Predates Recent French Rioting",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-shows-vendors-in-spain-not-france-predates-recent-rioting-goods-could-not-be-from-paris-looting.html",
+     "reason": "Sourced and opened, but not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this item ranked lower in reach or relevance than the 10 scored."
+    },
+    {
+     "headline": "Fact Check: FAKE Photo Shows Netanyahu In Front Of Whiteboard Plan Involving \"SPAIN\" -- Generated With OpenAI",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-photo-shows-netanyahu-in-front-of-whiteboard-plan-involving-spain-generated-with-openai.html",
+     "reason": "Sourced and opened, but not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this item ranked lower in reach or relevance than the 10 scored. Image first posted 10/14 (week 42); debunk 10/20."
+    },
+    {
+     "headline": "Fact Check: Edited Video Does NOT Prove Sweden's King Refused To Shake Zelenskyy's Hand",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-edited-video-does-not-prove-sweden-king-refused-to-shake-zelenskyy-hand.html",
+     "reason": "Sourced and opened, but not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this item ranked lower in reach or relevance than the 10 scored. Concerns an April 2026 meeting; the in-week date of the viral posts was not confirmed."
+    },
+    {
+     "headline": "Does Poland allow border guards to shoot at migrants? Here's what the law says",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/poland-border-guards-migrants/",
+     "reason": "Sourced and opened, but not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this item ranked lower in reach or relevance than the 10 scored. Rated 'Mixture': the core refers to a real 2024 law, so it is mostly a context dispute."
+    },
+    {
+     "headline": "Did Mexico, NY, change its name to 'Epstein List' to avoid being renamed by Trump?",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/mexico-ny-epstein-list-name-change/",
+     "reason": "Opened; Snopes rates it 'Labeled Satire', so it is not a deceptive claim; not scored."
+    },
+    {
+     "headline": "Talarico's Campaign-Trail Absence Sparks False Rumor",
+     "outlet": "FactCheck.org",
+     "url": "https://www.factcheck.org/2026/10/talaricos-campaign-trail-absence-sparks-false-rumor/",
+     "reason": "Opened; published 10/13, outside this week, so not scored here."
+    },
+    {
+     "headline": "Iran Claims More Tankers Hit Mines in Hormuz, But Evidence Remains Elusive",
+     "outlet": "gCaptain",
+     "url": "https://gcaptain.com/iran-claims-more-tankers-hit-mines-in-hormuz-but-evidence-remains-elusive/",
+     "reason": "Already cited as a hindsight source for week 42 (2026-42-1, the IRGC mine-claim thread); not re-scored. The new 10/22 seven-ship claim is scored as 2026-43-9."
+    },
+    {
+     "headline": "Ukraine says two soldiers died after arrested girl sent Russian poison (descriptive label)",
+     "outlet": "AFP via RFI",
+     "url": "https://www.rfi.fr/en/international-news/20261023-ukraine-says-two-soldiers-died-after-arrested-girl-sent-russian-poison",
+     "reason": "Not opened (RFI returned 403 to curl); the same AFP report was read via CBS News and is scored as 2026-43-10."
+    },
+    {
+     "headline": "Melania Trump secures Oleshky ceasefire between Russia, Ukraine, White House says (descriptive label)",
+     "outlet": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-russia-agree-to-local-ceasefire-for-russian-occupied-oleshky-mediated-by-melania-trump/",
+     "reason": "Headline-level screen only; both Russia and Ukraine confirmed the agreement (Wikipedia Current events, 10/23), so there is no disputed core claim; not scored."
+    },
+    {
+     "headline": "At least seven killed after gunmen open fire at church in Jordan (descriptive label)",
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan",
+     "reason": "Headline-level screen only; breaking news event with no manipulation claim found; not scored."
+    },
+    {
+     "headline": "Florida issues arrest warrant for Cuban leader Raul Castro (descriptive label)",
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro",
+     "reason": "Headline-level screen only; a documented court action, not checked for disputed claims; not scored."
+    },
+    {
+     "headline": "US orders departure of personnel from Saudi Arabia citing Houthi threat (descriptive label)",
+     "outlet": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat",
+     "reason": "Headline-level screen only; official travel order with no disputed claim; not scored."
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "week": 44,
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
    "status": "in_progress",
    "psyops": [],
    "gaps": [
