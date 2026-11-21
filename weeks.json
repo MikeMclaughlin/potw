@@ -1,7 +1,7 @@
 {
  "schema_version": "1.3",
  "app_version": "1.3",
- "updated": "2026-10-26T06:07:45-04:00",
+ "updated": "2026-11-20T20:10:48-05:00",
  "disclaimer": "A score is an evidence-based judgment, not a verdict. It is an estimate from the evidence found, never proof of intent.",
  "scale": {
   "min": 1,
@@ -63,7 +63,7 @@
    "description": "Who gains if you believe this, and is that party the source?"
   }
  ],
- "method_note": "Every sourced psyop found in a week is scored and listed under that week; a story with no sourced, openable evidence is not scored. The score applies to the claim named in 'scored claim', not to the outlet's reporting of it: where the Outlet column shows a fact-checker or news outlet, the claim being scored is often the viral post, video or official statement it examined. Honest note on skew: the scores in this data run high. 176 of 222 psyops (79%) score 5 to 9, the mean is 6.1, and 7 is the most common score (65). Many of the high scores belong to viral fakes and AI-generated items that fact-checkers had already debunked, and the scan favored stories with a checkable claim, so this is a selected sample, not a base rate for the news. The skew was noted and no score was altered. Eight psyops carry a confidence label of 'Medium-High' as recorded by the scan. Weeks that are in progress or not yet scanned stay in this file and are not shown.",
+ "method_note": "Every sourced psyop found in a week is scored and listed under that week; a story with no sourced, openable evidence is not scored. The score applies to the claim named in 'scored claim', not to the outlet's reporting of it: where the Outlet column shows a fact-checker or news outlet, the claim being scored is often the viral post, video or official statement it examined. Honest note on skew: the scores in this data run high. 208 of 258 psyops (81%) score 5 to 9, the mean is 6.4, and 7 is the most common score (75). Many of the high scores belong to viral fakes and AI-generated items that fact-checkers had already debunked, and the scan favored stories with a checkable claim, so this is a selected sample, not a base rate for the news. The skew was noted and no score was altered. Nine psyops carry a confidence label of 'Medium-High' as recorded by the scan. Weeks that are in progress or not yet scanned stay in this file and are not shown.",
  "weeks": [
   {
    "year": 2025,
@@ -25246,6 +25246,2307 @@
    "week": 44,
    "week_start": "2026-10-26",
    "week_end": "2026-11-01",
+   "status": "scanned",
+   "psyops": [
+    {
+     "id": "2026-44-1",
+     "status": "scored",
+     "headline": "Fact Check: FAKE Cleveland 19 Report 'Four Former Staffers Have Accused Sherrod Brown Of Sexual Assault' -- AI-Generated Audio",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-cleveland-19-report-four-former-staffers-have-accused-sherrod-brown-of-sexual-assault.html",
+     "published": "2026-10-28",
+     "scored_claim": "A one-minute clip, first posted on X on 10/26 by @X_Global_tv and later by @ROYALMRBADNEWS, presented as a WOIO Cleveland 19 report that 'Four former staffers have accused Sherrod Brown of sexual assault' between 2019 and 2024, including in his Senate office, a hotel room and a Senate hearing room, and naming Shalisha Bamberg as a former legislative fellow among the accusers.",
+     "selection_reason": "Fabricated local-TV sexual-assault accusation against an Ohio Democrat a week before the midterms, with a documented influence-operation pattern.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The only sources are new or amplifier X accounts; a search of cleveland19.com, Google News and Yahoo News found no matching WOIO report (Lead Stories)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Hive Moderation rated a clip of the voiceover 88.4% likely to have AI-generated speech (Lead Stories). The opening seconds reuse real 10/21 footage of anchor Nichole Vrsansky from a segment about an Amy Acton attack ad, then diverge into the assault script. Both versions show the same on-screen time and temperature."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Presented as breaking local news with graphic sexual-assault allegations against a named former senator and Senate candidate."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The clip conceals that the real 10/21 broadcast was about a campaign ad, not assault allegations, and that no news organization reported such accusations."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Graphic sexual-assault details are used as the hook."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "NewsGuard, in an 10/27 report titled 'Russia Fabricates Sexual Assault Charges Against Sherrod Brown,' attributed the format and amplification pattern to the Russia-aligned operation Storm-1516; the Gnida Project made the same attribution in an 10/26 X post. X later suspended @X_Global_tv (Lead Stories)."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented assessment; motive is speculation",
+       "note": "NewsGuard's assessment and the Storm-1516 pattern (impersonating a U.S. outlet to smear a Democrat before the midterms) are documented research judgments, not a public official finding. Who commissioned the video is not independently proven."
+      }
+     },
+     "target_audience": {
+      "text": "Ohio and national audiences hostile to Sherrod Brown and to Democrats, in the week before the 11/03 midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the Hive result and the comparison with the real 10/21 WOIO broadcast. NewsGuard's own page was not opened; its findings are taken from Lead Stories. Attribution to Storm-1516 is a research assessment."
+     },
+     "mechanism": "Imposter newscast: AI voiceover and spliced real anchor footage were used to impersonate Cleveland 19 and make a graphic sexual-assault accusation, a format NewsGuard and the Gnida Project attribute to Storm-1516 (documented by Lead Stories; attribution is a research assessment).",
+     "summary": "A fabricated Cleveland 19 segment accused Sherrod Brown of sexual assault. The voiceover is AI-generated, the opening shot is taken from a real 10/21 newscast about a different story, and no news outlet reported the allegations. NewsGuard and the Gnida Project attribute the video to Storm-1516. The score applies to the video, not to the fact-checkers.",
+     "counter_argument": "The Storm-1516 attribution rests on format and amplification, not on public proof of who made the clip. Hive's 88.4% score is a tool result, not a human authentication of every frame.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later WOIO confirmation of such allegations and no official U.S. government finding that names the video's producer.",
+     "gaps": [
+      "NewsGuard's 10/27 report was not independently opened; its title and attribution are taken from Lead Stories.",
+      "The original X posts were not opened; their wording comes from Lead Stories, which archived them."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: FAKE Cleveland 19 Report 'Four Former Staffers Have Accused Sherrod Brown Of Sexual Assault' -- AI-Generated Audio",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-fake-cleveland-19-report-four-former-staffers-have-accused-sherrod-brown-of-sexual-assault.html",
+       "published": "2026-10-28T13:17:11-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      },
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Russian influence operation linked to attacks targeting Democrats in Maine, Ohio, Texas",
+       "url": "https://politifact.com/article/2026/oct/30/russia-talarico-jackson-brown-storm-1516-senate/",
+       "published": "2026-10-30",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 14,
+     "score": 10
+    },
+    {
+     "id": "2026-44-2",
+     "status": "scored",
+     "headline": "Pants on Fire! Trump calls Michigan’s Abdul El-Sayed a ‘jihadist,’ escalating anti-Muslim attacks",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/27/donald-trump/el-sayed-muslim-brotherhood-jihadist-michigan/",
+     "published": "2026-10-27",
+     "scored_claim": "At an 10/25 rally in Port Huron, Michigan, President Donald Trump said he was there 'to keep a jihadist Muslim Brotherhood member from becoming a United States senator,' named Abdul El-Sayed, compared the race to 'stop[ping] a jihadist from walking into the Capitol' by invoking Todd Beamer and Flight 93, and said El-Sayed would 'be the only senator that will have to go through a metal detector.'",
+     "selection_reason": "A presidential false terrorist label aimed at a Muslim Senate candidate in the final week before the midterms.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The White House did not respond to PolitiFact's request for evidence. The claim is asserted by the speaker, not sourced to a document or membership record."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "PolitiFact found El-Sayed has never advocated violence to promote Islam, is not a Muslim Brotherhood member, has disavowed the group, and holds positions (including support for LGBTQ rights) that conflict with it, according to professors Mohammad Hassan Khalil, Nathan Brown and Juan Cole. El-Sayed on 10/26 called the attacks 'deflections and deceptions based on no evidence.'"
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The words 'jihadist' and a 9/11 comparison, plus the metal-detector line, frame a U.S.-born Michigan candidate as a terrorist infiltrator."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "Trump cited a 2012 letter El-Sayed signed with other Egyptian Americans defending elected president Mohamed Morsi and calling to 'purge the media and police.' Scholars told PolitiFact the letter was pro-Morsi and partisan, not membership in the Brotherhood; that context is omitted in the 'jihadist Muslim Brotherhood member' label."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "9/11 and 'jihadist' rhetoric is used to provoke fear of a Muslim candidate."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "The remarks were delivered at a presidential rally with Republican Senate candidate Mike Rogers present and were widely reported; PolitiFact rated the claim Pants on Fire."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented",
+       "note": "The speaker is the president campaigning against El-Sayed in the campaign's final week. Inference as to motive; the electoral incentive is documented."
+      }
+     },
+     "target_audience": {
+      "text": "Michigan and national Republican and undecided voters in the Senate race between El-Sayed and Mike Rogers, and audiences already primed to view Muslim candidates as security threats. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact was opened, including the rally quotations and the scholar interviews. The 10/25 rally video itself was not opened; the quotations are taken from PolitiFact."
+     },
+     "mechanism": "False terrorist labeling: a president used the words 'jihadist' and a 9/11 comparison, without evidence of violence or Brotherhood membership, to portray a Muslim Senate candidate as a security threat days before the midterms (documented in the rally remarks reported by PolitiFact).",
+     "summary": "At a Michigan rally, Trump called Senate candidate Abdul El-Sayed a 'jihadist Muslim Brotherhood member' and compared stopping him to the Flight 93 passengers. El-Sayed has disavowed the Brotherhood and has not advocated jihadist violence. The score applies to Trump's claim, not to the fact-check.",
+     "counter_argument": "El-Sayed did sign a 2012 statement defending Mohamed Morsi, which Trump treated as Brotherhood support. That letter is real even if it does not make El-Sayed a jihadist or a Brotherhood member. The rally was on 10/25, the last day of the previous ISO week; this item is included because the fact-check and El-Sayed's 10/26 response fall in week 44.",
+     "hindsight_note": "After the window, as of 11/20/2026: news organizations projected that El-Sayed defeated Mike Rogers and became the first Muslim elected to the U.S. Senate (The Washington Post and Time, as recorded on Wikipedia's 11/03 current-events page; The Guardian, 11/04).",
+     "gaps": [
+      "The 10/25 rally video was not opened; quotations are from PolitiFact.",
+      "The 2012 Arabic statement was not independently opened; PolitiFact says it used Google Translate."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Pants on Fire! Trump calls Michigan’s Abdul El-Sayed a ‘jihadist,’ escalating anti-Muslim attacks",
+       "url": "https://politifact.com/factchecks/2026/oct/27/donald-trump/el-sayed-muslim-brotherhood-jihadist-michigan/",
+       "published": "2026-10-27T16:02:30-04:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 13,
+     "score": 9
+    },
+    {
+     "id": "2026-44-3",
+     "status": "scored",
+     "headline": "Flavio Bolsonaro declares himself 'elected president' of Brazil, claims 'criminals' rigged contest",
+     "outlet": "New York Post (Reuters)",
+     "url": "https://nypost.com/2026/10/28/world-news/flavio-bolsonaro-declares-himself-elected-president-of-brazil-claims-criminals-rigged-contest/",
+     "published": "2026-10-28",
+     "scored_claim": "In an open letter released after landing in Miami on 10/28, defeated Brazilian candidate Flávio Bolsonaro said: 'I want to say, not only to my 60 million voters but to the Brazilian people, that I am the elected president and that the criminals who stole Brazil’s election are part of a criminal organization that has established a tyranny.' He provided no evidence of fraud. He later deleted that letter and published another calling himself 'the leader of Brazil' rather than the 'true president' (The Guardian).",
+     "selection_reason": "The losing candidate, from exile in the U.S., claimed a certified election was stolen after his own party and observers accepted the result.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Bolsonaro offered no evidence for the alleged fraud (New York Post/Reuters). International observers found the 10/25 vote fair. His Liberal Party said on Monday: 'We recognise the presidential result' (The Guardian)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Brazil's electoral court announced Lula's win the same day: 51.79% (64,256,232) to 48.21% (59,826,041), a margin of about 4.4 million votes (Lead Stories, citing the TSE). Fewer than 35,000 votes, about 0.03%, were cast in the extra two hours of voting (Insper professor Pedro Burgos, via the New York Post)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The letter used 'elected president,' 'criminals who stole Brazil’s election' and 'tyranny.' Brazil's three main newspapers described the declaration as 'coup-mongering' (The Guardian)."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "He based the rejection partly on a Supreme Court extension of voting hours requested by Lula's campaign over alleged suppression in the northeast, while omitting that his own campaign also sought an extension because of rain in the south (New York Post/Reuters)."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "'Stolen' election and 'tyranny' language is used to keep his voters from accepting a certified defeat."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The letter was circulated to journalists by allies; at least three versions appeared. He later deleted the 'true president' wording (The Guardian). No coordinated cross-outlet copy was shown."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented",
+       "note": "The speaker is the losing candidate, who had just fled a passport-surrender order tied to a money-laundering investigation he denies, and who thanked President Trump and Argentina's Javier Milei for help leaving (New York Post; The Guardian)."
+      }
+     },
+     "target_audience": {
+      "text": "Bolsonaro's 60 million voters and Brazilian right-wing audiences, plus U.S. and international allies who might treat the result as illegitimate. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "The New York Post (Reuters) and The Guardian pages were opened and agree on the letter's wording, the lack of evidence, and the later edit to 'leader of Brazil.' TSE figures are taken from an opened Lead Stories check."
+     },
+     "mechanism": "Stolen-election narrative: the losing candidate, from exile, declared himself the winner and accused 'criminals' of theft after certified results, observers and his own party had accepted Lula's victory, without producing evidence (documented by Reuters via the New York Post and The Guardian).",
+     "summary": "After losing Brazil's 10/25 runoff and arriving in Miami, Flávio Bolsonaro declared himself the elected president and said criminals had stolen the election. Official results, observers and his own party contradicted that. He later softened the wording to 'leader of Brazil.' The score applies to his claim.",
+     "counter_argument": "He pointed to a real voting-hours extension, and he did win about 48% of the vote. That does not support a claim that he won or that the election was stolen, given the 4.4 million-vote margin and the tiny number of after-5 p.m. ballots.",
+     "hindsight_note": "After the window, as of 11/20/2026: I did not research a later concession, return to Brazil, or court ruling beyond what is in the in-window sources.",
+     "gaps": [
+      "Reuters' own page was not opened (it returned HTTP 401 to the box); the New York Post page carries Reuters text and was opened.",
+      "The open letter itself was not opened as a standalone file; wording is from the New York Post and The Guardian."
+     ],
+     "sources": [
+      {
+       "outlet": "New York Post (Reuters)",
+       "type": "Mainstream (US), carrying Reuters",
+       "role": "in_window",
+       "title": "Flavio Bolsonaro declares himself 'elected president' of Brazil, claims 'criminals' rigged contest",
+       "url": "https://nypost.com/2026/10/28/world-news/flavio-bolsonaro-declares-himself-elected-president-of-brazil-claims-criminals-rigged-contest/",
+       "published": "2026-10-28T21:16:20+00:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      },
+      {
+       "outlet": "The Guardian",
+       "type": "Mainstream (UK)",
+       "role": "in_window",
+       "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+       "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+       "published": "2026-10-28T22:06:46.000Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-44-4",
+     "status": "scored",
+     "headline": "Fact Check: 8 Million Brazilians Did NOT Vote Without ID After Polls Closed -- Election Court Says Claim Is False",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-official-data-do-not-support-claim-that-8-million-voted-in-brazil-without-id-after-polls-were-scheduled-to-close.html",
+     "published": "2026-10-29",
+     "scored_claim": "An 10/28 X post by @migueljrinveste claimed, in translation, that it had been 'PROVEN THAT FLÁVIO WON THE ELECTION' because '8 MILLION PEOPLE VOTED WITHOUT ANY IDENTIFICATION AFTER THE POLLS CLOSED AND THE STATIONS CLOSED.'",
+     "selection_reason": "A viral numbers claim used to invert Brazil's certified runoff result.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post's own table labeled the 8,632,488 figure as 'Total voters cleared without biometrics' (6.73% of turnout), not as votes without ID or votes after closing (Lead Stories)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Brazil's Superior Electoral Court told Lead Stories on 10/29: 'The claim that 8 million people voted after polling stations had closed is false.' TSE data show 34,393 votes after 5 p.m. Photo ID is required; biometrics is a second step, with a manual date-of-birth check if fingerprints fail."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post is headed 'URGENT' and says Flávio 'WON,' which contradicts the certified 4.4 million-vote Lula margin."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The 8.6 million 'without biometrics' figure is recast as 'without any identification' and as after-hours voting."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "All-caps urgency and a stolen-election hook, though the post is a table rather than graphic imagery."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The claim was posted on X; Lead Stories found no supporting reports in Google News. No coordination was shown."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "speculation",
+       "note": "The post serves Bolsonaro's refusal to concede. The poster's identity and motive were not established."
+      }
+     },
+     "target_audience": {
+      "text": "Brazilian and Portuguese-speaking audiences who already doubted the 10/25 runoff, and international users who saw translated versions. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the TSE email and the after-5 p.m. breakdown. The TSE website itself was not opened."
+     },
+     "mechanism": "False inversion of official figures: a biometric-waiver total of about 8.6 million was recast as 8 million no-ID, after-hours votes proving the loser had won, contrary to the election court's data (documented by Lead Stories and a TSE statement).",
+     "summary": "A viral post said 8 million Brazilians voted without ID after polls closed and that this proved Flávio Bolsonaro won. The table it used counted voters cleared without biometric confirmation, and the election court said only 34,393 votes were cast after 5 p.m. The score applies to the post.",
+     "counter_argument": "Some voters are cleared without a fingerprint match, and voting hours were extended; those facts are real. They do not add up to 8 million after-hours, no-ID votes or a Bolsonaro win.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later TSE revision that would support the 8 million figure.",
+     "gaps": [
+      "The original X post was not opened; wording and the table caption are from Lead Stories.",
+      "The TSE web tool was not independently opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: 8 Million Brazilians Did NOT Vote Without ID After Polls Closed -- Election Court Says Claim Is False",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-official-data-do-not-support-claim-that-8-million-voted-in-brazil-without-id-after-polls-were-scheduled-to-close.html",
+       "published": "2026-10-29T12:25:23-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-44-5",
+     "status": "scored",
+     "headline": "Are voting machines notifying voters that candidates are unpopular? No, despite viral claims",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/27/social-media/voting-machine-undervote-illinois-cook-county/",
+     "published": "2026-10-27",
+     "scored_claim": "Viral posts, including a Wall Street Apes X post with 1.4 million views and a Catturd share, treated a Cook County, Illinois, woman's account of a voting-machine message — she said the bar read, 'People are not typically choosing this person!' when she selected 'Republican judges' — as proof the election is 'RIGGED,' and tied the equipment to Dominion.",
+     "selection_reason": "A midterm-week 'rigged machines' claim built on a misread of a required undervote notice.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The claim rests on one voter's TikTok account of on-screen wording. Cook County Clerk Monica Gordon called that account 'false and misleading' and said equipment 'does not tell voters which candidates are more popular.'"
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The clerk's office showed the actual notice: 'This contest is undervoted!' Federal certification guidelines require undervote notices (Ryan Macias; EAC guidelines cited by PolitiFact). Streamwood Village Clerk Aris Garcia, a Republican, said officials could not reproduce the message the woman described. There are no Republican judicial candidates on the Cook County ballot (deputy clerk Sally Daly)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Amplifier captions used 'RIGGED' and named Dominion, a company long targeted with false fraud claims."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "The posts omit that undervote alerts are a required 'second chance' feature and that the woman later said she had named the wrong race."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The woman's video is anxious rather than graphic; the 'RIGGED' framing is supplied by amplifiers."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "Wall Street Apes (1.4 million views) and Catturd reshared the video on 10/20; PolitiFact's 10/27 check documents that it was still being treated as proof of fraud."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The 'RIGGED'/Dominion frame is used in pre-midterm election-fraud narratives. The original poster's motive is not established."
+      }
+     },
+     "target_audience": {
+      "text": "U.S. audiences already distrustful of Dominion and of election equipment, especially Republican voters in the midterm early-vote period. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact was opened, including the clerk's wording, the undervote screenshot description, and the 1.4 million-view figure. The TikTok and X posts were not opened."
+     },
+     "mechanism": "False 'rigged machine' frame: a required undervote notice was recast, via a single anecdote and high-reach shares, as proof that Dominion equipment was steering voters (documented by PolitiFact and Cook County officials).",
+     "summary": "A Cook County voter said a machine told her that 'people are not typically choosing' her candidate; amplifiers called the election 'RIGGED.' Officials say the only such notice is an undervote warning required by certification rules, and they could not reproduce her wording. The score applies to the 'rigged' claim, not to the fact-check. The original video was posted 10/20 (week 43); it is scored here because the PolitiFact check and continued circulation fall on 10/27.",
+     "counter_argument": "The woman may have misread a real undervote notice rather than invented a story, and a single report in a county of 1.8 million registered voters is not by itself a coordinated operation.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later official confirmation of a popularity warning on Cook County machines.",
+     "gaps": [
+      "The original TikTok and the Wall Street Apes and Catturd posts were not opened; quotations are from PolitiFact.",
+      "The original video is dated 10/20, in week 43."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Are voting machines notifying voters that candidates are unpopular? No, despite viral claims",
+       "url": "https://politifact.com/factchecks/2026/oct/27/social-media/voting-machine-undervote-illinois-cook-county/",
+       "published": "2026-10-27T16:26:45-04:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-44-6",
+     "status": "scored",
+     "headline": "Fact Check: Video Does NOT Show Bolsonaro With Fewer Votes In Second Round Of 2026 Brazilian Presidential Election, Proving Fraud -- Vote Count Was Incomplete",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-bolsonaro-with-fewer-votes-in-second-round-of-2026-brazilian-presidential-election-proving-fraud-vote-count-incomplete.html",
+     "published": "2026-10-26",
+     "scored_claim": "An X post and video by @KayrusFenix, circulating 10/25-10/26, said 'FRAUD UNCOVERED' and 'CANCEL THE ELECTIONS NOW' because, with about 93% of ballot boxes counted in the runoff, Flávio Bolsonaro appeared not to have added the first-round votes of eliminated candidates, which the speaker called 'inexplicable.'",
+     "selection_reason": "An incomplete tally was treated as proof of fraud and a reason to annul the election.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The video uses the live official count as its source, but draws a fraud conclusion from a partial total."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories showed the on-screen count was still approaching 93%. Once all ballots were counted, Bolsonaro had 3.7 million more votes than in the first round, even though he lost to Lula (Lead Stories)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The caption says 'FRAUD UNCOVERED' and calls for the election to be annulled."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The video treats an in-progress tally as the final result and omits that more boxes were still being counted."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The speaker sounds agitated; the fraud hook is in the caption rather than graphic imagery."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post circulated on X; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The post supports a narrative that the runoff was stolen. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Bolsonaro supporters watching the incomplete 10/25 count and later shares of the clip. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the translated transcript and the incomplete-tally screenshots. Official TSE dashboards were not opened."
+     },
+     "mechanism": null,
+     "summary": "A video treated an in-progress runoff count, with about 93% of boxes reported, as proof of fraud because Bolsonaro had not yet matched a naive 'all other votes transfer' expectation. The final tally gave him 3.7 million more votes than in the first round, and he still lost. The score applies to the video. The first post is dated 10/25, the last day of week 43; the Lead Stories check is 10/26.",
+     "counter_argument": "Partial results can look confusing in a two-round system, and the speaker may have been sincerely puzzled rather than trying to annul a certified result.",
+     "hindsight_note": "After the window, as of 11/20/2026: official results as reported in opened sources still show Lula's win; I found no later revision that would match the video's fraud claim.",
+     "gaps": [
+      "The original X video was not opened; the transcript is from Lead Stories.",
+      "TSE dashboards were not independently opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Video Does NOT Show Bolsonaro With Fewer Votes In Second Round Of 2026 Brazilian Presidential Election, Proving Fraud -- Vote Count Was Incomplete",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-does-not-show-bolsonaro-with-fewer-votes-in-second-round-of-2026-brazilian-presidential-election-proving-fraud-vote-count-incomplete.html",
+       "published": "2026-10-26T11:16:27-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-44-7",
+     "status": "scored",
+     "headline": "Fact Check: Video Of Crying Flávio Bolsonaro PREDATES Election Results Announcement",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-of-crying-flavio-bolsonaro-predates-election-results-announcement.html",
+     "published": "2026-10-26",
+     "scored_claim": "An 10/26 X post by @EdKrassen presented a clip as 'Flavio Bolsonaro crying after losing the election in Brazil.' The footage had been recorded days earlier; the audio matched an 10/22 livestream on Bolsonaro's own YouTube channel, and an earlier caption said it was filmed three days before election day (Lead Stories).",
+     "selection_reason": "Old campaign footage was recast as an election-night concession scene.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The clip is real footage of Bolsonaro, but the date and context in the 10/26 caption are wrong."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories matched the audio to an 10/22 YouTube livestream from Bolsonaro's channel and noted that an earlier caption dated the scene three days before the 10/25 vote, before results were announced."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The 10/26 caption places the tears 'after losing the election,' which the timeline contradicts."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Old material is presented as a reaction to the official result."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "A crying candidate is an emotional hook, but the clip itself is not graphic."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The clip was shared on X; no coordinated campaign was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The misdating serves a narrative about his defeat. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "English-speaking social-media users following Brazil's runoff, for whom an election-night breakdown would confirm the result or invite mockery. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the 10/22 livestream match. The YouTube livestream itself was not opened."
+     },
+     "mechanism": null,
+     "summary": "A clip of Flávio Bolsonaro in tears was shared on 10/26 as a reaction to his defeat. Lead Stories found it matches an 10/22 livestream, before official results. The score applies to the misdated caption.",
+     "counter_argument": "The man in the video is Bolsonaro, and he did lose on 10/25; some viewers may have treated the clip as symbolic rather than as a timestamped news event.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later evidence that the clip was filmed after the result was announced.",
+     "gaps": [
+      "Bolsonaro's 10/22 YouTube livestream was not independently opened; the match is from Lead Stories.",
+      "The original @EdKrassen post was not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Video Of Crying Flávio Bolsonaro PREDATES Election Results Announcement",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-video-of-crying-flavio-bolsonaro-predates-election-results-announcement.html",
+       "published": "2026-10-26T14:39:16-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-44-8",
+     "status": "scored",
+     "headline": "In NH Senate race, Chris Pappas said John E. Sununu ‘cashed in’ with ‘Big Pharma.’ That’s exaggerated",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/26/chris-pappas/john-sununu-pharma-lobbying-new-hampshire-senate/",
+     "published": "2026-10-26",
+     "scored_claim": "In an 10/13 New Hampshire Senate debate, Democratic Rep. Chris Pappas said that after leaving the Senate, Republican John E. Sununu 'went and cashed in, working for these same corporate special interests, earning up to $35 million dollars' from 'Big Pharma.'",
+     "selection_reason": "A campaign wealth attack that treats the high end of a net-worth range as pharmaceutical earnings.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "Pappas points to financial-disclosure forms, which are real, but uses them selectively."
+      },
+      "verifiability": {
+       "score": 1,
+       "label": "documented",
+       "note": "Disclosures show Sununu's net worth between $7.9 million and $36.3 million, far higher than when he left the Senate in January 2009, and about $5 million from Boston Scientific, a major medical-technology company (PolitiFact). That is not 'up to $35 million' from 'Big Pharma.'"
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "'Cashed in' and 'Big Pharma' are loaded, but the debate line is standard campaign rhetoric."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The 'up to $35 million' figure is the high end of total net worth, not documented pharma earnings, and the low end of the same range is $7.9 million."
+      },
+      "emotional": {
+       "score": 0,
+       "label": "documented",
+       "note": "The claim is about money, not a fear or outrage hook beyond ordinary campaign attack ads."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The line was used in a debate and then fact-checked; no viral coordination was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "documented",
+       "note": "Pappas is Sununu's opponent in an open Senate race. Inference as to motive."
+      }
+     },
+     "target_audience": {
+      "text": "New Hampshire voters in the Pappas-Sununu Senate race, especially those already skeptical of pharmaceutical lobbying. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact was opened, including the debate quotation and the disclosure range."
+     },
+     "mechanism": null,
+     "summary": "Pappas said Sununu 'cashed in' with Big Pharma, 'earning up to $35 million.' Disclosures show a wide net-worth range and about $5 million from a medical-technology firm, not $35 million in pharmaceutical pay. The score applies to Pappas's claim. PolitiFact rated it Mostly False.",
+     "counter_argument": "Sununu's post-Senate wealth did rise, and Boston Scientific money is a real part of it. The exaggeration is in the amount and in labeling all of it 'Big Pharma.'",
+     "hindsight_note": "After the window, as of 11/20/2026: I did not separately re-audit the disclosure forms.",
+     "gaps": [
+      "The 10/13 debate video was not opened; the quotation is from PolitiFact.",
+      "The financial-disclosure PDFs were not independently opened."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "In NH Senate race, Chris Pappas said John E. Sununu ‘cashed in’ with ‘Big Pharma.’ That’s exaggerated",
+       "url": "https://politifact.com/factchecks/2026/oct/26/chris-pappas/john-sununu-pharma-lobbying-new-hampshire-senate/",
+       "published": "2026-10-26",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 7,
+     "score": 5
+    },
+    {
+     "id": "2026-44-9",
+     "status": "scored",
+     "headline": "Fact-checking David Jolly’s claim that Byron Donalds suggested there were good parts of Jim Crow",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/26/david-jolly/donalds-fl-governor-midterms-jim-crow-black-family/",
+     "published": "2026-10-26",
+     "scored_claim": "At an 10/20 campaign stop, Florida Democratic gubernatorial candidate David Jolly said his opponent, Rep. Byron Donalds, 'suggests there were good parts of Jim Crow,' grouping that remark with states that 'might want to teach our kids the “good parts” of slavery.'",
+     "selection_reason": "A campaign characterization of a real 2024 Donalds remark that omits what Donalds said he meant.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "Jolly is characterizing a real 2024 Donalds remark, not inventing a quotation from whole cloth."
+      },
+      "verifiability": {
+       "score": 1,
+       "label": "documented",
+       "note": "In 2024 Donalds said 'during Jim Crow, the Black family was together' and that Black Americans voted more conservatively then. After backlash he said he was talking about Black marriage rates, not praising the era's discriminatory laws (PolitiFact)."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "Pairing the line with 'the “good parts” of slavery' makes Donalds's comment sound like praise for Jim Crow law."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The phrase 'good parts of Jim Crow' is Jolly's, not Donalds's, and leaves out Donalds's stated focus on family structure and voting patterns."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Jim Crow and slavery are emotionally charged, which does some of the work in the attack."
+      },
+      "amplification": {
+       "score": 0,
+       "label": "documented",
+       "note": "The remark was at a campaign event; no coordinated cross-outlet copy was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "documented",
+       "note": "Jolly is Donalds's opponent in the Florida governor's race. Inference as to motive."
+      }
+     },
+     "target_audience": {
+      "text": "Florida voters, especially Black voters and others sensitive to how Jim Crow is discussed in schools and campaigns. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact was opened, including Jolly's 10/20 wording and the 2024 Donalds remarks. The campaign-event video was not opened."
+     },
+     "mechanism": null,
+     "summary": "Jolly said Donalds 'suggests there were good parts of Jim Crow.' Donalds did speak favorably about Black family cohesion 'during Jim Crow,' but he did not praise the era's segregation laws. PolitiFact rated the claim Half True. The score applies to Jolly's characterization.",
+     "counter_argument": "Listeners can reasonably hear Donalds's 2024 wording as too casual about a period of state-sponsored racism, even if he later denied nostalgia for Jim Crow.",
+     "hindsight_note": "After the window, as of 11/20/2026: news organizations projected that Donalds defeated Jolly in Florida's governor's race (Snopes, in an opened 11/04-11/05 fact-check of a related endorsement claim).",
+     "gaps": [
+      "The 10/20 event video and Donalds's original 2024 remarks were not opened; wording is from PolitiFact."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact-checking David Jolly’s claim that Byron Donalds suggested there were good parts of Jim Crow",
+       "url": "https://politifact.com/factchecks/2026/oct/26/david-jolly/donalds-fl-governor-midterms-jim-crow-black-family/",
+       "published": "2026-10-26",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 7,
+     "score": 5
+    },
+    {
+     "id": "2026-44-10",
+     "status": "scored",
+     "headline": "Fact Check: Dozens of Pennsylvania Election Workers Did NOT Say Tom Wolf And Kathy Boockvar Ordered Them To Destroy Trump Ballots",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-dozens-of-pennsylvania-election-workers-did-not-say-tom-wolf-and-kathy-boockvar-ordered-them-to-destroy-trump-ballots.html",
+     "published": "2026-10-28",
+     "scored_claim": "An 10/27 X post circulated a story that dozens of Pennsylvania election workers had said former Gov. Tom Wolf and former Secretary of State Kathy Boockvar ordered them to destroy Trump ballots in the 2020 presidential election, presented as 'proof that Biden didn't win.'",
+     "selection_reason": "A recycled 2020 ballot-destruction rumor, from a comedian-categorized Facebook page, recirculated in the week before the 2026 midterms.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories found no matching reports from established news outlets and traced the story to a Facebook page whose category is 'comedian,' later shared on other platforms without a comedy disclaimer."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "No on-the-record statements from 'dozens' of Pennsylvania election workers, or from Wolf or Boockvar, were produced to support the order-to-destroy claim (Lead Stories)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post frames the story as proof that the 2020 election was stolen, a week before the 2026 midterms."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "The 2020 setting is not always clear when the story is shared in October 2026."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "'Destroy Trump ballots' is an outrage hook."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The item moved from a satire-categorized page onto X without the disclaimer; no larger coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "Recirculating a 2020 theft claim benefits 2026 election-fraud narratives. The original poster's intent (comedy vs. deception) is not established."
+      }
+     },
+     "target_audience": {
+      "text": "Audiences already convinced that 2020 was stolen, in the week before the 2026 midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "Lead Stories was opened. The original Facebook page and the X post were not opened, and no official Pennsylvania denial beyond the fact-check's news search is in the opened text excerpt used here."
+     },
+     "mechanism": null,
+     "summary": "A story recirculated on 10/27 claimed Pennsylvania officials ordered election workers to destroy Trump ballots in 2020. Lead Stories found it originated on a Facebook page categorized as comedian and found no supporting news reports. The score applies to the circulating story.",
+     "counter_argument": "A comedy-labeled source may have intended satire, and some shares may have been ironic. The version on X was presented without that disclaimer as proof about 2020.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later credible reporting that such an order was issued.",
+     "gaps": [
+      "The original Facebook page and the 10/27 X post were not opened; the claim wording is from Lead Stories.",
+      "This is a recycled 2020 allegation recirculated in week 44."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Dozens of Pennsylvania Election Workers Did NOT Say Tom Wolf And Kathy Boockvar Ordered Them To Destroy Trump Ballots",
+       "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-dozens-of-pennsylvania-election-workers-did-not-say-tom-wolf-and-kathy-boockvar-ordered-them-to-destroy-trump-ballots.html",
+       "published": "2026-10-28",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    }
+   ],
+   "gaps": [
+    "Screening used the Wikipedia 'Portal:Current events' daily pages for 10/26-11/01, plus opened fact-checks and news pages (PolitiFact, Lead Stories, The Guardian, the New York Post carrying Reuters). Stories without an openable, in-window source were not scored (see screened_not_scored).",
+    "Several of the week's scored items are viral or official claims that fact-checkers examined in-week; a few originated on 10/20 or 10/25 (the end of week 43), which is noted on those items.",
+    "AP and Reuters pages were often blocked (Reuters returned HTTP 401 to the box). Reuters' Bolsonaro report was read through the opened New York Post page, as noted on that item.",
+    "NewsGuard's report on the Sherrod Brown video was not independently opened; its findings are taken from Lead Stories.",
+    "Sourced items beyond SKILL.md's cap of about 10 per run were listed in screened_not_scored rather than scored.",
+    "Hindsight notes cover only what I found by 11/20/2026; later outcomes were not fully researched."
+   ],
+   "screened_not_scored": [
+    {
+     "headline": "Trump falsely says Ohio gubernatorial candidate Amy Acton wants to double Ohio income taxes",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/27/donald-trump/ramaswamy-acton-21-billion-income-tax-spending/",
+     "reason": "Sourced and opened (PolitiFact, 10/27, rated False), but the underlying Trump remark was at an 10/12 rally (week 42). Not scored here, to keep the scored set inside week 44's window where possible."
+    },
+    {
+     "headline": "Sarah Trone Garriott says Zach Nunn has taken ‘thousands from Chinese companies.’ That’s missing context.",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/oct/30/sarah-trone-garriott/sarah-trone-garriott-says-zach-nunn-has-taken-thousands-from-chinese-companies-thats-missing-context/",
+     "reason": "Sourced and opened at headline/date level (PolitiFact, 10/30). Not scored: the scan applies SKILL.md's cap of about 10 stories per run, and this was a missing-context campaign finance claim that ranked lower than the 10 scored."
+    },
+    {
+     "headline": "Fact Check: Secret Service Agents Were NOT Placed On Leave After Tampering With Air Defense Systems At Mar-a-Lago -- It Is Satire",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/10/fact-check-secret-service-agents-were-not-placed-leave-after-tampering-air-defense-systems-mar-a-lago-satire.html",
+     "reason": "Sourced and opened (Lead Stories, 10/28). A Secret Service spokesperson said there was 'zero truth' to the post; the originating site carries a satire disclaimer. Not scored: satire origin, lower relevance than the 10 scored."
+    },
+    {
+     "headline": "Oman rescues 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz",
+     "outlet": "Al Jazeera (via Wikipedia current events, 10/30)",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
+     "reason": "Listed on the opened Wikipedia current-events page for 10/30, which cites Al Jazeera and an Iranian military claim that the fire followed an 'unauthorised route.' The Al Jazeera article was not independently opened (guessed URLs returned 404), so the underlying official claim was not scored."
+    },
+    {
+     "headline": "Israelis vote; Netanyahu's coalition wins a plurality but no majority",
+     "outlet": "BBC News / Reuters / CBS News (via Wikipedia current events)",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+     "reason": "Sourced as ordinary election reporting on opened Wikipedia daily pages for 10/27-10/28. No separate manipulative claim was scored."
+    },
+    {
+     "headline": "Mecca Defence Alliance officials meet Iranian leadership in Tehran to discuss de-escalation",
+     "outlet": "Al Jazeera / France 24 (via Wikipedia current events, 10/26)",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
+     "reason": "Sourced as ordinary diplomacy reporting on the opened Wikipedia 10/26 page. Not scored as a psyop."
+    },
+    {
+     "headline": "Christina Bohannan on Trump tariffs costing the average family $4,200; Angie Nixon on Ashley Moody stock trades",
+     "outlet": "PolitiFact",
+     "url": "https://www.politifact.com/factchecks/list/?category=2026-midterms",
+     "reason": "Listed on PolitiFact's 2026 midterms fact-check index (opened) as 10/30 checks. Not scored: campaign claims that ranked lower than the 10 scored, and the full articles were not all opened."
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "week": 45,
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "status": "scanned",
+   "psyops": [
+    {
+     "id": "2026-45-1",
+     "status": "scored",
+     "headline": "No evidence of an FBI raid that revealed ‘fraudulent ballots’ in Houston",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/nov/03/social-media/houston-fbi-raid-fraudulent-ballots-warehouse-false/",
+     "published": "2026-11-03",
+     "scored_claim": "On 11/03, election day, posts on X and Facebook — including one by Jonathan Gregory (@TrumpNews_Baby) headed 'OVER TWENTY THOUSAND FRAUDULENT BALLOTS UNCOVERED IN FBI RAID OF HOUSTON STORAGE LOCKER WAREHOUSE ALL FOR DEMOCRATS' — claimed an FBI raid 'last night' had found more than 20,000 fraudulent ballots marked for Democrats.",
+     "selection_reason": "A fabricated election-day raid story, built with photos from other places and years.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The story is unsourced social-media copy. Lead Stories notes the creator's Facebook page is categorized as 'comedian,' though not all of the accounts used a comedy disclaimer."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Harris County Clerk Teneshia Hudspeth said 'The information circulating on social media is false.' The FBI National Press Office told Lead Stories: 'FBI Houston is aware of social media posts claiming the office conducted an election-related \"raid\" that \"uncovered fraudulent ballots\" on November 2, 2026. That information is false and no election-related operation occurred.' PolitiFact received the same national-office line: 'No election-related operation occurred.'"
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts present a warehouse full of 'fraudulent ballots' 'all for Democrats' as breaking news on election day."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The three images do not show a 11/02 Houston raid: one is an FBI Atlanta/Fulton County, Georgia, search from January 2026; one is a Public Storage listing at 9710 Plainfield Road in Houston; one shows San Francisco Department of Elections envelopes (PolitiFact and Lead Stories)."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "Election-day ballot-theft imagery is used to suggest Democrats are stuffing the midterms."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "The same text appeared on X and Facebook on 11/03. PolitiFact and Lead Stories both opened and rebutted it the same day."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts are self-described as 'pro-Trump Administration' content and serve a Democrats-rigging-Texas narrative on election day. Whether the originator intended satire is not settled; the X version was presented as a news story."
+      }
+     },
+     "target_audience": {
+      "text": "U.S. voters, especially Texas and national audiences already expecting midterm fraud, on election day. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact and Lead Stories were both opened and agree on the FBI denial, the Harris County clerk's statement, and the misidentified photos."
+     },
+     "mechanism": "Fabricated news story: an election-day report of an FBI raid uncovering 20,000 Democratic ballots used miscaptioned photos from other places and was denied by the FBI and the Harris County clerk (documented by PolitiFact and Lead Stories).",
+     "summary": "Election-day posts claimed the FBI had just found more than 20,000 Democratic ballots in a Houston storage warehouse. The FBI said no such operation occurred, and the photos were from Georgia, a storage-company listing, and San Francisco. The score applies to the posts, not to the fact-checkers.",
+     "counter_argument": "The originating Facebook page is categorized as comedian, and some readers may have taken the story as satire. The posts themselves read as news and were issued without a clear satire label on X.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later credible report of an FBI Houston ballot raid on 11/02-11/03.",
+     "gaps": [
+      "The original X and Facebook posts were not opened; wording is from Lead Stories and PolitiFact.",
+      "Lead Stories notes a satire category on Facebook; that disclaimer was not visible on the X version as described."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "No evidence of an FBI raid that revealed ‘fraudulent ballots’ in Houston",
+       "url": "https://politifact.com/factchecks/2026/nov/03/social-media/houston-fbi-raid-fraudulent-ballots-warehouse-false/",
+       "published": "2026-11-03",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      },
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: FBI Did NOT Find More Than 20,000 Fraudulent Ballots in Houston Storage Locker, 'All For Democrats'",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fbi-did-not-find-more-than-20000-fraudulent-ballots-in-houston-storage-locker-all-for-democrats.html",
+       "published": "2026-11-03",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 14,
+     "score": 10
+    },
+    {
+     "id": "2026-45-2",
+     "status": "scored",
+     "headline": "Fact Check: Abdul El-Sayed Did NOT Say 'Your Daughters Are Going To See Male Genitalia Anyway, So Who Cares If They See It In Their Locker Room'",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-abdul-el-sayed-did-not-say-your-daughters-are-going-to-see-male-genitalia-anyway-so-who-cares-if-they-see-it-in-their-locker-room.html",
+     "published": "2026-11-02",
+     "scored_claim": "Posts on X, including one by @crusade_enjoyer dated 11/01-11/02, attributed to Michigan Senate candidate Abdul El-Sayed the sentence: 'Your daughters are going to see male genitalia anyway, so who cares if they see it in their locker room,' as if from his CBS '60 Minutes' interview that aired 11/01.",
+     "selection_reason": "A fabricated, sexually charged quotation attached to a Senate candidate on the eve of election day.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The quotation is attributed to El-Sayed without a timestamped excerpt that contains those words."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories transcribed the relevant '60 Minutes' exchange with Ross Douthat beginning at 44:27 on the official YouTube video. El-Sayed did not mention male genitalia or locker rooms. He said children already have 'all the world's information' on phones and that parents should 'engage' with what children may see, rather than try to 'prevent your child from being exposed to something that you may find disagreeable' only at school."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The invented sentence is a locker-room sexual hook tied to a Muslim candidate, the day before the midterms."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts omit the actual answer, which was about information and parental coaching, not about girls seeing genitalia."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "The fabricated wording is designed to provoke sexual and parental outrage."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The quote circulated on X in more than one post; no larger coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The false quote damages El-Sayed with culturally conservative and anti-trans audiences. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Michigan and national voters opposed to transgender-inclusive sports or locker rooms, in the last hours before the 11/03 Senate vote. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including a transcript of the official interview segment. The '60 Minutes' YouTube video itself was not opened."
+     },
+     "mechanism": "Fabricated quotation: a sexually explicit locker-room sentence was invented and attributed to a Senate candidate's '60 Minutes' interview on the eve of election day (documented by Lead Stories against the official transcript).",
+     "summary": "A viral post put a locker-room 'male genitalia' sentence in Abdul El-Sayed's mouth and tied it to his 11/01 '60 Minutes' interview. The official transcript of that exchange does not contain those words. The score applies to the attributed quote. The first post is dated 11/01 (the last day of week 44); the Lead Stories check is 11/02.",
+     "counter_argument": "El-Sayed did discuss parental control of school content and transgender students in sports, so some opponents may treat the fake sentence as a harsh paraphrase rather than a fabrication. It is not what he said.",
+     "hindsight_note": "After the window, as of 11/20/2026: news organizations projected that El-Sayed won the Michigan Senate race (The Washington Post and Time, via Wikipedia's 11/03 current-events page).",
+     "gaps": [
+      "The '60 Minutes' YouTube video was not independently opened; the transcript is from Lead Stories.",
+      "The original X posts were not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Abdul El-Sayed Did NOT Say 'Your Daughters Are Going To See Male Genitalia Anyway, So Who Cares If They See It In Their Locker Room'",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-abdul-el-sayed-did-not-say-your-daughters-are-going-to-see-male-genitalia-anyway-so-who-cares-if-they-see-it-in-their-locker-room.html",
+       "published": "2026-11-02",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-45-3",
+     "status": "scored",
+     "headline": "Fact Check: Video Does NOT Prove 2026 Massive Voter Registration Fraud Scheme in Pennsylvania",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-video-does-not-prove-2026-massive-voter-registration-fraud-scheme-in-pennsylvania.html",
+     "published": "2026-11-05",
+     "scored_claim": "An 11/05 X post by @TrumpWorld_QQ, captioned as 'BREAKING,' said Lancaster, Pennsylvania, officials had 'BUSTED a large-scale fraudulent voter registration scheme' of thousands of applications with the same handwriting and fake addresses, and that 'They would've used the fraudulent applications to commit mail-in ballot fraud' in language that presented the case as a November 2026 discovery.",
+     "selection_reason": "A 2024 press conference was recirculated as a fresh 2026 midterm fraud bust.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post does not disclose that the video is from an 10/25/2024 press conference."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Lancaster County District Attorney's Office told Lead Stories on 11/05: 'This was the prior election. Ag's office took this case over PA OAG.' Contemporary coverage (Lancaster Online, WGAL, New York Post) dated the briefing to 10/25/2024. In an 4/27/2026 press release, the Pennsylvania Attorney General's office said Guillermo Sainz pleaded guilty to three misdemeanor counts of solicitation of registration, was sentenced to 30 days in jail, 11 months of probation and a $1,000 fine, and that 'The Office of Attorney General determined that the crimes were not motivated by efforts to sway any election or voter rolls for any specific party or candidate.'"
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The 11/05 caption uses 'BREAKING' and forecasts mail-in ballot fraud in a way that implies a current midterm plot."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Old material is presented as new, and the later finding that the scheme was quota-driven, not partisan, is omitted."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post urges 'arrests NOW,' an outrage hook, though the video itself is a dry official briefing."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post circulated on X; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The recasting benefits a 2026 midterm fraud narrative. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Pennsylvania and national audiences looking for midterm registration fraud two days after election day. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the DA email and the April 2026 attorney general press-release quotation. Those official pages were not independently opened."
+     },
+     "mechanism": "Old material presented as new: a 2024 local registration-fraud briefing was posted as a breaking 2026 midterm bust, omitting that the case had already been resolved as non-partisan quota fraud (documented by Lead Stories and the Lancaster DA).",
+     "summary": "A video posted on 11/05 as a 'BREAKING' 2026 Pennsylvania registration-fraud bust was a 10/25/2024 press conference about a case later resolved as quota-driven misdemeanors, not a partisan plot to swing the midterms. The score applies to the 11/05 presentation.",
+     "counter_argument": "The 2024 case was real, and some applications were fraudulent. The manipulation is in dating it as a 2026 midterm discovery and implying a partisan mail-ballot plot the attorney general did not find.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no opened source that reopens the Sainz case as a 2026 midterm scheme.",
+     "gaps": [
+      "The 2024 press-conference video and the April 2026 attorney general release were not independently opened; quotations are from Lead Stories.",
+      "The original X post was not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Video Does NOT Prove 2026 Massive Voter Registration Fraud Scheme in Pennsylvania",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-video-does-not-prove-2026-massive-voter-registration-fraud-scheme-in-pennsylvania.html",
+       "published": "2026-11-05",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-45-4",
+     "status": "scored",
+     "headline": "Palm Beach plane crash footage isn’t AI-generated, despite social media claims",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/nov/02/tweets/palm-beach-florida-plane-crash-video-ai/",
+     "published": "2026-11-02",
+     "scored_claim": "X posts on 11/01 said dash-cam footage of a Learjet 60 crashing near Cresthaven in Palm Beach County that afternoon 'Was 100% Ai Generated' and 'That Was Not An Airplane,' citing a Hive Moderation screen recording that flagged AI.",
+     "selection_reason": "A real fatal crash video was recast as an AI fake, an example of the 'liar's dividend.'",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The claim cites Hive Moderation, a real but imperfect tool. When PolitiFact ran the original Aki Kuusisto footage, Hive did not flag it as AI-generated or manipulated."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Associated Press, CNN, CBS News and the BBC shared the footage. PolitiFact identified the original source as West Palm Beach creator Aki Kuusisto, who wrote on Facebook, 'This was not quite what I had in mind when I installed the dash cam.' The crash killed everyone on board, Transportation Secretary Sean Duffy said 11/01. NTSB member Tom Chapman said 11/02 the aircraft encountered turbulence and ice."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts say 'SOMEONE IS LYING TO US' and deny that the object was an airplane."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "The posts treat a tool false-positive as proof and omit the identifications by news outlets and the NTSB's on-scene briefing."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "The footage is frightening; calling it fake invites distrust of a real mass-casualty event."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Multiple X posts made the claim. PolitiFact notes that one account questioning the video 'has been amplified by bot accounts that promote narratives by Russian Storm-1516'; that is a research observation about one amplifier, not proof of a coordinated origin."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "Some posts benefit a general 'everything is fake' climate. Motives of individual posters were not established."
+      }
+     },
+     "target_audience": {
+      "text": "Social-media users primed to distrust dramatic video as AI, including audiences already following Storm-1516-amplified accounts. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact was opened, including the NTSB briefing, the Kuusisto attribution, and the Hive re-test. The original X posts and Facebook video were not opened."
+     },
+     "mechanism": "Liar's dividend: real dash-cam footage of a fatal crash was labeled 100% AI on the basis of a misfiring detection tool, inviting people to reject a documented event (documented by PolitiFact, with news-outlet confirmation of the video).",
+     "summary": "Posts called dash-cam video of the 11/01 Palm Beach County Learjet crash 100% AI-generated. News outlets confirmed the footage, the original filmer identified himself, and officials said a real jet went down with no survivors. The score applies to the 'AI fake' claim. The crash and some posts are dated 11/01 (week 44); the PolitiFact check is 11/02.",
+     "counter_argument": "Hive can misfire, and viewers were right to be cautious of dramatic video. Clemson researcher Darren Linvill told PolitiFact that this is the 'liar's dividend': people become so used to being lied to that they reject real footage.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later official finding that the widely circulated dash-cam clip was AI-generated. A separate false claim that Alexandra Dudgeon piloted the jet was also debunked (Lead Stories, 11/03).",
+     "gaps": [
+      "The original X posts, the Kuusisto Facebook post, and the AP/CNN/CBS videos were not independently opened; confirmations are from PolitiFact.",
+      "The Storm-1516 amplification note is PolitiFact's research observation about one account."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Palm Beach plane crash footage isn’t AI-generated, despite social media claims",
+       "url": "https://politifact.com/factchecks/2026/nov/02/tweets/palm-beach-florida-plane-crash-video-ai/",
+       "published": "2026-11-02",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-45-5",
+     "status": "scored",
+     "headline": "US voters rebuke Trump as Democrats win control of Congress in ‘blue wave’",
+     "outlet": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
+     "published": "2026-11-04",
+     "scored_claim": "After Democrats took the House and Senate on 11/03, President Donald Trump posted: 'I wasn’t on the Ballot and if I was, we would have won IN A LANDSLIDE!' The Guardian notes that he had spent the campaign 'pleading with the American people to pretend he was on the ballot,' then, after the loss, 'appeared last night to have changed his mind.'",
+     "selection_reason": "A post-election reframing that treats a historic midterm defeat as if the president had been absent from the race.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The social-media sentence is Trump's own, not an anonymous leak, but it is not supported by a vote count in which he was a candidate."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Guardian, citing the unfolding 11/03 results, reported that Republicans lost the Senate and the House, including Senate seats in Texas and Kansas, and that Trump had campaigned as if he were on the ballot. He was not a midterm candidate."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The line 'if I was, we would have won IN A LANDSLIDE' recasts a loss as a hidden personal victory."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "It omits his pre-election plea that voters treat the midterms as a vote on him, a tactic The Guardian says he may 'now rue.'"
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "'LANDSLIDE' is boastful, but the post is not a graphic fear appeal."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "A presidential social-media post is inherently amplifying; no identical-wording network was shown beyond that."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented",
+       "note": "The speaker is the president whose party just lost Congress, with an incentive to detach himself from the result."
+      }
+     },
+     "target_audience": {
+      "text": "Trump's supporters, whom the post invites to treat the midterm defeat as illegitimate or irrelevant because he was not personally listed. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "The Guardian article was opened, including the quotation and the contrast with his pre-election message. The original social-media post was not opened."
+     },
+     "mechanism": "Post-election reframing: after asking voters to treat the midterms as a vote on him, the president claimed that if he had been on the ballot his side would have won in a landslide, detaching himself from a documented congressional defeat (documented by The Guardian).",
+     "summary": "After the 11/03 midterms, Trump said that if he had been on the ballot his side 'would have won IN A LANDSLIDE,' after weeks of asking voters to treat the election as a vote on him. The score applies to that post-election claim.",
+     "counter_argument": "Presidents often argue they would have won a race they were not in. The midterm was legally a congressional election, and some voters did split tickets. The concern is the contradiction with his own pre-election framing, not the mere fact of a defeat.",
+     "hindsight_note": "After the window, as of 11/20/2026: opened sources still describe a Democratic House and Senate. The Guardian's 11/04 article said some Senate races and House seats were still uncalled at that hour; later calls were not all independently opened for this scan.",
+     "gaps": [
+      "The original social-media post was not opened; the wording is from The Guardian.",
+      "AP and Reuters midterm-result pages returned HTTP 403 or 401 to the box; The Guardian and Wikipedia current-events pages were opened instead."
+     ],
+     "sources": [
+      {
+       "outlet": "The Guardian",
+       "type": "Mainstream (UK)",
+       "role": "in_window",
+       "title": "US voters rebuke Trump as Democrats win control of Congress in ‘blue wave’",
+       "url": "https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
+       "published": "2026-11-04",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-45-6",
+     "status": "scored",
+     "headline": "Fact Check: Alexandra Dudgeon Was NOT Named as Pilot of Plane That Crashed in Palm Beach County in November 2026",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/alexandra-dudgeon-was-not-named-as-pilot-of-plane-that-crashed-in-palm-beach-county-in-november-2026.html",
+     "published": "2026-11-03",
+     "scored_claim": "An 11/01 Instagram post by @eleguuav identified 26-year-old Alexandra Dudgeon as the pilot of Learjet N722BD, which crashed in Greenacres, Florida, and said she had left 'one of the most heart-wrenching radio communications in aviation history,' adding 'May she rest in peace.'",
+     "selection_reason": "A false death identification attached to a real fatal crash.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post names Dudgeon as the pilot on the basis of a LinkedIn cover photo, not an official victim list."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Dudgeon's mother, Cara Mason, posted on Facebook on 11/02 that her daughter 'is alive and was not on the plane,' was 'scheduled off work today and was not on that flight.' Dudgeon wrote on LinkedIn the same day: 'I was not involved in the accident.' Lead Stories found that news reports identified all nine victims, and none was Dudgeon."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post is written as an obituary, with 'rest in peace' and a claimed final radio transmission."
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "It omits any official NTSB or airline identification of the crew."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "A false death notice, tied to a crash that killed a family with young children, is an emotional hook, but the post reads as a mistaken identification."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The claim circulated on Instagram and, according to Mason, on 'many social media platforms' with Dudgeon's photo and the radio audio. No coordinated origin was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The poster's motive (mistaken identity vs. engagement-seeking) was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Aviation-video audiences and anyone who knew or searched Dudgeon's name after the crash. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the mother's and Dudgeon's denials and the note that news reports named all nine victims. Those news victim lists were not independently opened."
+     },
+     "mechanism": null,
+     "summary": "An Instagram post named Alexandra Dudgeon as the pilot who died in the 11/01 Palm Beach County Learjet crash. She and her mother said she was not on the flight, and published victim lists did not include her. The score applies to the identification claim. The Instagram post is dated 11/01 (week 44); the Lead Stories check is 11/03.",
+     "counter_argument": "Dudgeon appears to have had a jet as a LinkedIn cover photo, which could have led to an honest mix-up rather than a deliberate hoax.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later official victim list that names Dudgeon.",
+     "gaps": [
+      "The Instagram post, Mason's Facebook post, Dudgeon's LinkedIn posts, and the news victim lists were not independently opened; wording is from Lead Stories."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Alexandra Dudgeon Was NOT Named as Pilot of Plane That Crashed in Palm Beach County in November 2026",
+       "url": "https://leadstories.com/hoax-alert/2026/11/alexandra-dudgeon-was-not-named-as-pilot-of-plane-that-crashed-in-palm-beach-county-in-november-2026.html",
+       "published": "2026-11-03T13:03:10-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-45-7",
+     "status": "scored",
+     "headline": "Fact Check: Mike Johnson Did NOT Warn Republicans Democrats Will Go After 'The Rest of You Who Have Committed Crimes'",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-mike-johnson-did-not-warn-republicans-democrats-will-go-after-the-rest-of-you-who-have-committed-crimes.html",
+     "published": "2026-11-03",
+     "scored_claim": "An 11/02 X post by @ML3democrats quoted House Speaker Mike Johnson as saying: 'If we lose the midterms, the Democrats will go after the president's family, the cabinet, his donors, friends, and the rest of you who have committed crimes,' and added 'It's my biggest wish.'",
+     "selection_reason": "A real 2026 speech was clipped and given a fabricated ending that accuses the audience of crimes.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The video is of a real Johnson speech, but the quoted ending is not what he said."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories transcribed the 24-second clip: Johnson said that if Democrats won, they would 'go after the president's family, the cabinet, his donors and friends, half of you in this room will be targeted.' He did not say 'the rest of you who have committed crimes.' C-SPAN video shows the remarks were made at the Faith and Freedom Coalition conference on 6/26/2026, beginning at 3:57."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The added phrase 'who have committed crimes,' plus 'It's my biggest wish,' turns a warning to allies into a confession."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "A June speech is posted on the eve of the 11/03 midterms as if it were a current warning, and the wording is altered."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post is a partisan cheer ('my biggest wish') more than a fear appeal to Johnson's audience."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post circulated on X; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "documented",
+       "note": "The poster is presenting the line as a reason to vote against Republicans. Inference as to motive."
+      }
+     },
+     "target_audience": {
+      "text": "Anti-Republican voters on the eve of the midterms, and anyone who would read the line as Johnson admitting criminality. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including a transcript of the clip and the C-SPAN date. The C-SPAN video itself was not opened."
+     },
+     "mechanism": null,
+     "summary": "A midterm-eve post quoted Mike Johnson as warning that Democrats would go after 'the rest of you who have committed crimes.' The video shows he said 'half of you in this room will be targeted,' in a 6/26 speech, without the 'crimes' clause. The score applies to the altered quotation.",
+     "counter_argument": "Johnson did warn that a Democratic majority would investigate Trump's family, cabinet, donors and friends. The fabrication is the 'committed crimes' ending and the implied recency, not the entire premise of the speech.",
+     "hindsight_note": "After the window, as of 11/20/2026: The Guardian reported on 11/04 that Johnson indicated he would not seek re-election as House Republican leader after the midterm loss.",
+     "gaps": [
+      "The C-SPAN video was not independently opened; the transcript and 6/26 date are from Lead Stories.",
+      "The original X post was not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Mike Johnson Did NOT Warn Republicans Democrats Will Go After 'The Rest of You Who Have Committed Crimes'",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-mike-johnson-did-not-warn-republicans-democrats-will-go-after-the-rest-of-you-who-have-committed-crimes.html",
+       "published": "2026-11-03",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    }
+   ],
+   "gaps": [
+    "Screening used the Wikipedia 'Portal:Current events' daily pages for 11/02-11/08, plus opened pages from PolitiFact, Lead Stories, The Guardian, Al Jazeera and Snopes. Stories without an openable source were not scored (see screened_not_scored).",
+    "The week's sample leans toward election-day and eve claims around the 11/03 midterms, as noted in the method note's comment on checkable social-media items.",
+    "AP and Reuters midterm-result pages returned HTTP 403 or 401 to the box; results were taken from the opened Guardian 11/04 article and from Wikipedia current-events pages, as noted.",
+    "An 11/07 claim that the FBI and DHS had seized voting machines in Texas and Arizona is filed in week 46, because the opened Lead Stories fact-check is dated 11/09.",
+    "Sourced items beyond SKILL.md's cap of about 10 per run, including a satire-account Fox News graphic and ordinary war reporting on the Qeshm strikes, were listed in screened_not_scored rather than scored.",
+    "Hindsight notes cover only what I found by 11/20/2026; later outcomes were not fully researched."
+   ],
+   "screened_not_scored": [
+    {
+     "headline": "Fact Check: Fox News Did NOT Call Georgia Senate Race For Stacey Abrams, Who Is Not Running",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-fox-news-did-not-become-first-network-call-georgia-senate-race-winner-stacey-abrams-network-denies.html",
+     "reason": "Sourced and opened (Lead Stories, 11/03). Fox News told Lead Stories the image 'is not a real image and did not air on FOX News'; Abrams was not on the 2026 Senate ballot. Not scored: the posting account is a self-described satire account, and the item ranked lower than the scored set."
+    },
+    {
+     "headline": "Fact Check: Paper Thickness NOT Cause Of Westchester County Ballot Scanner Problems -- Officials Clarified That Programming Update Caused Issue",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-paper-thickness-not-cause-westchester-county-ballot-scanner-problems-officials-clarified-programming-update.html",
+     "reason": "Sourced and opened (Lead Stories, 11/03). A real Election Day scanner problem was later attributed to a programming update, not paper thickness. Not scored: a technical clarification rather than a high-reach manipulative claim, and the cap of about 10 was applied."
+    },
+    {
+     "headline": "Did every GOP candidate endorsed by Nicki Minaj in midterms lose to Democrats?",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/candidates-endorsed-nicki-minaj-lost/",
+     "reason": "Sourced and opened (Snopes, published 11/04). Three of four named endorsees lost; Byron Donalds won Florida. Rated a mixture. Not scored: a relatively narrow celebrity-endorsement claim."
+    },
+    {
+     "headline": "US hits Qeshm Island; officials call the strikes 'defensive'",
+     "outlet": "Al Jazeera (Reuters/AP/WSJ)",
+     "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest",
+     "reason": "Sourced and opened (Al Jazeera, 11/03), including unnamed U.S. officials calling 11/02 strikes on Qeshm 'defensive' after reported Iranian surface-to-air fire, and IRNA reporting an IRGC claim to have downed a U.S. MQ-9. Not scored as a standalone psyop: competing official war accounts, not a viral fabricated story."
+    },
+    {
+     "headline": "Voting results, candidate claims, fraud accusations: Fact-checking election rumors",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/live/midterm-elections-fact-checking/",
+     "reason": "Opened as a live blog (11/03, updated 11/04). It flags several election-day rumors (including Maine interpreters, still then under investigation). Individual rumors not separately scored here were listed rather than fully sourced as standalone psyops, under the cap of about 10."
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "week": 46,
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "status": "scanned",
+   "psyops": [
+    {
+     "id": "2026-46-1",
+     "status": "scored",
+     "headline": "Fact Check: FBI, DHS Did NOT Seize Voting Machines In Texas And Arizona On Or Before Nov. 7, 2026",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-fbi-dhs-did-not-seize-voting-machines-texas-and-arizona-on-or-before-november-7-2026.html",
+     "published": "2026-11-09",
+     "scored_claim": "An 11/07 X post by @PaulGoldEagle, copying text signed 'By Jonathan Gregory,' claimed: 'FBI AND DHS SEIZE VOTE COUNTING MACHINES IN TEXAS AND ARIZONA' with 'Nevada to follow,' and said the machines held records of 'an undocumented population' registered 'thereby securing votes without the requirement of presenting identification' so ICE could later find them.",
+     "selection_reason": "A post-election fabricated federal seizure story, using a January 2026 Georgia photo, from the same originator as the Houston ballot-raid claim.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories traces the text to a Facebook profile, Jonathan Gregory, categorized as 'Comedian,' previously the subject of several of its fact checks, including the 11/03 Houston ballot story. No official FBI or DHS release was cited."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Searches of Google News and Yahoo News found no matching reports. The photo of officers matches an Associated Press image from a 1/28/2026 FBI search in Fulton County, Georgia, also published by the Wall Street Journal (Lead Stories). Lead Stories had contacted the FBI and DHS and, as of publication, had not yet received a reply."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post is written as a news bulletin about an unfolding federal seizure in border states."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "A January Georgia photo is used as if it showed a November Texas/Arizona operation, and the text leaps from a supposed seizure to a theory about noncitizen votes and ICE enforcement."
+      },
+      "emotional": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post ties 'illegal immigrants,' 'snakes' and 'fish' to vote theft in states that had just seen major Democratic gains."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The same Jonathan Gregory copy was posted on X by another account. No broader identical-wording blast beyond that reuse was shown."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented",
+       "note": "The story serves a post-midterm explanation that Democratic wins in Texas and Arizona were illegitimate. The originator's Facebook category is comedian; the X version is presented as news."
+      }
+     },
+     "target_audience": {
+      "text": "Audiences unwilling to accept Democratic wins in Texas and other border states, and readers already following Jonathan Gregory's election posts. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium-High",
+      "reason": "Lead Stories was opened, including the photo match to the January Fulton County raid. The FBI and DHS had not replied when the article was published, and their pages were not independently opened. The fact-check is dated 11/09, just after week 45; the claim circulated on 11/07, inside the week."
+     },
+     "mechanism": "Fabricated official action: a post announced an FBI/DHS seizure of vote machines in Texas and Arizona, illustrated with a January 2026 Georgia photograph and unsupported by news reporting (documented by Lead Stories).",
+     "summary": "A 11/07 post said the FBI and DHS were seizing vote-counting machines in Texas and Arizona. The photo is from a January 2026 Georgia search, and no news organization reported such a seizure. The score applies to the post. The claim circulated on 11/07 (week 45); it is filed in week 46 because the opened Lead Stories check is dated 11/09.",
+     "counter_argument": "The originating Facebook profile is categorized as comedian, and Lead Stories had not yet received an FBI or DHS comment when it published. A later official denial would strengthen, not reverse, the finding that the November seizure did not happen.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no opened official confirmation of FBI/DHS machine seizures in Texas or Arizona on or before 11/07.",
+     "gaps": [
+      "FBI and DHS comments were still pending in the opened Lead Stories article.",
+      "The Wall Street Journal page with the January photo was not independently opened.",
+      "The Lead Stories article is dated 11/09, two days after the post."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "after_window",
+       "title": "Fact Check: FBI, DHS Did NOT Seize Voting Machines In Texas And Arizona On Or Before Nov. 7, 2026",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-fbi-dhs-did-not-seize-voting-machines-texas-and-arizona-on-or-before-november-7-2026.html",
+       "published": "2026-11-09T12:00:00-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 13,
+     "score": 9
+    },
+    {
+     "id": "2026-46-2",
+     "status": "scored",
+     "headline": "Did Texas 'find' 20M votes that flipped state blue? Here's the truth",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/texas-midterms-votes/",
+     "published": "2026-11-13",
+     "scored_claim": "Social-media posts, including one that said 'There's no chance Texas found 20 million new voters who voted exclusively 100% for Democrats. It's fraud!,' claimed Democrats flipped the Texas Senate, 14 U.S. House seats and the governorship in the 11/03 midterms only by fraudulently 'finding' 20 million new voters.",
+     "selection_reason": "An arithmetically impossible fraud figure used to explain Democratic wins in Texas.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "No official source is cited for 20 million new Texas voters. Snopes says the figure may have been conflated with an unsourced bar chart, also examined by Lead Stories, that claimed House Democrats gained 20 million voters nationwide."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "The Texas secretary of state had just over 19 million registered voters by mid-October, up about 2% from 2024. Unofficial turnout was 9,850,031. Adding 20 million registered voters would have been a 107% jump. Fewer than half of 20 million people voted in the election at all (Snopes, citing the secretary of state and unofficial turnout)."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts treat a historic Texas shift as something that could only be fraud."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "A possible nationwide chart is recast as 20 million new Texas voters, and official registration and turnout figures are omitted."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The hook is outrage about a 'stolen' Texas, not graphic imagery."
+      },
+      "amplification": {
+       "score": 2,
+       "label": "documented",
+       "note": "The same wording circulated on X, Facebook and other platforms (Snopes)."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "speculation",
+       "note": "The claim offers a fraud explanation for Democratic wins in Texas, including James Talarico's Senate race and Gina Hinojosa's governor's race (those outcomes are reported on Wikipedia's 11/03 current-events page). The original poster's identity and motive were not established."
+      }
+     },
+     "target_audience": {
+      "text": "Audiences who reject a Democratic Texas as implausible, and national readers circulating the '20 million' chart. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Snopes was opened, including the Texas registration and turnout figures and the link to the nationwide chart. The Texas secretary of state's pages and the Lead Stories chart article were not independently opened (a guessed Lead Stories URL returned 404)."
+     },
+     "mechanism": "Impossible arithmetic presented as fraud: a 20-million-new-Texas-voters claim, far larger than the state's entire midterm turnout, was used to explain certified Democratic wins (documented by Snopes against Texas registration and turnout figures).",
+     "summary": "Posts said Texas Democrats 'found' 20 million new voters who all voted blue. Texas had about 19 million registered voters and about 9.85 million ballots. The 20 million figure appears to confuse an unsourced national chart with Texas. The score applies to the posts. Snopes rated the claim false.",
+     "counter_argument": "Democrats did gain substantially in Texas, and a separate unsourced chart about a national turnout rise circulated at the same time. Those facts do not make 20 million new Texas Democratic voters possible.",
+     "hindsight_note": "After the window, as of 11/20/2026: opened sources still describe Democratic wins in Texas statewide races; I found no official count of 20 million new Texas voters.",
+     "gaps": [
+      "The Texas secretary of state pages, UF Election Lab tables, and the Lead Stories article on the national chart were not independently opened; figures are from Snopes.",
+      "The original social-media posts were not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Snopes",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Did Texas 'find' 20M votes that flipped state blue? Here's the truth",
+       "url": "https://www.snopes.com/fact-check/texas-midterms-votes/",
+       "published": "2026-11-13T04:00:12Z",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 13,
+     "score": 9
+    },
+    {
+     "id": "2026-46-3",
+     "status": "scored",
+     "headline": "Fact Check: FAKE Post Attributed To JD Vance Says He Is Looking To Avoid Swearing Abdul El-Sayed Into Office",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-fake-post-by-jd-vance-says-he-is-looking-to-avoid-swearing-abdul-el-sayed-into-office.html",
+     "published": "2026-11-10",
+     "scored_claim": "An 11/08 X post by @Suzierizzo1 shared an image that appeared to be a post by Vice President JD Vance reading: 'I'm looking at every legal option to avoid being the one who swears Abdul El-Sayed into office. After the level of disrespect he's shown me he can't seriously expect me to stand there and do him that honor.'",
+     "selection_reason": "A forged vice-presidential post about refusing to swear in the first Muslim elected to the Senate.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The image is presented as a Vance post. Lead Stories searched his X account and the quotation and found no match."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories also found no reports from established outlets of such a statement, via Google News and Yahoo News searches."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The fake post is written in the first person as a vice-presidential refusal to perform a constitutional formality."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "No real Vance post is shown; the image supplies one."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The surrounding commentary is tribal ('poor little J.D,' 'disrespected Abdul and Muslims') rather than a fear hook."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The image circulated on X on 11/08; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The fake statement inflames the already charged El-Sayed-Vance relationship. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Partisan audiences following the Michigan Senate result, including those already focused on El-Sayed's religion. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the claimed wording and the account search. Vance's X account was not independently opened."
+     },
+     "mechanism": "Forged official statement: an image imitating a JD Vance post announced a plan to avoid swearing in a newly elected senator, with no matching post on his account (documented by Lead Stories).",
+     "summary": "A graphic circulated as if JD Vance had said he was seeking legal options to avoid swearing in Abdul El-Sayed. Lead Stories found no such post and no news reports of the remark. The score applies to the fake graphic. The X post is dated 11/08 (the last day of week 45); the Lead Stories check is 11/10.",
+     "counter_argument": "Vance had campaigned against El-Sayed's party and, after the midterms, publicly blamed the Iran war for Republican losses (The Guardian, 11/04). A real tense relationship does not make this post authentic.",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no later authentic Vance post matching this wording.",
+     "gaps": [
+      "Vance's X account and the original @Suzierizzo1 post were not independently opened; the wording and search result are from Lead Stories."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: FAKE Post Attributed To JD Vance Says He Is Looking To Avoid Swearing Abdul El-Sayed Into Office",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-fake-post-by-jd-vance-says-he-is-looking-to-avoid-swearing-abdul-el-sayed-into-office.html",
+       "published": "2026-11-10T12:25:28-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-46-4",
+     "status": "scored",
+     "headline": "Fact Check: Viral Video Of People Sleeping In US Airport During Ground Stop Is NOT Real -- AI Made It",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-viral-clip-does-not-show-real-footage-of-american-airport-during-ground-stop.html",
+     "published": "2026-11-14",
+     "scored_claim": "A 11/14 Facebook post by @AVIO.KNOWLEDGE, captioned 'USA airports yesterday,' presented a video as real footage of an American airport during the 11/13 FAA nationwide ground stop.",
+     "selection_reason": "An AI-generated airport scene was posted as documentary footage of a real ground stop.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post presents the clip as what U.S. airports looked like 'yesterday,' without identifying it as generated."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories found AI hallmarks: an unusually large number of rectangular bedroom pillows, two identical women in identical pink hoodies sleeping side by side, passengers whose bodies appear to merge, and printed Coca-Cola posters announcing flight cancellations. The Pangram tool flagged the thumbnail as containing AI-generated content. The FAA did issue a 11/13 ground stop for 'communication issues impacting multiple Air Route Traffic Control Centers,' so a real event is being illustrated with a fake clip."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The caption treats the clip as news footage of a national disruption."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The real FAA statement is not shown; a generated scene stands in for it."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "Sleeping crowds and a shutdown are meant to look dramatic, but the hook is weaker than a political attack."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The video circulated on Facebook; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The clip may have been posted for engagement around a real outage. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Travelers and social-media users following the 11/13 FAA ground stop. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the visual inconsistencies, the Pangram note, and the FAA wording. The FAA statement page and the Facebook video were not independently opened."
+     },
+     "mechanism": "AI footage presented as reality: a generated airport scene, with visible artifacts, was posted as documentary video of a real FAA ground stop (documented by Lead Stories).",
+     "summary": "A Facebook video captioned as U.S. airports 'yesterday' during the 11/13 FAA ground stop shows AI artifacts, including duplicate people and unlikely bedroom pillows. The ground stop was real; the footage was not. The score applies to the video.",
+     "counter_argument": "The FAA did ground flights on 11/13, and some airports were genuinely disrupted. The concern is the fake clip, not the existence of the stop.",
+     "hindsight_note": "After the window, as of 11/20/2026: later fact-checks about what caused the ground stop (including PolitiFact items dated 11/17-11/18) fall in week 47 and were not scored here. I found no opened source that authenticated this particular sleeping-crowd video as real.",
+     "gaps": [
+      "The Facebook video, the Pangram output, and the FAA statement page were not independently opened; descriptions are from Lead Stories."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Viral Video Of People Sleeping In US Airport During Ground Stop Is NOT Real -- AI Made It",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-viral-clip-does-not-show-real-footage-of-american-airport-during-ground-stop.html",
+       "published": "2026-11-14T14:55:50-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-46-5",
+     "status": "scored",
+     "headline": "Two non-compliant tankers hit mines in Hormuz, explode: IRGC",
+     "outlet": "Mehr News Agency",
+     "url": "https://en.mehrnews.com/news/249421/Two-non-compliant-tankers-his-mines-in-Hormuz-Explode-IRGC",
+     "published": "2026-11-15",
+     "scored_claim": "In a 11/15 statement carried by Mehr News Agency, the IRGC Navy said two oil tankers 'attempting to pass through an unauthorized route in the southern part of the Strait of Hormuz exploded and caught fire after striking naval mines,' that both had 'switched off all their identification and positioning systems,' that one was 'a supertanker carrying more than two million barrels of crude oil, which sank,' and that other vessels entering the 'restricted area, which it described as a contaminated zone, would face similar consequences,' while warning crews 'not to be misled by the US military’s actions.'",
+     "selection_reason": "An unverified official claim of a 2-million-barrel sinking, used to advertise a restricted zone and blame the U.S. military.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The claim is an IRGC Navy statement. The statement identified neither ship by name or flag (Marine Insight, summarizing AFP and other reports)."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Nothing in the opened in-window text independently confirms the sinking or the cargo. A 11/16 Marine Insight recap, citing AFP, TRT World, Yahoo News and IRNA, said the claim 'has not been confirmed independently,' that UKMTO reported an attack on a tanker in the Gulf with the crew safe and could not say whether it was the same incident, and that the U.S. military 'has said recently that the main routes are free of mines.'"
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The statement uses 'unauthorized,' 'covertly,' 'contaminated zone' and a warning not to be 'misled by the US military.'"
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "Ship names, flags, the fate of the second tanker, and any independent casualty or pollution confirmation are omitted."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "A sinking supertanker and a warning to fishermen are dramatic, but the statement is official-military language rather than a viral emotional montage."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Iranian state media carried the statement; AFP and others repeated the claim as an Iranian assertion. No identical social-media burst was documented in the opened sources."
+      },
+      "incentive": {
+       "score": 2,
+       "label": "documented",
+       "note": "The IRGC controls, or seeks to control, transit through Hormuz and has an incentive to deter unapproved passages and to blame the U.S. for any confusion about routes (stated in the warning about U.S. military 'actions')."
+      }
+     },
+     "target_audience": {
+      "text": "Shipping companies, crews, insurers and governments deciding whether to use IRGC-approved routes, and international audiences following the Iran war. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "Medium",
+      "reason": "Mehr News (the IRGC statement) was opened and is dated 11/15. Arab News (AFP), cited by Wikipedia's 11/15 current-events page, returned HTTP 403 to the box and was not opened. Marine Insight, which recaps AFP and UKMTO, was opened but is dated 11/16, after the week ended."
+     },
+     "mechanism": "Unverified official war claim: an IRGC statement announced the sinking of an unnamed 2-million-barrel tanker and threatened 'similar consequences' for ships off approved routes, without independent confirmation or ship identities in opened in-window sources (documented in the Mehr text; lack of confirmation noted by a 11/16 recap).",
+     "summary": "The IRGC said on 11/15 that two tankers, one a 2-million-barrel supertanker that sank, hit mines on an unauthorized Hormuz route after turning off tracking, and warned others of 'similar consequences.' Independent confirmation was not in the opened in-window sources; a next-day recap said UKMTO had a tanker attack with the crew safe and could not match it to Iran's claim. The score applies to the IRGC statement.",
+     "counter_argument": "Mines and attacks in the strait have been a real feature of the 2026 war, and a tanker may have been hit that day. The concern is an unverified sinking of a named-size cargo, with no ship identity, used to justify a restricted zone.",
+     "hindsight_note": "After the window, as of 11/16/2026 (Marine Insight): the IRGC claim had not been independently confirmed; UKMTO reported a tanker attack with the crew safe and could not say it was the same incident. I did not open a later official confirmation or retraction through 11/20/2026.",
+     "gaps": [
+      "The AFP/Arab News page cited by Wikipedia returned HTTP 403 and was not opened.",
+      "Marine Insight is dated 11/16 (week 47) and is used here as a same-claim recap and hindsight source, not as in-window confirmation.",
+      "UKMTO's own advisory was not independently opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Mehr News Agency",
+       "type": "Iranian state-affiliated outlet (official statement)",
+       "role": "in_window",
+       "title": "Two non-compliant tankers hit mines in Hormuz, explode: IRGC",
+       "url": "https://en.mehrnews.com/news/249421/Two-non-compliant-tankers-his-mines-in-Hormuz-Explode-IRGC",
+       "published": "2026-11-15",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      },
+      {
+       "outlet": "Marine Insight",
+       "type": "Independent maritime news",
+       "role": "after_window",
+       "title": "Supertanker With 2 Million Barrels Of Oil Sinks After Hitting Mine In Strait Of Hormuz, Iran Says",
+       "url": "https://www.marineinsight.com/supertanker-with-2-million-barrels-of-oil-sinks-after-hitting-mine-in-strait-of-hormuz-iran-says/",
+       "published": "2026-11-16T12:34:58+00:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      },
+      {
+       "outlet": "Wikipedia current events",
+       "type": "Reference compilation",
+       "role": "in_window",
+       "title": "Portal:Current events/2026 November 15",
+       "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+       "published": "2026-11-15",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 12,
+     "score": 9
+    },
+    {
+     "id": "2026-46-6",
+     "status": "scored",
+     "headline": "Fact Check: Maine Secretary of State NOT Caught With Box of 250 Ballots In Office -- Discovered In Amazon Package in 2025",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-maine-secretary-of-state-not-caught-with-box-of-250-ballots-and-incident-was-in-2025-not-2026.html",
+     "published": "2026-11-10",
+     "scored_claim": "An 11/09 X post by @GOP_is_Gutless said: 'Maine's Secretary of State just got busted for election fraud. Authorities found a box of 250 ballots in her office that she or her staff had personally submitted -- then pulled from the official count. Fraud at every level. In every state. This time it's Maine.'",
+     "selection_reason": "A 2025 ballot-handling blunder, already investigated and closed without charges, was recast as a 2026 office bust of Secretary of State Shenna Bellows.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The post gives no contemporaneous 2026 official source for a bust 'just' occurring in Bellows's office."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories, citing The Maine Wire and The Robinson Report, says the video in the post was first published 10/04/2025. The 250 absentee ballots were found in an Amazon package delivered to a woman in Newburgh, Maine, and were for the 11/04/2025 election, not 2026. A separate box of affidavit envelopes went to a nonprofit in the Washington, D.C., area. The Maine attorney general's office closed the envelope investigation in spring 2026 with no announcement; investigators wrote in March 2026 that why the envelopes went to Maryland 'remains speculative.' No charges were filed. The man speaking in the video is Bobby Charles, a 2026 Republican gubernatorial candidate who lost to Hannah Pingree on 11/03."
+      },
+      "framing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The 11/09 caption says she 'just got busted' and that staff 'personally submitted' then 'pulled' ballots, language the 2025 facts do not support."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "A 2025 incident is presented as a fresh 2026 office discovery, and the Amazon-package location is changed to 'her office.'"
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "'Fraud at every level. In every state' is a broad outrage hook."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post circulated on X with an old campaign video; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The post offers a fraud explanation after Maine's 11/03 election. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Maine and national audiences already focused on election integrity, in the week after the midterms. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the 2025 dating, the Amazon-package detail, and the closed investigation. The Maine Wire, Robinson Report, and attorney general documents were not independently opened. Lead Stories had contacted the attorney general and was awaiting a reply."
+     },
+     "mechanism": "Old material presented as new: a 2025 absentee-ballot shipping error, closed without charges, was recast as a fresh 2026 'bust' of ballots found in the secretary of state's office (documented by Lead Stories).",
+     "summary": "A 11/09 post said Maine's secretary of state had just been caught with 250 ballots in her office. The underlying episode was a 2025 shipping error, investigated and closed without charges, and the ballots were found in an Amazon package, not in her office. The score applies to the 11/09 claim.",
+     "counter_argument": "There was a real 2025 mishandling of absentee ballots and envelopes, which critics legitimately scrutinized. The manipulation is in moving it into her office, into 2026, and into a criminal 'bust.'",
+     "hindsight_note": "After the window, as of 11/20/2026: I found no opened source that charges Bellows or reopens the 2025 case as a 2026 midterm fraud.",
+     "gaps": [
+      "The 2025 Maine Wire video, the Robinson Report, and attorney general records were not independently opened.",
+      "Lead Stories was still awaiting an attorney general comment.",
+      "The original X post was not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Maine Secretary of State NOT Caught With Box of 250 Ballots In Office -- Discovered In Amazon Package in 2025",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-maine-secretary-of-state-not-caught-with-box-of-250-ballots-and-incident-was-in-2025-not-2026.html",
+       "published": "2026-11-10",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 11,
+     "score": 8
+    },
+    {
+     "id": "2026-46-7",
+     "status": "scored",
+     "headline": "Falling gas prices aren’t proof gas companies inflated prices to hurt Trump",
+     "outlet": "PolitiFact",
+     "url": "https://politifact.com/factchecks/2026/nov/11/social-media/gas-prices-election-trump-iran-war/",
+     "published": "2026-11-11",
+     "scored_claim": "Social-media posts after the midterms, including from an Instagram account named Republican Party (not an official GOP account) and from David J Harris Jr., said: 'Gas prices are dropping which means the gas companies purposely increased the prices so you would blame Trump and vote blue,' and, in Harris's post, 'It had nothing to do with the Iran war.'",
+     "selection_reason": "A post-election conspiracy that treats a pre-election seasonal decline as a coordinated plot against the president.",
+     "factors": {
+      "sourcing": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts offer no document, meeting, or company statement showing a coordinated price hike."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "U.S. average prices peaked 9/21 at about $4.48 and fell every week through the election; the national average was about $3.94 on 11/11, and slipped below $4 the week of 11/09 (PolitiFact, citing EIA and GasBuddy's Patrick De Haan). De Haan and University of Texas professor Hugh Daigle attributed the move mainly to normal autumn demand and the winter-blend switch, plus more Middle East oil getting through Hormuz and other routes. De Haan said U.S. gas companies have little power to set global oil prices and 'no clear incentive' to help Democrats."
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The line is accusatory ('purposely increased') but not a graphic fear appeal."
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The posts omit that the decline began in September, weeks before 11/03, and that the Iran war is the main reason prices had spiked."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The claim invites anger at 'gas companies' and at voters who 'blamed Trump.'"
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Similar wording appeared in several posts; no identical coordinated blast was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The claim offers a conspiracy explanation for a midterm loss. Individual posters' motives were not established."
+      }
+     },
+     "target_audience": {
+      "text": "Trump supporters looking for an explanation of the midterm defeat other than the war or the campaign itself. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "PolitiFact was opened, including the price series, the analyst interviews, and the post wording. EIA tables were not independently opened."
+     },
+     "mechanism": null,
+     "summary": "Posts said falling gas prices proved companies had raised prices to make voters blame Trump. Prices had been falling every week since 9/21, in line with seasonal patterns and easing oil-supply pressure, and analysts said companies could not dictate the global price. PolitiFact rated the claim False. The score applies to the posts.",
+     "counter_argument": "Gasoline did become a midterm issue, and some analysts said the Democratic win itself may have affected oil-price expectations. That is not evidence of a pre-election plot by gas companies.",
+     "hindsight_note": "After the window, as of 11/20/2026: FactCheck.org published a related check, dated 11/20, of a Trump claim that 'they' waited until after the midterms to lower prices; that article falls in week 47 and was opened only as hindsight, not scored here.",
+     "gaps": [
+      "EIA weekly tables and the Instagram/Facebook posts were not independently opened; figures and quotations are from PolitiFact."
+     ],
+     "sources": [
+      {
+       "outlet": "PolitiFact",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Falling gas prices aren’t proof gas companies inflated prices to hurt Trump",
+       "url": "https://politifact.com/factchecks/2026/nov/11/social-media/gas-prices-election-trump-iran-war/",
+       "published": "2026-11-11",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 10,
+     "score": 7
+    },
+    {
+     "id": "2026-46-8",
+     "status": "scored",
+     "headline": "Fact Check: WRONG Wyandot County, Ohio, Unofficial Results Show More Votes Than Ballots -- Mock Results Left In",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-ohio-ballots-do-not-add-up-wyandot-county-confirms-numbers-are-off-unofficial-totals-released-election-day.html",
+     "published": "2026-11-09",
+     "scored_claim": "An 11/08 X post by @natebige_ said unofficial 11/03 Wyandot County, Ohio, figures showed more votes than ballots — for example 9,989 counted in the governor's race against 8,739 ballots cast, a 1,250-vote gap — and asked 'HOW DO THESE NUMBERS MAKE SENSE?!' while stopping short of saying the figures alone 'prove fraud.'",
+     "selection_reason": "Real unofficial-tally errors, caused by leftover mock-election results, were circulated as an election-math alarm.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post uses the county's published unofficial report, which was real, not a fabricated spreadsheet."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Board of Elections director Darcy Zimmerman told Lead Stories, 'Those numbers do not math,' confirming a discrepancy. The board issued a press release saying vote totals from an 10/28 mock election were 'inadvertently left in the reporting system for [one] precinct,' which 'overreported unofficial vote totals for several races' on 11/03 but 'did not change the outcome of any contest.'"
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post is written as an 'OHIO ELECTION ALERT' with heavy punctuation, but the author wrote, 'I'm not saying this alone proves fraud.'"
+      },
+      "omission": {
+       "score": 1,
+       "label": "documented",
+       "note": "At posting time the official explanation (leftover mock results) had not been included; the later press release supplies that context."
+      },
+      "emotional": {
+       "score": 1,
+       "label": "documented",
+       "note": "The alert style is agitated, but the author explicitly declined to call it proof of fraud."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post circulated on X; no coordinated network was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "Raising the discrepancy can feed a fraud narrative even with a disclaimer. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Ohio and national election-integrity audiences watching unofficial county reports after 11/03. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including Zimmerman's quotation and the board's explanation. The unofficial report PDF and the press release were not independently opened."
+     },
+     "mechanism": null,
+     "summary": "Unofficial Wyandot County figures did show more votes than ballots in several races. Officials later said leftover 10/28 mock-election results in one precinct had overreported unofficial totals and that no contest's outcome changed. The score applies to the 'alert' framing of the discrepancy, which was a real error, not a proven fraud. The post is dated 11/08 (week 45); the Lead Stories check is 11/09.",
+     "counter_argument": "The math really did not add up, and officials had signed unofficial certification paperwork. A citizen flagging that is not the same thing as inventing a raid or a fake quote.",
+     "hindsight_note": "After the window, as of 11/20/2026: I did not open a later official canvass to re-add the corrected precinct totals.",
+     "gaps": [
+      "The unofficial report, the board press release, and the original X post were not independently opened; wording is from Lead Stories."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: WRONG Wyandot County, Ohio, Unofficial Results Show More Votes Than Ballots -- Mock Results Left In",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-ohio-ballots-do-not-add-up-wyandot-county-confirms-numbers-are-off-unofficial-totals-released-election-day.html",
+       "published": "2026-11-09T12:46:31-07:00",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 8,
+     "score": 6
+    },
+    {
+     "id": "2026-46-9",
+     "status": "scored",
+     "headline": "Fact Check: Voter Registration Does NOT Exceed Adult Citizens In Several States -- Census Estimates Are Not Exact",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-registration-rates-do-not-exceed-eligible-voter-population-in-colorado-maryland-virginia-new-jersey-adult-census-estimates-not-accurate-numbers.html",
+     "published": "2026-11-11",
+     "scored_claim": "An 11/09 X post by @_Patriot1776Q_ said 'Colorado has more registered voters than Census adult citizens,' claimed 53 of 64 counties were 'over 100%,' and listed examples such as San Juan County at 150.4%, asking 'Why are so many of these rolls over the adult-citizen count?' Similar posts named Maryland, Virginia and New Jersey.",
+     "selection_reason": "A comparison of voter rolls to inexact five-year Census survey estimates, treated as proof the rolls were bloated.",
+     "factors": {
+      "sourcing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The posts cite 'Census 2020-2024 adult-citizen estimates' and county registration totals, which are real datasets, but they are not a head-to-head official finding of illegal registration."
+      },
+      "verifiability": {
+       "score": 2,
+       "label": "documented",
+       "note": "Lead Stories, citing Census Bureau documentation, notes that those figures come from the American Community Survey five-year estimates, a sample with a margin of error, 'especially' when county samples are small, not a 100% headcount. The numbers in the claim also 'do not show more votes than registered voters.'"
+      },
+      "framing": {
+       "score": 1,
+       "label": "documented",
+       "note": "The post is labeled 'ELECTION ISSUES' and invites a fraud reading without using the word 'stolen.'"
+      },
+      "omission": {
+       "score": 2,
+       "label": "documented",
+       "note": "The difference between a sample estimate and a complete Census count, and the existence of error margins, is left out."
+      },
+      "emotional": {
+       "score": 0,
+       "label": "documented",
+       "note": "The post is a chart and a question, not a fear montage."
+      },
+      "amplification": {
+       "score": 1,
+       "label": "documented",
+       "note": "Similar claims were made about several states; no coordinated identical blast was shown."
+      },
+      "incentive": {
+       "score": 1,
+       "label": "speculation",
+       "note": "The comparison is used to suggest padded rolls after the midterms. The poster's motive was not established."
+      }
+     },
+     "target_audience": {
+      "text": "Election-integrity audiences and residents of the named states, after a midterm in which Democrats gained ground. Inference.",
+      "basis": "inference"
+     },
+     "confidence": {
+      "level": "High",
+      "reason": "Lead Stories was opened, including the ACS documentation quotation. Census technical pages and the states' official roll sites were not independently opened."
+     },
+     "mechanism": null,
+     "summary": "Posts said some states, including Colorado, had more registered voters than Census adult citizens. The comparison used ACS five-year sample estimates, which have margins of error and are not an exact headcount, and did not show more votes than registered voters. The score applies to the posts.",
+     "counter_argument": "Voter rolls can be messy, and a county can in fact have stale registrations. A bad comparison to a survey estimate is not the same as proof of clean rolls.",
+     "hindsight_note": "After the window, as of 11/20/2026: I did not independently re-download ACS or county registration files.",
+     "gaps": [
+      "Census ACS documentation and county registration sites were not independently opened; the explanation is from Lead Stories.",
+      "The original X post was not opened."
+     ],
+     "sources": [
+      {
+       "outlet": "Lead Stories",
+       "type": "Fact-checker (US)",
+       "role": "in_window",
+       "title": "Fact Check: Voter Registration Does NOT Exceed Adult Citizens In Several States -- Census Estimates Are Not Exact",
+       "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-registration-rates-do-not-exceed-eligible-voter-population-in-colorado-maryland-virginia-new-jersey-adult-census-estimates-not-accurate-numbers.html",
+       "published": "2026-11-11",
+       "link_check": {
+        "http": 200,
+        "checked": "2026-11-20",
+        "note": "Opened (HTTP 200) with curl from the box on 2026-11-20."
+       }
+      }
+     ],
+     "factor_total": 8,
+     "score": 6
+    }
+   ],
+   "gaps": [
+    "Screening used the Wikipedia 'Portal:Current events' daily pages for 11/09-11/15, plus opened pages from Snopes, PolitiFact, Lead Stories, Mehr News and Marine Insight. Stories without an openable, in-window source were not scored (see screened_not_scored).",
+    "The week's sample again leans toward post-midterm fraud claims and one official IRGC Hormuz statement, as noted in the method note.",
+    "The AFP/Arab News page for the 11/15 IRGC tanker claim returned HTTP 403 to the box and was not opened. A 11/16 Marine Insight recap (week 47) was opened and used as hindsight, as noted on that item.",
+    "A FactCheck.org article on a related Trump gas-price claim is dated 11/20 (week 47) and was opened only as hindsight, not scored here.",
+    "Sourced items beyond SKILL.md's cap of about 10 per run were listed in screened_not_scored rather than scored.",
+    "Hindsight notes cover only what I found by 11/20/2026; later outcomes were not fully researched."
+   ],
+   "screened_not_scored": [
+    {
+     "headline": "Did Democrats win every state that doesn't require voter ID at polls in 2026 midterms?",
+     "outlet": "Snopes",
+     "url": "https://www.snopes.com/fact-check/democrats-voter-id-states-midterms/",
+     "reason": "Sourced and opened (Snopes, published 11/09-11/10). The core claim is true: Democrats won a Senate seat and/or a majority of House seats in all 14 states that do not require ID at the polls, but they also won in several states that do require ID. Not scored: a true statement with omitted context, ranked lower than the 9 scored claims."
+    },
+    {
+     "headline": "Fact Check: Nvidia CEO Jensen Huang Did NOT Say 'Intelligent People Never Waste Their Time Focusing On Women'",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-nvidia-ceo-jensen-huang-did-not-say-intelligent-people-never-waste-their-time-focusing-women.html",
+     "reason": "Listed and dated 11/12 on the opened Lead Stories breaking page. A fake quote around a then-current Nvidia controversy. Not scored: lower political reach than the midterm and Hormuz items, under the cap of about 10."
+    },
+    {
+     "headline": "Fact Check: Trump DID 'Dump' Up To $1 Million In Nvidia Stock -- But Also Bought Up To $1.6 Million",
+     "outlet": "Lead Stories",
+     "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-trump-did-dump-as-much-as-1-million-nvidia-stock-few-weeks-before-jensen-huang-affair-story-broke-also-bought-as-much-as-1-6-million-same-onth.html",
+     "reason": "Listed and dated 11/13 on the opened Lead Stories breaking page. A missing-context finance claim. Not scored under the cap of about 10."
+    },
+    {
+     "headline": "Cape Verde presidential election: José Maria Neves re-elected with 63.8%",
+     "outlet": "AFP via France 24 (Wikipedia current events, 11/15)",
+     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+     "reason": "Sourced as ordinary election reporting on the opened Wikipedia 11/15 page. Not scored as a psyop."
+    },
+    {
+     "headline": "Trump's Misguided Claim That 'They' Waited to Lower Gas Prices Until After the Midterms",
+     "outlet": "FactCheck.org",
+     "url": "https://www.factcheck.org/2026/11/trumps-misguided-claim-that-they-waited-to-lower-gas-prices-until-after-the-midterms/",
+     "reason": "Opened, but the article's published timestamp is 11/20 (week 47). Used only as hindsight on the related 11/11 PolitiFact gas-price item; not scored in week 46."
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "week": 47,
+   "week_start": "2026-11-16",
+   "week_end": "2026-11-22",
    "status": "in_progress",
    "psyops": [],
    "gaps": [
